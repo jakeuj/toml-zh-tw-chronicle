@@ -1,3 +1,5 @@
+import {renderReadingSettings, readingSettingsLink} from '../render-reading-settings.mjs';
+
 export function renderDocument(content, tools, options) {
   const {ui, data, language} = content;
   const {esc, rich, link} = tools;
@@ -70,7 +72,9 @@ export function renderDocument(content, tools, options) {
 <meta name="twitter:description" content="${esc(description)}">
 <meta name="twitter:image" content="${cover}">
 <meta name="twitter:image:alt" content="${esc(data.title)}">
+<script src="${asset('assets/reading-settings.js')}"></script>
 <link rel="stylesheet" href="${asset('assets/style.css')}">
+<link rel="stylesheet" href="${asset('assets/reading.css')}">
 <script src="${asset('assets/app.js')}" defer>
 </script>
 </head>
@@ -88,14 +92,15 @@ export function renderDocument(content, tools, options) {
 </div>`}<div class="article-shell">
 <aside class="toc">
 <span class="eyebrow">${esc(ui.toc.label)}</span>
+${readingSettingsLink(language)}
 <nav aria-label="${esc(ui.toc.label)}">${nav}</nav>
 <div class="toc-note">${rich(ui.toc.note)}</div>
 </aside>
 <div class="article-column">
 <details class="mobile-toc">
 <summary>${esc(ui.toc.mobile)}</summary>
-<nav aria-label="${esc(ui.toc.label)}">${nav}</nav>
-</details>${body}<div class="endnote">
+<nav aria-label="${esc(ui.toc.label)}">${readingSettingsLink(language)}${nav}</nav>
+</details>${renderReadingSettings(language)}${body}<div class="endnote">
 <span class="endnote-symbol">${esc(ui.endnote.mark)}</span>
 <p>${rich(ui.endnote.text)}</p>
 <a href="#top">${esc(ui.endnote.top)}</a>
