@@ -20,3 +20,13 @@
 
 .archive-jumps{display:flex;gap:8px 20px;flex-wrap:wrap;margin:16px 0 25px;font-size:11px;color:var(--red)}.facebook-method{background:var(--pale);border-left:3px solid var(--red);padding:22px 26px;margin:25px 0;font-size:12px;line-height:1.95;color:var(--muted)}.facebook-method p{margin:9px 0}.facebook-method>p:last-of-type{font-size:10px}.facebook-method summary{font-size:11px;cursor:pointer;color:var(--red)}.facebook-method details[open]{margin-top:14px}.facebook-method details>p{font-size:12px}.fb-thread{margin-bottom:25px}.facebook-record.fb-depth-1{margin-left:22px;border-left:1px solid var(--rule);padding-left:18px}.facebook-record.fb-depth-2{margin-left:44px;border-left:1px dashed var(--rule);padding-left:18px}.facebook-record .record-time{gap:10px 15px}.facebook-record .record-bottom>a{font-size:10px}.facebook-record .record-top{align-items:start}.facebook-record .record-content h4{font-size:22px}
 @media(max-width:740px){.facebook-method{padding:18px 17px;font-size:12px}.facebook-record.fb-depth-1{margin-left:12px;padding-left:12px}.facebook-record.fb-depth-2{margin-left:24px;padding-left:12px}.facebook-record .record-content h4{font-size:20px}.facebook-record .record-time{gap:8px}.facebook-record .record-bottom{gap:12px}.facebook-record .record-top{gap:7px}.facebook-group .thread-number{font-size:27px}}
+
+.masthead-right .language-switch{border:1px solid var(--rule);padding:6px 10px;color:var(--red);white-space:nowrap}
+html[lang="en"] .brand{letter-spacing:.01em;font-size:22px}
+html[lang="en"] h1{font-size:clamp(38px,4.1vw,59px);line-height:1.2}
+html[lang="en"] .hero-deck{letter-spacing:.02em}
+html[lang="en"] .record-prose,html[lang="en"] .prose{line-height:1.85}
+html[lang="en"] .record-bottom .source-link{flex-shrink:1;max-width:100%;overflow-wrap:anywhere}
+html[lang="en"] .timeline-meta{flex-wrap:wrap}
+html[lang="en"] .source-note h4{overflow-wrap:anywhere}
+@media(max-width:740px){.masthead-right{flex-direction:column;align-items:flex-end;gap:8px}.masthead-right .language-switch{max-width:none;padding:3px 8px}html[lang="en"] .brand{font-size:17px;max-width:190px}html[lang="en"] .brand small{font-size:7px}html[lang="en"] h1{font-size:clamp(29px,6.7vw,48px)}html[lang="en"] .hero-links{flex-wrap:wrap;gap:17px}html[lang="en"] .edition-strip>span{flex-wrap:wrap;gap:3px 8px;align-content:start}html[lang="en"] .chapter-header h2{font-size:27px}}

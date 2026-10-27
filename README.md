@@ -2,9 +2,13 @@
 
 獨立繁體中文紀實專題，逐則整理 `toml-lang/toml.io` 的 Issue #97、PR #98 與 Issue #99，以及直接相關的公開外部脈絡，包含原始 Facebook 貼文的 10 則主留言與 8 則回覆，另行發布繁中網站貼文的 51 則可讀留言（頁面計數 58，差額未還原），以及作者對 AI 標籤與開源參與心情的後續貼文及其 59 則可讀留言。
 
-**網站：<https://doggy8088.jakeuj.com/>**
+**繁體中文版：<https://doggy8088.jakeuj.com/>**
+
+**English edition: <https://doggy8088.jakeuj.com/en/>**
 
 本文採中立紀實方向，分開呈現可查核的紀錄、發言者主張與尚無法確認的問題。這不是 TOML 官方網站，也不是兩版翻譯的全面品質認證。資料截點與限制見網站「資料與方法」。網站由 jakeuj 委託 Codex 協作整理、製作與發布；不宣稱完成具名人工語言審校。
+
+英文版涵蓋相同的 144 筆逐則紀錄、28 項 GitHub 時間線項目、爭點補充及來源方法。原始姓名、來源 ID、網址、時間、回覆限制與計數缺漏保持一致；不是來源全文的逐字翻譯，也不宣稱完成具名人工語言審校。頁首與頁尾可切換語言，啟用 JavaScript 時會保留目前錨點。
 
 ## 本機使用
 
@@ -28,6 +32,7 @@ npm run preview
 - `data/facebook-self-published-comments.json`：另行發布貼文的 34 則主留言、17 則回覆。頁面計數 58，僅取得 51 個來源 ID；六處已刪除提示不能換算為六個不同留言，或補足七則差額。回覆僅確定所屬主留言，精確 parentId 留空；圖片留言亦逐則保留。
 - `data/facebook-sources.json`：讀者提供的三個原始分享連結、轉址後貼文與各篇涵蓋範圍。第二篇「自述全文校對、另行發布繁中網站」已整理 51 則可讀留言，含 8 則附圖留言；主文附圖未另逐項查核。
 - `data/translation-context.json`：俄文 #86、#99 機翻與語系標籤的語意查核，以及 BBC 報導的 AI 翻譯／人工審核流程對照。標示為編輯分析，保留獨立查閱時間，不加入逐則留言數。
+- `data/en/`：六份對應的英文編輯資料；保留與中文版相同的來源識別及截點。`sourceEditorialSha256` 對照相應中文資料檔，避免修訂中文後英文無聲落後。更新內容時須同步審閱英文、保持段落與註記對應；不可只改雜湊消除差異。
 - `data/coverage.json`：擷取截點、17 個來源物件的對應、原文 SHA-256、六個狀態事件及 PR 提交資訊。空白 review 記入來源覆蓋，與作者同時提交的行內回覆對應，不重複當成有文字的發言。
 - 網站只發布整理後資料，不發布研究過程的原文暫存、帳號憑證或私人瀏覽資訊。Facebook 原始貼文已切換所有留言並展開回覆，逐則轉述此次能載入的 18 則；後續貼文另整理 42 則主留言與 17 則回覆，共 59 則。另行發布貼文取得 34 則主留言與 17 則回覆，共 51 則。三篇截點分開記錄，合計 128 則 Facebook 紀錄，加上 16 則 GitHub，共 144 筆；不宣稱取得平台已刪除、隱藏或受限內容。
 
@@ -45,7 +50,9 @@ npm run audit:sources
 
 推送 `main` 後，GitHub Actions 執行靜態建置與完整性測試，將 `dist/` 透過官方 Pages Actions 發布。也可手動觸發同一工作流程。沒有排程、資料庫、追蹤碼或自動抓取讀者資料的服務。
 
-分享圖 `assets/toml-chronicle-cover-v1.png` 為 1200 × 630 PNG；編輯來源是 `scripts/create-cover.py`。重新產圖需要 Pillow，並可透過 `--font` 指定合法可用的繁中字型。圖片已提交，日常建置不需 Python 或系統字型。更新圖像應換檔名並同步 metadata。
+中英文各有 canonical、雙向 hreflang、Open Graph 與 sitemap 項目。`scripts/build.mjs` 輸出繁中頁，`scripts/build-en.mjs` 輸出 `dist/en/index.html`；兩者共用樣式與支援語系的互動腳本。
+
+分享圖 `assets/toml-chronicle-cover-v1.png` 為 1200 × 630 PNG；編輯來源是 `scripts/create-cover.py`。重新產圖需要 Pillow，並可透過 `--font` 指定合法可用的繁中字型。圖片已提交，日常建置不需 Python 或系統字型。更新圖像應換檔名並同步 metadata。英文分享圖為 `assets/toml-chronicle-cover-en-v1.png`，編輯來源為 `scripts/create-cover-en.py`，可用 `--font` 指定字型；同樣已提交成品，日常建置不需 Pillow。
 
 ## 更正與來源權利
 

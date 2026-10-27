@@ -11,7 +11,8 @@ const server=http.createServer(async(req,res)=>{
   const url=new URL(req.url,'http://localhost');
   if(url.pathname==='/' && base!=='/'){res.writeHead(302,{location:base});res.end();return;}
   if(!url.pathname.startsWith(base)){res.writeHead(404);res.end('Not found');return;}
-  const name=decodeURIComponent(url.pathname.slice(base.length))||'index.html';
+  let name=decodeURIComponent(url.pathname.slice(base.length))||'index.html';
+  if(name.endsWith('/'))name+='index.html';
   const file=path.resolve(root,name);
   if(!file.startsWith(root)){res.writeHead(403);res.end();return;}
   const data=await readFile(file);res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream'});res.end(data);

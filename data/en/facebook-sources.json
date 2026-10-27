@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-27T07:25:46Z",
+  "method": "The three reader-supplied Facebook share links were opened in a browser and matched to their redirected public post URLs and visible text. Both the original share links and clean post permalinks are retained. This link check does not reset comment-capture cutoffs.",
+  "posts": [
+    {
+      "id": "facebook-source-reopened-issue",
+      "title": "The renewed issue and the argument about AI tools",
+      "author": "Will 保哥的技術交流中心",
+      "shareUrl": "https://www.facebook.com/share/p/1F4qE2tXkF/",
+      "postUrl": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l",
+      "summary": "The author discusses rejection of the PR and opening #99. He says both submissions used AI assistance and were reviewed by him, and questions why human translation is mandatory.",
+      "coverage": "Eighteen readable comments and replies are recorded at their original cutoff. This check confirms that the share link points to the same post.",
+      "archiveId": "facebook-comments",
+      "commentCount": 18
+    },
+    {
+      "id": "facebook-source-self-published",
+      "title": "Reporting full proofreading and publishing a separate Traditional Chinese site",
+      "author": "Will 保哥的技術交流中心",
+      "shareUrl": "https://www.facebook.com/share/p/1JvHwd93Y9/",
+      "postUrl": "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl",
+      "summary": "The author says he contributed Traditional Chinese resources to hundreds of repositories, felt discriminated against for writing a PR with AI, and proofread the full translation. He says he published a separate site and suspects he may have been blacklisted. Contribution counts, quality, discrimination and blocking remain his claims rather than established findings.",
+      "coverage": "Fifty-one readable comments and replies, including eight with attachments, were recorded. The page displayed 58, leaving seven unresolved entries. Attachments to the post itself were not separately reviewed item by item; upstream acceptance is not inferred.",
+      "archiveId": "facebook-self-published-comments",
+      "commentCount": 51,
+      "commentsCapturedAt": "2026-10-27T07:35:15Z"
+    },
+    {
+      "id": "facebook-source-reflection",
+      "title": "AI labels and the experience of contributing",
+      "author": "Will 保哥的技術交流中心",
+      "shareUrl": "https://www.facebook.com/share/p/14uADCj83tq/",
+      "postUrl": "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl",
+      "summary": "The author responds to a claim that his GitHub profile looks AI-generated, looks back on years of sharing and contributing, and discusses respect, negative interactions and protecting enthusiasm.",
+      "coverage": "Fifty-nine readable comments and replies are recorded at their original cutoff, including 13 replies under 江柏漢’s top-level comment.",
+      "archiveId": "facebook-followup-comments",
+      "commentCount": 59
+    }
+  ],
+  "language": "en",
+  "sourceEditorialSha256": "a6569509d672c1a7165e6c1e153b2edd53f7abe782b976b91edec9f385a2c637"
+}

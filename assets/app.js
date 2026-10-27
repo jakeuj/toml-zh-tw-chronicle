@@ -8,7 +8,28 @@ const groups = [...document.querySelectorAll('[data-thread-group]')];
 const count = document.querySelector('#result-count');
 const empty = document.querySelector('.empty-state');
 const status = document.querySelector('#copy-status');
-const normalize = s => s.normalize('NFKC').toLocaleLowerCase('zh-TW');
+const isEnglish = document.documentElement.lang === 'en';
+const messages = isEnglish ? {
+  all: n=>`Showing all ${n} records`, found: (n,total)=>`${n} of ${total} records`,
+  copied:'Copied', copy:'Copy link', copiedStatus:'Copied the permalink for this record.',
+  fallback:'Automatic copying is unavailable. The permalink is open; copy it from the address bar.',
+  copyUrl:'Copy URL'
+} : {
+  all: n=>`顯示全部 ${n} 篇紀錄`, found: (n,total)=>`找到 ${n} / ${total} 篇紀錄`,
+  copied:'已複製', copy:'複製連結', copiedStatus:'已複製此則紀錄的固定連結。',
+  fallback:'目前無法自動複製；已開啟固定連結，可從網址列複製。', copyUrl:'請複製網址'
+};
+const normalize = s => s.normalize('NFKC').toLocaleLowerCase(isEnglish?'en':'zh-TW');
+
+// Both editions use the same record IDs; carry the current anchor across languages.
+function updateLanguageLinks(){
+ for(const anchor of document.querySelectorAll('[data-language-switch]')){
+  const destination=new URL(anchor.href);destination.hash=location.hash;anchor.href=destination.href;
+ }
+}
+updateLanguageLinks();
+window.addEventListener('hashchange',updateLanguageLinks);
+document.querySelectorAll('[data-language-switch]').forEach(a=>a.addEventListener('click',updateLanguageLinks));
 // Index the whole rendered record: title, author, time, prose, context and notes.
 const indexed = cards.map(el=>({el,text:normalize(el.textContent)}));
 
@@ -22,7 +43,7 @@ function applyFilters() {
   }
   for(const group of groups)group.hidden=![...group.querySelectorAll('[data-record]')].some(el=>!el.hidden);
   const active = words.length || author.value || thread.value;
-  count.textContent=active ? `找到 ${total} / ${cards.length} 篇紀錄` : `顯示全部 ${cards.length} 篇紀錄`;
+  count.textContent=active ? messages.found(total,cards.length) : messages.all(cards.length);
   empty.hidden=total!==0;
 }
 form.addEventListener('submit',event=>event.preventDefault());
@@ -60,12 +81,12 @@ for(const button of document.querySelectorAll('[data-copy]')){
    try{
      if(!navigator.clipboard?.writeText)throw new Error('Clipboard unavailable');
      await navigator.clipboard.writeText(url.href);
-     button.textContent='已複製';status.textContent='已複製此則紀錄的固定連結。';
-     setTimeout(()=>button.textContent='複製連結',1800);
+     button.textContent=messages.copied;status.textContent=messages.copiedStatus;
+     setTimeout(()=>button.textContent=messages.copy,1800);
    }catch{
      location.hash=button.dataset.copy;
-     status.textContent='目前無法自動複製；已開啟固定連結，可從網址列複製。';
-     button.textContent='請複製網址';
+     status.textContent=messages.fallback;
+     button.textContent=messages.copyUrl;
    }
  });
 }

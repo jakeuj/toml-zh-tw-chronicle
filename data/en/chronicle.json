@@ -1,0 +1,544 @@
+{
+  "title": "How a Traditional Chinese translation became an AI contribution dispute: the TOML chronicle",
+  "description": "An independent, source-linked chronicle of TOML issues #97 and #99, PR #98, and 128 readable Facebook comments and replies. Claims, verified facts and gaps are distinguished.",
+  "siteUrl": "https://doggy8088.jakeuj.com/",
+  "repositoryUrl": "https://github.com/jakeuj/toml-zh-tw-chronicle",
+  "capturedAt": "2026-10-27T03:59:44.222707+00:00",
+  "externalCheckedAt": "2026-10-27T06:05:42.998Z",
+  "records": [
+    {
+      "id": "proposal-97",
+      "sourceId": "issue:97",
+      "thread": "97",
+      "kind": "opening",
+      "author": "doggy8088",
+      "role": "Contributor",
+      "createdAt": "2026-10-23T14:11:06Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/97",
+      "title": "A proposal for a Traditional Chinese locale",
+      "lead": "Taiwanese terminology motivates a proposal covering translation, language tags and the website interface.",
+      "paragraphs": [
+        "doggy8088 notes that the site has a Simplified Chinese cn version but no Traditional Chinese version. Examples such as 檔案 versus 文件 (file), 資料 versus 數據 (data), 雜湊表 versus 哈希表 (hash table), and 剖析 versus 解析 (parsing) illustrate differences in Taiwanese technical usage. The proposal also mentions readers in Hong Kong and Macau. These are the contributor’s statements about demand, rather than survey findings about regional preferences.",
+        "The proposed implementation adds a tw directory, the zh-TW language tag, a language name, a homepage, and translations of TOML v1.0.0 and v1.1.0. It proposes translating from English with Taiwanese terminology, rather than merely converting Simplified Chinese characters.",
+        "The scope extends beyond prose: mapping directory codes to language tags, localizing release dates and plain-text links, and making navigation, GitHub link labels and the mobile menu use translated strings. Locales without those translations would fall back to English. Generated content would also receive lang attributes.",
+        "Acceptance criteria include a successful build producing publish/tw/, continued display of existing locales, and preservation of normative force, especially MUST, SHOULD and MAY. Code examples would generally remain unchanged apart from translated comments."
+      ],
+      "context": null,
+      "notes": [
+        "These are the issue’s requested behavior and acceptance criteria. This chronicle has not rebuilt the original PR or comprehensively reviewed the translation’s meaning."
+      ],
+      "related": [],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "proposal-98",
+      "sourceId": "issue:98",
+      "thread": "98",
+      "kind": "opening",
+      "author": "doggy8088",
+      "role": "Contributor",
+      "createdAt": "2026-10-23T14:11:30Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/pull/98",
+      "title": "The PR changes shared templates as well as translations",
+      "lead": "PR #98 was opened 24 seconds after the issue and changed eight files.",
+      "paragraphs": [
+        "The PR links #97 as the issue it would resolve. It lists four tw locale files and changes to the formatter, HTML generator and two shared templates. GitHub lists eight changed files, 2,260 added lines and 11 deleted lines. These are diff statistics, not a translation word count.",
+        "The contributor says the translation is directly from English, uses Taiwanese terminology and changes only comments in code examples. He reports matching heading, paragraph, code-block and link counts. He also says each paragraph stays on one line to prevent unwanted spaces between CJK text during HTML generation.",
+        "The interface changes map tw to zh-TW and add lookups for dates, plain-text versions and navigation labels. Only Traditional Chinese receives translations of the new interface strings; other locales use English fallback text. Language attributes and label substitutions affect templates shared by all locales.",
+        "The contributor reports generating the Traditional Chinese homepage, latest version and both specifications with Node.js scripts and webpack. He gives examples of language-menu, release-date and navigation output. He says several independent review passes were performed, but browser tooling could not reach the local server, so generated HTML was inspected instead. No human reviewers are named in that passage.",
+        "The final section discusses reversibility and scope of impact, claiming that text output for existing locales remains unchanged. Copilot’s subsequent review concerns language attributes in the shared templates; it does not comprehensively rate the two translated specifications."
+      ],
+      "context": null,
+      "notes": [
+        "The file inventory and relevant code were checked. Successful builds, matching examples and multiple review passes remain the contributor’s reports."
+      ],
+      "related": [
+        "proposal-97",
+        "review-overview",
+        "review-language"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "first-rejection",
+      "sourceId": "comment:6367006796",
+      "thread": "97",
+      "kind": "comment",
+      "author": "arp242",
+      "role": "Project member",
+      "createdAt": "2026-10-23T14:17:20Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367006796",
+      "title": "A maintainer characterizes the issue as an LLM prompt",
+      "lead": "arp242 rejects agent-mediated submissions and closes the issue in the same second.",
+      "paragraphs": [
+        "arp242 describes the proposal as an LLM prompt and asks that agents not be used to submit issues and PRs. The comment does not identify individual translation errors or give conditions for revision and resubmission.",
+        "GitHub records the reply and closure of #97 as not planned at 22:17:20 on October 23, Taiwan time. Twenty-three seconds later, the same account closes PR #98 without merging it.",
+        "The rejection message demonstrably concerns the agent-mediated submission method. This short reply cannot establish which files the maintainer actually read, or that the project opposes every Traditional Chinese translation."
+      ],
+      "context": "Responding to the original proposal in #97.",
+      "notes": [],
+      "related": [
+        "proposal-97",
+        "proposal-98"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "author-pushback",
+      "sourceId": "comment:6367329551",
+      "thread": "97",
+      "kind": "comment",
+      "author": "doggy8088",
+      "role": "Contributor",
+      "createdAt": "2026-10-23T14:32:52Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367329551",
+      "title": "The contributor discloses AI assistance and asks for review of the result",
+      "lead": "He offers accountability and a smaller scope, while asking what standard led to rejection.",
+      "paragraphs": [
+        "After closure, doggy8088 explains the terminology differences and the purpose of translating from English. He explicitly acknowledges AI assistance with both the translation and the issue, while saying that he is the person submitting and taking responsibility for the work.",
+        "He says the PR follows the README instructions for adding a locale, with small additional language-tag changes. Unable to find a policy prohibiting AI assistance, he asks for its basis. He believes the PR was closed without a content review and asks that the contribution itself be judged.",
+        "He offers paragraph-by-paragraph comparison with English, welcomes review by native Traditional Chinese speakers and proposes reducing the scope to the homepage and v1.1.0. He asks whether #98 can be reopened or resubmitted, and whether the objection is to AI assistance itself or concrete problems in this PR."
+      ],
+      "context": "Responding to the first rejection and requesting that PR #98 be reopened.",
+      "notes": [
+        "The claim of no review is the contributor’s assessment. A Copilot technical review is publicly visible; private reading by maintainers cannot be determined.",
+        "The base-version README includes locale-creation steps without mentioning AI in that section. This does not establish the absence of rules in every other channel or historical version."
+      ],
+      "related": [
+        "first-rejection",
+        "review-overview"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "author-tools",
+      "sourceId": "comment:6368029375",
+      "thread": "97",
+      "kind": "comment",
+      "author": "doggy8088",
+      "role": "Contributor",
+      "createdAt": "2026-10-23T15:07:26Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6368029375",
+      "title": "A second response on tools, responsibility and review burden",
+      "lead": "He cites a Linux mailing-list discussion and again offers to reduce the scope.",
+      "paragraphs": [
+        "The contributor tries to bring the discussion back to demand: the existing Simplified Chinese version does not fully meet the needs of Traditional Chinese readers in Taiwan and Hong Kong. He reiterates vocabulary differences and frames the translation as filling a gap.",
+        "He compares AI with editors, spellcheckers and translation software. He argues for checking correctness, conformity with conventions and the submitter’s willingness to take responsibility. He again offers comparison with English, preservation of examples and native-speaker review.",
+        "The comment links a Linux kernel mailing-list message from October 13 as a reference for his view of tools. He acknowledges limited maintainer time and offers to reduce scope, read through all the text himself, or follow contribution guidelines supplied by the project.",
+        "He concludes that he would respect a written prohibition on AI assistance; otherwise he wants reconsideration based on content quality. This is a request for clarification and reconsideration, not a maintainer commitment to accept a new proposal."
+      ],
+      "context": "Following the first appeal; no intervening new maintainer reply is visible.",
+      "notes": [
+        "The Linux message concerns a different project and does not determine TOML’s decisions or policy."
+      ],
+      "related": [
+        "author-pushback"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "shiki-localization",
+      "sourceId": "comment:6369145889",
+      "thread": "97",
+      "kind": "comment",
+      "author": "ShikiSuen",
+      "role": "Discussion participant",
+      "createdAt": "2026-10-23T16:02:36Z",
+      "editedAt": "2026-10-27T02:47:18Z",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6369145889",
+      "title": "ShikiSuen distinguishes localization from code contributions",
+      "lead": "He questions rejection based on AI use and later edits the comment to explain withdrawing another response.",
+      "paragraphs": [
+        "ShikiSuen argues that this contribution is localization, that the contributor’s native language is Taiwanese Traditional Chinese, and that he has reviewed the work himself. He says rejecting such a contribution solely as an LLM prompt could be understood as discrimination against users of a particular natural language.",
+        "He argues that the appropriateness of LLM use should be considered by task type. Whether the contributor reviewed sufficiently, and whether the rejection constitutes discrimination, are this participant’s claims; this chronicle does not treat them as independently established facts.",
+        "The current ending says that he removed another response because better comments now address the situation. This comment was published on October 24 at 00:02:36 and last edited on October 27 at 10:47:18, Taiwan time."
+      ],
+      "context": "Responding to arp242’s rejection in #97.",
+      "notes": [
+        "An earlier search snapshot ended with an observation about disappearing comments. The main record uses the latest version retrieved in this GitHub API capture; the difference is discussed in Sources and method."
+      ],
+      "related": [
+        "first-rejection"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "daniel-review",
+      "sourceId": "comment:6401075448",
+      "thread": "97",
+      "kind": "comment",
+      "author": "d4n1elchen",
+      "role": "Discussion participant",
+      "createdAt": "2026-10-25T17:52:07Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6401075448",
+      "title": "d4n1elchen emphasizes the work involved in human review",
+      "lead": "He rejects equating machine translation with an absence of quality control.",
+      "paragraphs": [
+        "d4n1elchen quotes the suggestion that readers can obtain mechanical translations themselves and disputes the idea that this substitutes for localization. Even with LLMs, he argues, machines can miss cultural nuance and human review of a high-quality translation still takes substantial time.",
+        "He notes that the translation industry used machine translation before LLMs. The existence of a tool therefore does not erase human effort. He considers it dismissive and unfair to reduce a contribution to a prompt without assessing its result.",
+        "He argues that projects rejecting AI assistance should say so in contribution guidelines, rather than leave contributors guessing. This comment advocates review quality and explicit policy; it does not supply a paragraph-by-paragraph review of the two specifications."
+      ],
+      "context": "Posted after #99 closed, responding to the argument that readers can obtain machine translations themselves.",
+      "notes": [],
+      "related": [
+        "maintainer-position"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "brlin-deescalation",
+      "sourceId": "comment:6402061966",
+      "thread": "97",
+      "kind": "comment",
+      "author": "brlin-tw",
+      "role": "Discussion participant",
+      "createdAt": "2026-10-25T19:21:32Z",
+      "editedAt": "2026-10-25T19:32:08Z",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6402061966",
+      "title": "brlin-tw criticizes both the submission and its rejection",
+      "lead": "Speaking personally, he calls for observing conventions, actionable feedback and de-escalation.",
+      "paragraphs": [
+        "brlin-tw introduces himself as a member of Taiwan’s free/open-source software localization community, speaking in a personal capacity. He disagrees with doggy8088’s approach and says that silence in a project’s written rules should not be taken as a welcome for AI/LLM-generated issues or PRs.",
+        "He cites Russian PR #86, French PR #96 and Portuguese PR #65 as examples that did not require a specification-like issue and kept descriptions to necessary information. He calls the lengthy description in #98 noise that raises doubts about authenticity, and recommends observing existing conventions where explicit rules are absent.",
+        "He also criticizes taking the dispute to Facebook as approaching collective pressure. He recommends seeking clarification after a premature closure, and politely asking other maintainers if escalation is necessary, with social media a last resort. This is his assessment of public discussion, not this chronicle’s finding that mobilization occurred.",
+        "He also asks arp242 not to close PRs without actionable feedback or reasons, since contributors otherwise cannot understand expectations or revise their work. He credits doggy8088’s intention to contribute and urges both sides to de-escalate and find a mutually acceptable resolution.",
+        "The comment discloses that it was drafted on HackMD and proofread by an LLM. This introduces the particular stage at which a tool is used and the human responsibility involved, beyond a simple AI-use/no-AI-use distinction."
+      ],
+      "context": "Addressing the whole incident, including project conventions, Facebook publicity and maintainer feedback.",
+      "notes": [
+        "The cited French and Portuguese PRs were merged; the Russian PR remained unmerged at the cutoff. Comparing description lengths alone cannot establish every reason for this rejection."
+      ],
+      "related": [
+        "proposal-98",
+        "maintainer-position"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "pcchou-publicity",
+      "sourceId": "comment:6406637764",
+      "thread": "97",
+      "kind": "comment",
+      "author": "pcchou",
+      "role": "Discussion participant",
+      "createdAt": "2026-10-26T02:07:46Z",
+      "editedAt": "2026-10-26T02:07:56Z",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6406637764",
+      "title": "pcchou asks for a fairer assessment of public discussion",
+      "lead": "He supports d4n1elchen’s analysis and sees possible benefits in greater awareness of localization.",
+      "paragraphs": [
+        "pcchou describes himself as Taiwanese, with at least ten years in Taiwan’s free/open-source software community and personal experience in paid translation. He supports d4n1elchen’s analysis and asks for a fairer view of doggy8088 making the dispute more widely public.",
+        "He suggests the resulting visibility could benefit internationalization, localization and open-standards communities by drawing informed observers to these issues. This differs from brlin-tw’s criticism of the publicity strategy.",
+        "He does not request a particular merge action or provide measurable publicity outcomes or a review of this translation. The claimed benefit of publicity is therefore presented as his assessment."
+      ],
+      "context": "Supporting d4n1elchen while offering a different assessment of making the dispute public.",
+      "notes": [],
+      "related": [
+        "daniel-review",
+        "brlin-deescalation"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "proposal-99",
+      "sourceId": "issue:99",
+      "thread": "99",
+      "kind": "opening",
+      "author": "doggy8088",
+      "role": "Contributor",
+      "createdAt": "2026-10-25T12:48:46Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/99",
+      "title": "A shorter renewed proposal asks whether a contribution is welcome",
+      "lead": "#99 starts with personal reading experience and offers a smaller initial scope.",
+      "paragraphs": [
+        "As a reader from Taiwan, doggy8088 says he often consults toml.io and notices Simplified Chinese but no Traditional Chinese. Terms for file and data illustrate that the issue is not merely character conversion: the existing wording may feel unfamiliar to Taiwanese readers.",
+        "He says he translated the homepage, v1.0.0 and v1.1.0 from English in his fork and read through them as a native speaker. Code examples are unchanged except for comments. He asks whether maintainers would welcome a PR, perhaps beginning with the homepage and v1.1.0.",
+        "He says he understands if maintenance costs rule out another locale. Compared with #97, this description is shorter, omits detailed technical acceptance criteria and does not mention AI in the opening text. Form alone cannot establish an attempt to conceal AI use; the public Facebook post and subsequent statements also matter."
+      ],
+      "context": null,
+      "notes": [
+        "This is a new issue, not a reopening of #98. The PR remained closed and unmerged at the cutoff."
+      ],
+      "related": [
+        "proposal-97",
+        "author-tools"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "ddman-localization",
+      "sourceId": "comment:6398226230",
+      "thread": "99",
+      "kind": "comment",
+      "author": "ddman",
+      "role": "Discussion participant",
+      "createdAt": "2026-10-25T13:26:46Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398226230",
+      "title": "ddman: localization involves culture and everyday terminology",
+      "lead": "The first reply supports Traditional Chinese in both English and Chinese.",
+      "paragraphs": [
+        "ddman supports the request. He argues that Traditional Chinese readers’ needs extend beyond character conversion or legibility to cultural context and localized technical terminology. Unfamiliar terms create friction in everyday technical reading.",
+        "He mentions Hong Kong, parts of Southeast Asia and Traditional Chinese developers worldwide as well as Taiwan. He sees practical value in native documentation and hopes maintainers will consider the contribution. The comment states the same reasons first in English and then in Chinese.",
+        "The comment supports the need for a locale. It does not verify the full translation’s quality or propose a specific AI-use policy."
+      ],
+      "context": "Responding to the demand for a Traditional Chinese version in #99.",
+      "notes": [],
+      "related": [
+        "proposal-99"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "facebook-confrontation",
+      "sourceId": "comment:6398588114",
+      "thread": "99",
+      "kind": "comment",
+      "author": "arp242",
+      "role": "Project member",
+      "createdAt": "2026-10-25T14:01:36Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398588114",
+      "title": "A maintainer links Facebook and directly confronts the contributor",
+      "lead": "The reply and closure of #99 occur in the same second; the thread is locked ten seconds later.",
+      "paragraphs": [
+        "arp242 links a post on Will 保哥的技術交流中心 and repeatedly asks what is wrong with the contributor. The short response gives no technical conditions for adding Traditional Chinese and addresses the submitter directly.",
+        "The linked post says the earlier PR was rejected for using Claude Code; the contributor claims it was neither read nor reviewed. He says he again used AI to write an issue in a more human-sounding voice, reviewed it himself and questions why human translation is mandatory. The post links #99.",
+        "The record shows #99 closed on October 25 at 22:01:36 and locked by toml-lang at 22:01:46, Taiwan time, allowing collaborators to continue commenting. arp242 posts another reply at 22:18:53 after the lock, consistent with that restriction."
+      ],
+      "context": "The responder brings discussion on Facebook back into the issue by linking the public post.",
+      "notes": [
+        "The readable post itself does not explicitly call for an influx to GitHub. That does not establish what happened in all other posts, comments or private communications."
+      ],
+      "related": [
+        "proposal-99",
+        "maintainer-position"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "maintainer-position",
+      "sourceId": "comment:6398776847",
+      "thread": "99",
+      "kind": "comment",
+      "author": "arp242",
+      "role": "Project member",
+      "createdAt": "2026-10-25T14:18:53Z",
+      "editedAt": "2026-10-25T14:24:03Z",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847",
+      "title": "The maintainer accepts the locale in principle but rejects the contribution method",
+      "lead": "He separates language from submission method while using disparaging terms about the contributor and supporters.",
+      "paragraphs": [
+        "arp242 explicitly says he does not object to Traditional Chinese or other languages. He describes the earlier issue as a human forwarding AI output, using the term meat proxy, accuses the contributor of stirring up Facebook supporters, and sees the renewed issue as an attempt to disguise the same practice.",
+        "He argues that readers wanting a mechanical translation can use free tools or browser features themselves, while toml.io should contain carefully vetted, accurate human translations. This is one of the thread’s more explicit statements about acceptable translation methods.",
+        "He uses disparaging terms including AI slop, accuses the contributor and supporters of tolerating dishonesty, and says the incident will make future zh-TW contributions suspect. Those claims about honesty, mobilization and future contributions are his accusations and assessments, not findings established by this chronicle.",
+        "The reply brings together tools, quality standards, trust and public discussion. Other participants in #97 subsequently challenge his understanding of cultural differences and human review effort. At the capture cutoff, none of the three threads has reopened and this PR has not been accepted."
+      ],
+      "context": "A statement after #99 was closed and locked; subsequently edited.",
+      "notes": [
+        "At the cutoff, public discussion does not provide complete evidence resolving all allegations of mobilization or dishonesty. One member’s reply also does not automatically constitute a formal policy approved by the whole project."
+      ],
+      "related": [
+        "facebook-confrontation",
+        "daniel-review",
+        "brlin-deescalation"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "review-overview",
+      "sourceId": "review:5629499481",
+      "thread": "98",
+      "kind": "review",
+      "author": "copilot-pull-request-reviewer[bot]",
+      "role": "Automated reviewer",
+      "createdAt": "2026-10-23T14:15:23Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/pull/98#pullrequestreview-5629499481",
+      "title": "Copilot review summary: language tags on English fallback labels",
+      "lead": "The automated review raises one accessibility issue and lists eight changed files.",
+      "paragraphs": [
+        "Copilot recommends changes because English fallback interface labels can inherit non-English lang attributes, causing incorrect screen-reader pronunciation. The summary links a specific inline comment.",
+        "It also summarizes the homepage, specification, locale-mapping and template changes, listing eight files. This is an automated change summary and technical review, not native-speaker review or certification of the entire translation’s meaning or readability."
+      ],
+      "context": null,
+      "notes": [],
+      "related": [
+        "proposal-98",
+        "review-language"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "review-language",
+      "sourceId": "inline:4360491030",
+      "thread": "98",
+      "kind": "inline",
+      "author": "Copilot",
+      "role": "Automated reviewer",
+      "createdAt": "2026-10-23T14:15:23Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360491030",
+      "title": "Inline review: page language and interface-string language can differ",
+      "lead": "The issue concerns English fallbacks in non-English locales, including mobile and language menus.",
+      "paragraphs": [
+        "In the navigation template, Copilot notes that the new lang attribute identifies the page locale, while the lookup can return English for existing non-English locales. An English label inside a container tagged zh-CN, for example, may be pronounced incorrectly by a screen reader. The mobile menu has the same problem.",
+        "It recommends retaining the content language while carrying the actual language of each interface string, explicitly marking English fallbacks as English, and marking each language name in the language menu appropriately.",
+        "The inline comment and review summary are two representations of one review. Their source objects are recorded separately without treating them as independent quality assessments."
+      ],
+      "context": "On the first line of the shared navigation template; reviewing commit b9bd601.",
+      "notes": [],
+      "related": [
+        "review-overview",
+        "review-response"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    },
+    {
+      "id": "review-response",
+      "sourceId": "inline:4360774614",
+      "thread": "98",
+      "kind": "inline",
+      "author": "doggy8088",
+      "role": "Contributor",
+      "createdAt": "2026-10-23T14:42:29Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360774614",
+      "title": "The contributor reports a fix; the commit exists but is absent from the PR",
+      "lead": "The fix follows the original commit, while the captured PR still lists only the original version.",
+      "paragraphs": [
+        "doggy8088 says commit 83dd824 fixes the issue: labels carry their actual language, English fallbacks use en and Traditional Chinese uses zh-TW. The outer navigation language attribute is removed, the mobile menu receives equivalent treatment and language-menu entries identify their own language. The specification content container retains the page language.",
+        "This chronicle separately verified commit 83dd824cc5581e89ef853ca07221ee5b6ca4219d, created on October 23 at 22:42:18, Taiwan time, with the original PR commit b9bd601 as its parent. The fix exists as a commit, beyond a promise in a comment.",
+        "At the cutoff, however, #98 still has head b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f and lists only that commit. The record therefore does not establish that the fix was pushed into this PR or approved in a new Copilot review. The reply was posted after the PR had closed.",
+        "The API also records an author-submitted review object with no separate summary text, at the same time as this reply. It is included in the coverage inventory under this response, rather than counted as another text-bearing comment."
+      ],
+      "context": "Replying to Copilot’s inline comment; in_reply_to_id is 4360491030.",
+      "notes": [
+        "The fix commit and its parent relationship were checked. This chronicle has not performed the original project’s accessibility or translation acceptance testing."
+      ],
+      "related": [
+        "review-language"
+      ],
+      "verification": "Source available for comparison; participant claims are attributed, with verification notes where applicable."
+    }
+  ],
+  "events": [
+    {
+      "id": "event-34059377496",
+      "sourceId": "event:34059377496",
+      "thread": "97",
+      "createdAt": "2026-10-23T14:17:20Z",
+      "author": "arp242",
+      "title": "Proposal closed",
+      "summary": "arp242 closes #97 as not planned.",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#event-34059377496"
+    },
+    {
+      "id": "event-34058851533",
+      "sourceId": "event:34058851533",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:11:33Z",
+      "author": "doggy8088",
+      "title": "Copilot review requested",
+      "summary": "An automatic review request, not a maintainer’s human review.",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#event-34058851533"
+    },
+    {
+      "id": "event-34058901763",
+      "sourceId": "event:34058901763",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:12:07Z",
+      "author": "doggy8088",
+      "title": "Copilot review starts",
+      "summary": "GitHub records the start of automated review.",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#event-34058901763"
+    },
+    {
+      "id": "event-34059411449",
+      "sourceId": "event:34059411449",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:17:43Z",
+      "author": "arp242",
+      "title": "PR closed without merging",
+      "summary": "arp242 closes #98 without a separate general PR comment.",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#event-34059411449"
+    },
+    {
+      "id": "event-34185279231",
+      "sourceId": "event:34185279231",
+      "thread": "99",
+      "createdAt": "2026-10-25T14:01:36Z",
+      "author": "arp242",
+      "title": "Renewed issue closed",
+      "summary": "arp242 closes #99 as not planned.",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#event-34185279231"
+    },
+    {
+      "id": "event-34185286539",
+      "sourceId": "event:34185286539",
+      "thread": "99",
+      "createdAt": "2026-10-25T14:01:46Z",
+      "author": "toml-lang",
+      "title": "Discussion restricted to collaborators",
+      "summary": "toml-lang locks #99 ten seconds after closure.",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#event-34185286539"
+    }
+  ],
+  "extraEvents": [
+    {
+      "id": "commit-original",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:11:04Z",
+      "author": "doggy8088",
+      "title": "Original translation commit created",
+      "summary": "b9bd601 adds Traditional Chinese specifications, a homepage and shared-template changes.",
+      "url": "https://github.com/toml-lang/toml.io/commit/b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f"
+    },
+    {
+      "id": "commit-fix",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:42:18Z",
+      "author": "doggy8088",
+      "title": "Separate fix commit created",
+      "summary": "83dd824 fixes English-fallback language tags; the captured PR does not contain it.",
+      "url": "https://github.com/toml-lang/toml.io/commit/83dd824cc5581e89ef853ca07221ee5b6ca4219d"
+    }
+  ],
+  "historical": {
+    "id": "historical-shiki",
+    "date": "2026-10-25",
+    "author": "ShikiSuen",
+    "url": "https://github.com/toml-lang/toml.io/issues/97",
+    "status": "Visible in an earlier search snapshot; absent from the current API comment list.",
+    "paragraphs": [
+      "An earlier page snapshot shows ShikiSuen asking mojombo, BurntSushi and pradyunsg to discuss a localization contribution strategy. He questions whether the rejection reflects team consensus, worries that later human Traditional Chinese translations could be affected and recommends guidelines. He also acknowledges problems in doggy8088’s strategy and wants de-escalation.",
+      "In that snapshot, he also argues that doggy8088 did not ask Facebook followers to flood GitHub and attributes readers’ anger to maintainer hostility. He questions whether other maintainers discussed the decisions and says he had intended to recruit human translation volunteers who now felt discouraged. Those are the snapshot speaker’s claims, not verified findings about internal communication, every social interaction or actual volunteers.",
+      "This historical supplement is excluded from the current readable-comment count. Only a date is available, without an original comment ID or exact publication time, so it is excluded from the second-resolution timeline. The record cannot establish who removed it or when. Another surviving comment mentions voluntary removal of a response, but that alone does not establish that it was this one."
+    ]
+  },
+  "followupPost": {
+    "id": "followup-reflection",
+    "author": "Will 保哥的技術交流中心",
+    "url": "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl",
+    "checkedAt": "2026-10-27T06:05:42.998Z",
+    "publishedAt": null,
+    "title": "A later reflection on AI labels and the experience of contributing",
+    "paragraphs": [
+      "In another public Facebook post, the author responds to a remark that his GitHub profile looks entirely AI-generated and thus invites the Vibe Coder label. He says a few readers’ mockery has little effect, but two days of interaction with the TOML maintainer did affect his mood.",
+      "He looks back on years of sharing, saying he has written articles for 19 years and accumulated eight or nine hundred GitHub projects before AI. He acknowledges uneven quality but values what those projects offered at the time or how they solved his own problems. These figures and years are his reports, not an independently checked inventory.",
+      "He says he is not seeking consolation and asks readers not to add encouragement, with a joke about enrolling in his classes. He then addresses fellow open-source enthusiasts: unpaid contribution comes from internal motivation, and even without expecting a return, people may hope for some respect.",
+      "He suggests adjusting expectations when goodwill is met with indifference, prejudice or negative interactions, and walking away when needed to protect enthusiasm. People need not persuade everyone and can focus on enjoying their own effort. This describes his experience and attitude, not acceptance of the PR or a change in the three GitHub threads’ status."
+    ],
+    "note": "The public text was checked. Its exact publication time was unavailable, so it is not inserted into the second-resolution GitHub timeline. Its 59 readable comments and replies have their own inventory and a separate capture cutoff.",
+    "previousUrl": "https://www.facebook.com/will.fans/posts/pfbid0MC3ecgHynjs19RVf6oL1BNG6b4FJcZQn25SKcYNNMYp5pshqJJGNsgpoCfyZ65cJl"
+  },
+  "language": "en",
+  "sourceEditorialSha256": "c5396a9510e63aa4f8351736b9a1bfcee0d7cd919246bd64b1a88363ffa219ba"
+}

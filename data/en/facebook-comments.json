@@ -1,0 +1,436 @@
+{
+  "postUrl": "https://www.facebook.com/1576676851153065/posts/1577393651081385",
+  "capturedAt": "2026-10-27T05:41:27.770Z",
+  "observedPageCount": 18,
+  "loadedCount": 18,
+  "rootCount": 10,
+  "replyCount": 8,
+  "mode": "All comments",
+  "remainingExpandControls": 0,
+  "methodology": "Switched to All comments and expanded five reply groups and one further reply level. Eighteen unique source IDs matched the displayed count. This covers publicly loadable content at that capture, not deleted, hidden, blocked or permission-restricted history. The reflection post has a separate inventory and cutoff.",
+  "timeNote": "Times are the Facebook display converted to Taiwan time (UTC+8), accurate to the minute. Seconds are not invented. Edited indicators are recorded without a complete edit timestamp or revision history.",
+  "reactionNote": "“Liked by author” records only the captured interface state. It does not establish agreement with every argument; reaction counts are not treated as evidence of public opinion or mobilization.",
+  "items": [
+    {
+      "id": "fb-1096829016309549",
+      "sourceId": "facebook-comment:1096829016309549",
+      "platform": "Facebook",
+      "author": "高立宣",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1096829016309549",
+      "createdAt": "2026-10-25T22:07+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1096829016309549",
+      "depth": 0,
+      "title": "The renewed issue is closed too",
+      "paragraphs": [
+        "高立宣 reports that the renewed issue has also been closed, adding an emoticon."
+      ],
+      "edited": false,
+      "authorLiked": true,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "db59bf18c6a82311b6725b65e89de22234e14ab1d2d348b7c8c3ffd64c011f06"
+    },
+    {
+      "id": "fb-1645821010888841",
+      "sourceId": "facebook-comment:1645821010888841",
+      "platform": "Facebook",
+      "author": "Will 保哥的技術交流中心",
+      "role": "Post author",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1096829016309549&reply_comment_id=1645821010888841",
+      "createdAt": "2026-10-25T22:41+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1096829016309549",
+      "rootId": "fb-1096829016309549",
+      "depth": 1,
+      "title": "The author says he cannot understand the outcome",
+      "paragraphs": [
+        "Replying to 高立宣, the author says he really cannot understand the result. This brief response expresses continued puzzlement about closure without new technical or review evidence."
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "0a3a9f755bce071ed545fce9f26d8d35f962aad3bab0f5bd8eb6a8fa916de461"
+    },
+    {
+      "id": "fb-1363891813478154",
+      "sourceId": "facebook-comment:1363891813478154",
+      "platform": "Facebook",
+      "author": "Tomady Tang",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1363891813478154",
+      "createdAt": "2026-10-26T07:55+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1363891813478154",
+      "depth": 0,
+      "title": "Comparing the maintainer’s attitude with terminology disputes in Taiwan",
+      "paragraphs": [
+        "Tomady Tang criticizes the maintainer’s manner as extreme and compares it with policing mainland Chinese vocabulary in Taiwan, arguing that communication should focus on the topic. He likens the project to the maintainer’s kingdom and criticizes decisions based on personal preferences. These are the commenter’s analogies and assessments."
+      ],
+      "edited": true,
+      "authorLiked": true,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "a4cc7ffb075ced920687d35f07015e6deb4c7ee01464e81e09341c7419dd99a8"
+    },
+    {
+      "id": "fb-4378748772435591",
+      "sourceId": "facebook-comment:4378748772435591",
+      "platform": "Facebook",
+      "author": "王韋傑",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=4378748772435591",
+      "createdAt": "2026-10-26T07:06+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-4378748772435591",
+      "depth": 0,
+      "title": "Criticizing the publicity strategy and fearing consequences for zh-TW",
+      "paragraphs": [
+        "王韋傑 reminds the author that the maintainer has read Facebook. Contributors should follow project guidelines and carefully read the long reply, he argues. He worries that the entire zh-TW locale will acquire a label. This is criticism of the author’s handling, rather than simple support."
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [
+        "The PR-base README provides locale-creation instructions but does not mention AI. Claims here about guidelines and consequences for the whole locale remain attributed to this commenter."
+      ],
+      "evidenceLinks": [],
+      "sourceTextSha256": "6eaaa554e2cea44c2f4f6b498264737cb5d79b74f6209ba77b828d33844851d9"
+    },
+    {
+      "id": "fb-1425740689091000",
+      "sourceId": "facebook-comment:1425740689091000",
+      "platform": "Facebook",
+      "author": "熊國仁",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1425740689091000",
+      "createdAt": "2026-10-25T22:52+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1425740689091000",
+      "depth": 0,
+      "title": "Suggesting Chinese submissions that readers can translate themselves",
+      "paragraphs": [
+        "熊國仁 asks whether submissions could simply be written in Traditional Chinese, leaving anyone who wants to understand them to use AI translation. The suggestion turns the translation-tool argument back on the other party."
+      ],
+      "edited": false,
+      "authorLiked": true,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "61b6392d7928713e19cea84407239130c5a1df91c2eeedb6ae8d6ba5023165cc"
+    },
+    {
+      "id": "fb-1436487435329862",
+      "sourceId": "facebook-comment:1436487435329862",
+      "platform": "Facebook",
+      "author": "Will 保哥的技術交流中心",
+      "role": "Post author",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1425740689091000&reply_comment_id=1436487435329862",
+      "createdAt": "2026-10-25T23:13+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1425740689091000",
+      "rootId": "fb-1425740689091000",
+      "depth": 1,
+      "title": "The author speculates that he may have been blocked",
+      "paragraphs": [
+        "The author invites 熊國仁 to try and says he has probably been blocked. His wording is uncertain; it is not a verified record of a block."
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [
+        "This chronicle has no independent evidence establishing a GitHub or Facebook block."
+      ],
+      "evidenceLinks": [],
+      "sourceTextSha256": "16321d17539ae3c3b47e5eee3721fa0d254407be2089f08b996976ff68795756"
+    },
+    {
+      "id": "fb-1895440511836418",
+      "sourceId": "facebook-comment:1895440511836418",
+      "platform": "Facebook",
+      "author": "鄒錦翔",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1895440511836418",
+      "createdAt": "2026-10-25T20:59+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1895440511836418",
+      "depth": 0,
+      "title": "Suggesting a challenge about racism",
+      "paragraphs": [
+        "鄒錦翔 suggests asking whether the other party is racist if another rejection occurs. This proposed response does not establish discrimination or show that the author used the strategy."
+      ],
+      "edited": false,
+      "authorLiked": true,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "c52388e38427c99cf8ac0bb382f535321191ba567c72464458063629f9acbb7b"
+    },
+    {
+      "id": "fb-1153848950926302",
+      "sourceId": "facebook-comment:1153848950926302",
+      "platform": "Facebook",
+      "author": "Will 保哥的技術交流中心",
+      "role": "Post author",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1895440511836418&reply_comment_id=1153848950926302",
+      "createdAt": "2026-10-25T22:42+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1895440511836418",
+      "rootId": "fb-1895440511836418",
+      "depth": 1,
+      "title": "The author says the issue is closed and some people cannot change",
+      "paragraphs": [
+        "Replying to 鄒錦翔, the author says the issue has closed and some people cannot change. He does not explicitly agree to use the preceding suggestion of challenging the other party about racism."
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "86b3a5cb6a59dfbc15aae0accf803d157df4c1a7f4396280cfe112e98f3b2c35"
+    },
+    {
+      "id": "fb-1142861922010708",
+      "sourceId": "facebook-comment:1142861922010708",
+      "platform": "Facebook",
+      "author": "Liāu Pik-Hān",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1142861922010708",
+      "createdAt": "2026-10-25T21:07+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1142861922010708",
+      "depth": 0,
+      "title": "A sarcastic “generated by a human” signature",
+      "paragraphs": [
+        "Liāu Pik-Hān says he would be tempted to sign the work as generated by a named human, mocking the argument about generation tools. This is sarcasm, not a new translation-quality check."
+      ],
+      "edited": false,
+      "authorLiked": true,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "a9f091fdb6581d564cda4194625fa36c4a7dfde172551e62e243decf6fddc810"
+    },
+    {
+      "id": "fb-1845649283450119",
+      "sourceId": "facebook-comment:1845649283450119",
+      "platform": "Facebook",
+      "author": "Chang Alex",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1845649283450119",
+      "createdAt": "2026-10-26T09:24+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1845649283450119",
+      "depth": 0,
+      "title": "An analogy with a conservative craft workshop",
+      "paragraphs": [
+        "Chang Alex compares the attitude toward new tools with a conservative workshop still insisting on handcraft after the Industrial Revolution."
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "50cf0d744eba5fd6c572acedae27456097cd464a45bfe9a179b46e4cacefbc64"
+    },
+    {
+      "id": "fb-1010006622125930",
+      "sourceId": "facebook-comment:1010006622125930",
+      "platform": "Facebook",
+      "author": "Liu YuTang",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1010006622125930",
+      "createdAt": "2026-10-25T21:31+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1010006622125930",
+      "depth": 0,
+      "title": "A brief negative judgment about the interaction",
+      "paragraphs": [
+        "Liu YuTang describes the behavior as unreasonable. The short comment does not develop an argument."
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "48de74328bdbbfa679a7634d1e2a4941b4df8e4f08c1fa85642fe76303e6685d"
+    },
+    {
+      "id": "fb-1423904753272004",
+      "sourceId": "facebook-comment:1423904753272004",
+      "platform": "Facebook",
+      "author": "Logos",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004",
+      "createdAt": "2026-10-26T01:53+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1423904753272004",
+      "depth": 0,
+      "title": "Questioning why zh-CN appears in a Traditional Chinese PR",
+      "paragraphs": [
+        "Logos asks the author to check the code and questions why zh-CN appears in a contribution presented as Traditional Chinese. He attaches a formatter.js diff. The screenshot also shows cn mapped to zh-CN and tw to zh-TW; the mere presence of zh-CN does not establish that the Traditional Chinese translation was put in the wrong locale."
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [
+        "The attachment was compared with the original PR commit: languageTags maps cn to zh-CN and tw to zh-TW. That mapping does not mislabel Traditional Chinese as Simplified Chinese. The English-fallback tagging problem is separate; see Copilot’s review."
+      ],
+      "evidenceLinks": [
+        {
+          "url": "https://github.com/toml-lang/toml.io/blob/b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f/lib/formatter.js#L64-L78",
+          "label": "Check the original language mapping"
+        }
+      ],
+      "sourceTextSha256": "3090bee4d74db869c1af82e30e33a8f26e527ee3b3cf84871878a9866fcca106"
+    },
+    {
+      "id": "fb-1111411041689827",
+      "sourceId": "facebook-comment:1111411041689827",
+      "platform": "Facebook",
+      "author": "Will 保哥的技術交流中心",
+      "role": "Post author",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=1111411041689827",
+      "createdAt": "2026-10-26T02:27+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1423904753272004",
+      "rootId": "fb-1423904753272004",
+      "depth": 1,
+      "title": "The author explains that the tags support language switching",
+      "paragraphs": [
+        "Replying to Logos, the author says these are language tags used to switch languages. The original PR retains mappings for both cn and tw, so this explanation can be compared with the code."
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [
+        "The attachment was compared with the original PR commit: languageTags maps cn to zh-CN and tw to zh-TW. That mapping does not mislabel Traditional Chinese as Simplified Chinese. The English-fallback tagging problem is separate; see Copilot’s review."
+      ],
+      "evidenceLinks": [
+        {
+          "url": "https://github.com/toml-lang/toml.io/blob/b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f/lib/formatter.js#L64-L78",
+          "label": "Check the original language mapping"
+        }
+      ],
+      "sourceTextSha256": "1e9c22c41ceacdeb624106095e9921d4c82d377f4459cdb4efe15cc731bb2698"
+    },
+    {
+      "id": "fb-1425758755759536",
+      "sourceId": "facebook-comment:1425758755759536",
+      "platform": "Facebook",
+      "author": "婉晴吳",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=1425758755759536",
+      "createdAt": "2026-10-26T17:52+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1111411041689827",
+      "rootId": "fb-1423904753272004",
+      "depth": 2,
+      "title": "Mocking the questioner’s understanding of the code",
+      "paragraphs": [
+        "After the author’s explanation, 婉晴吳 questions whether Logos can read the code and points to the tag already present. This is a reply to the author’s reply, rather than a separate top-level comment."
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "b600eb31d5acd5940f0307afe7a7f760a614723c7accde6a964ecb93fbb8e01c"
+    },
+    {
+      "id": "fb-2311514916273451",
+      "sourceId": "facebook-comment:2311514916273451",
+      "platform": "Facebook",
+      "author": "Lxs Artmily",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=2311514916273451",
+      "createdAt": "2026-10-26T21:45+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1423904753272004",
+      "rootId": "fb-1423904753272004",
+      "depth": 1,
+      "title": "A disparaging reply to Logos",
+      "paragraphs": [
+        "Lxs Artmily leaves a disparaging remark suggesting Logos is exposing his own shortcomings, without further code analysis."
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "47528e228f73388f591e3ceff57f932aca3f791d2e6ddaabe1573fc8eca41ee9"
+    },
+    {
+      "id": "fb-1841948403603836",
+      "sourceId": "facebook-comment:1841948403603836",
+      "platform": "Facebook",
+      "author": "李政旻",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836",
+      "createdAt": "2026-10-25T23:36+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1841948403603836",
+      "depth": 0,
+      "title": "Questioning the basis for “AI slop” while noting shared-code changes",
+      "paragraphs": [
+        "李政旻 asks how the maintainer judged the contribution poor and how someone unable to read Chinese could assess the translation. Having looked at the diff, he finds most of it normal apart from unusual template and JavaScript changes. This is his inspection impression, not a full language review."
+      ],
+      "edited": true,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "70de6bb17fd29eaac899350af05f8e20ab73249f7a36669079388edd74dd494c"
+    },
+    {
+      "id": "fb-994431642963162",
+      "sourceId": "facebook-comment:994431642963162",
+      "platform": "Facebook",
+      "author": "Tomex Ou",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836&reply_comment_id=994431642963162",
+      "createdAt": "2026-10-26T00:33+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1841948403603836",
+      "rootId": "fb-1841948403603836",
+      "depth": 1,
+      "title": "Speculating about reactions to rapid AI translation and Facebook",
+      "paragraphs": [
+        "Tomex Ou suggests subjective factors: a rapid, enthusiastic submission, previous impressions of fast AI translation and Facebook comments may have increased the maintainer’s anger. These are the commenter’s explanations of motives, not a psychological state confirmed by the maintainer."
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "ce6fc1f6df8151974356c73b8045dbb7d3aef19a87fb6cf630f8be7e0bf1e2e0"
+    },
+    {
+      "id": "fb-1636187431320874",
+      "sourceId": "facebook-comment:1636187431320874",
+      "platform": "Facebook",
+      "author": "林博仁",
+      "role": "Public commenter",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836&reply_comment_id=1636187431320874",
+      "createdAt": "2026-10-26T00:53+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1841948403603836",
+      "rootId": "fb-1841948403603836",
+      "depth": 1,
+      "title": "Seeing generated-writing signals in the PR description’s length",
+      "paragraphs": [
+        "林博仁 links the description of #98 and argues that an ordinary contributor would not write so many paragraphs merely to add a display language. His point concerns submission style, rather than identifying errors paragraph by paragraph in the Traditional Chinese translation."
+      ],
+      "edited": true,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [
+        {
+          "url": "https://github.com/toml-lang/toml.io/pull/98#issue-5999358415",
+          "label": "PR description cited in the comment"
+        }
+      ],
+      "sourceTextSha256": "fe699ec5fdce821e7343dea50f28a3efb530caea34dbecb399c64b71a6ce93fd"
+    }
+  ],
+  "language": "en",
+  "sourceEditorialSha256": "008f55e2d52df7041ff9e5ce182b8fd8a488f44467f05a95fbaf91f979db736e"
+}

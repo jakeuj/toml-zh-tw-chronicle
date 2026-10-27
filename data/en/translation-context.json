@@ -1,0 +1,129 @@
+{
+  "id": "translation-context",
+  "title": "Russian review, tools and locale labels: what does the wording support?",
+  "checkedAt": "2026-10-27T06:44:12Z",
+  "method": "Two GitHub comments were rechecked using public links supplied by a reader, and the BBC Chinese article was read in the browser. This is sourced editorial analysis, not new participant comments. It does not add to the comment count or change existing capture cutoffs.",
+  "sources": [
+    {
+      "id": "russian-comment",
+      "sourceId": "comment:2909117381",
+      "type": "GitHub issue comment on PR #86",
+      "author": "arp242",
+      "createdAt": "2025-05-26T09:51:37Z",
+      "editedAt": "2025-05-26T09:51:37Z",
+      "title": "Russian PR #86: arp242 explains why he cannot check it",
+      "url": "https://github.com/toml-lang/toml.io/pull/86#issuecomment-2909117381",
+      "access": "Readable through the GitHub API and public discussion page",
+      "sourceTextSha256": "12ebca6a0239006712c4ac419598b16d36f13043bd32a7a0c6a0a280c84946d2"
+    },
+    {
+      "id": "zh-tw-comment",
+      "sourceId": "comment:6398776847",
+      "type": "GitHub issue comment on #99",
+      "author": "arp242",
+      "createdAt": "2026-10-25T14:18:53Z",
+      "editedAt": "2026-10-25T14:24:03Z",
+      "title": "#99: mechanical translation, human translation and future zh-TW submissions",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847",
+      "access": "Readable through the GitHub API and discussion page; already represented by maintainer-position",
+      "sourceTextSha256": "58007bf2b4c67338a22636f202ff224a20e09aed5e7470d3ed285fc9730ec365"
+    },
+    {
+      "id": "bbc-translation",
+      "sourceId": "bbc:crvg9n72v9p2o:trad",
+      "type": "新聞背景報導",
+      "author": "John Laurenson / BBC News Chinese",
+      "publishedDate": "2026-10-14",
+      "timePrecision": "date",
+      "title": "AI translation: how long until it completely replaces humans? (BBC Chinese)",
+      "url": "https://www.bbc.com/zhongwen/articles/crvg9n72v9p2o/trad",
+      "access": "General web retrieval was restricted, but the browser displayed the article and its AI-translation disclosure; exact publication and edit times were unavailable",
+      "disclosure": "The article says it was originally written in English, translated with AI assistance and reviewed by BBC journalists before publication."
+    }
+  ],
+  "questions": [
+    {
+      "id": "russian-comparison",
+      "label": "Russian comparison",
+      "title": "Does saying he cannot check Russian imply he speaks Chinese?",
+      "findings": [
+        {
+          "status": "Verified wording",
+          "text": "The 2025 comment in #86 identifies two limitations: arp242 does not speak Russian and cannot even build the website. It therefore says he cannot check the work. Extracting only the language limitation omits the build context."
+        },
+        {
+          "status": "Limits of inference",
+          "text": "The comment does not say that speaking a language is a prerequisite for judging a contribution method. Assessing the AI workflow, submission description or trust in #99 does not require Chinese ability. These two comments do not prove that he speaks Chinese or guarantee that opening the next issue in Chinese would communicate effectively."
+        },
+        {
+          "status": "Unconfirmed",
+          "text": "These sources supply no evidence of arp242’s Chinese ability or a line-by-line language review of this translation. Differences between PR responses merit comparison but do not, by themselves, establish a motive for differential treatment."
+        }
+      ],
+      "sourceRefs": [
+        "russian-comment",
+        "zh-tw-comment"
+      ]
+    },
+    {
+      "id": "translation-tool-distinction",
+      "label": "Use cases",
+      "title": "Is rejecting an AI translation while suggesting readers use machine translation contradictory?",
+      "findings": [
+        {
+          "status": "Verified wording",
+          "text": "#99 distinguishes readers obtaining mechanical translations for themselves from toml.io formally publishing carefully vetted human translations. Personal reading and accepting responsibility for published content and maintenance are different use cases. The comment does not require all Traditional Chinese readers to use machine translation."
+        },
+        {
+          "status": "Remaining disagreement",
+          "text": "That distinction explains the maintainer’s position but does not settle how to assess AI drafts reviewed line by line by a human. The contributor reports reviewing his work; whether that review is sufficient and how to make it verifiable still require inspection of the result. A categorical tool-based exclusion and an outcome-based assessment remain materially different approaches."
+        }
+      ],
+      "sourceRefs": [
+        "zh-tw-comment"
+      ]
+    },
+    {
+      "id": "zh-tw-generalization",
+      "label": "Locale labeling",
+      "title": "What kind of generalization extends one dispute to future zh-TW translations?",
+      "findings": [
+        {
+          "status": "Verified wording",
+          "text": "arp242 first says he does not object to Traditional Chinese or other languages. Later he extends suspicion to any future zh-TW translation, using any zh-TW and AI translated slop, and ends sarcastically. Keeping only his stated openness to a locale would omit this expansion."
+        },
+        {
+          "status": "Editorial analysis",
+          "text": "Extending one submission dispute to unseen future work in the same locale broadens suspicion on a language-locale basis. Readers may feel disparaged by association; criticism of this wording and its fairness has a concrete textual basis. This analysis of possible effects does not speak for every reader’s feelings."
+        },
+        {
+          "status": "Limits of inference",
+          "text": "In context the statement expresses suspicion about zh-TW translations. It does not literally declare every Traditional Chinese user or every term they use to be an AI product. Suspicion is also not a verified finding. The passage alone cannot establish an internal motive of hostility toward an entire community or one cause for everyone’s anger."
+        }
+      ],
+      "sourceRefs": [
+        "zh-tw-comment"
+      ]
+    },
+    {
+      "id": "bbc-human-review",
+      "label": "Workflow comparison",
+      "title": "What does the BBC’s AI-translation disclosure demonstrate?",
+      "findings": [
+        {
+          "status": "Verified article",
+          "text": "The BBC Chinese article of October 14, 2026 discusses efficiency, human review and contextual errors in AI translation, using professional examples to show that fluent text can still contain significant mistakes. Its closing disclosure says that this Chinese article itself was translated with AI assistance and reviewed by BBC journalists before publication."
+        },
+        {
+          "status": "Meaning of the comparison",
+          "text": "This is a publicly disclosed publishing workflow combining AI assistance with human review. It helps distinguish tool provenance, review responsibility and result quality. It is not reporting on the TOML dispute or reviewing this translation, and cannot establish that the submission passes, must be accepted or necessarily contains errors."
+        }
+      ],
+      "sourceRefs": [
+        "bbc-translation"
+      ]
+    }
+  ],
+  "language": "en",
+  "sourceEditorialSha256": "58e6065b4549510f4c52a75759cdc339721333705b3c1b86076adbd6fb51538c"
+}
