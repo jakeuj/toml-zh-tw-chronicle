@@ -1,8 +1,10 @@
 import {readFileSync, mkdirSync, writeFileSync, cpSync, rmSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
+import {createHash} from 'node:crypto';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
+const assetVersion = file => createHash('sha256').update(readFileSync(path.join(root,file))).digest('hex').slice(0,12);
 const data = JSON.parse(readFileSync(path.join(root, 'data/chronicle.json'), 'utf8'));
 const {records} = data;
 const facebook = JSON.parse(readFileSync(path.join(root, 'data/facebook-comments.json'), 'utf8'));
@@ -85,7 +87,7 @@ const topicHTML=topics.map(([label,title,body,ids],i)=>`<article class="topic"><
 const followupHTML = data.followupPost ? `<aside class="followup-story" id="${esc(data.followupPost.id)}"><span class="note-label">後續回應 · Facebook 公開貼文</span><h3>${esc(data.followupPost.title)}</h3>${paras(data.followupPost.paragraphs)}<p class="followup-method">${esc(data.followupPost.note)}</p>${link(data.followupPost.url,'閱讀原始貼文 ↗','source-link')}</aside>` : '';
 
 const html=`<!doctype html>
-<html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>${esc(data.title)}</title><meta name="description" content="${esc(data.description)}"><link rel="canonical" href="${data.siteUrl}"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css"><script src="assets/app.js" defer></script>
+<html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>${esc(data.title)}</title><meta name="description" content="${esc(data.description)}"><link rel="canonical" href="${data.siteUrl}"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css?v=${assetVersion('assets/style.css')}"><script src="assets/app.js?v=${assetVersion('assets/app.js')}" defer></script>
 <meta property="og:type" content="article"><meta property="og:locale" content="zh_TW"><meta property="og:site_name" content="開源現場 · TOML 事件全紀錄"><meta property="og:title" content="${esc(data.title)}"><meta property="og:description" content="${esc(data.description)}"><meta property="og:url" content="${data.siteUrl}"><meta property="og:image" content="${data.siteUrl}assets/toml-chronicle-cover-v1.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="TOML 繁中翻譯爭議：#97、#98、#99 事件全紀錄"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(data.title)}"><meta name="twitter:description" content="${esc(data.description)}"><meta name="twitter:image" content="${data.siteUrl}assets/toml-chronicle-cover-v1.png"><meta name="twitter:image:alt" content="TOML 繁中翻譯爭議事件紀實專題">
 </head><body><a class="skip-link" href="#main">跳至主要內容</a><div class="reading-progress" aria-hidden="true"></div>
 <header class="masthead"><a href="#top" class="brand"><span class="brand-mark" aria-hidden="true">誌</span><span>開源現場<small>THE OPEN SOURCE RECORD</small></span></a><div class="masthead-right"><span>獨立紀實專題</span><a href="#sources">資料截至 2026.10.27 <span class="live-dot" aria-hidden="true"></span></a></div></header>
