@@ -1,0 +1,79 @@
+{
+  "title": "The dispute in one minute",
+  "status": "At the capture cutoffs: all three GitHub threads are closed, and translation PR #98 is unmerged.",
+  "items": [
+    {
+      "label": "The request",
+      "text": "On October 23, Will (doggy8088) proposed a Traditional Chinese locale and submitted translations plus shared-interface changes. He later disclosed AI assistance and said he had reviewed the work.",
+      "sources": [
+        {
+          "id": "proposal-98",
+          "label": "PR contents"
+        },
+        {
+          "id": "author-pushback",
+          "label": "The contributor’s explanation"
+        }
+      ]
+    },
+    {
+      "label": "The escalation",
+      "text": "arp242 first objected to agent-mediated submissions and closed the original issue and PR. The new issue #99 on October 25 was closed and locked after the maintainer linked the Facebook post and confronted the contributor.",
+      "sources": [
+        {
+          "id": "first-rejection",
+          "label": "First rejection"
+        },
+        {
+          "id": "facebook-confrontation",
+          "label": "Context of #99’s closure"
+        }
+      ]
+    },
+    {
+      "label": "The disagreement",
+      "text": "The contributor wants the result judged on quality; the maintainer expects carefully vetted human translations for the official site. Review evidence, maintenance costs, tone and wording extending suspicion to future zh-TW translations are also disputed.",
+      "sources": [
+        {
+          "id": "daniel-review",
+          "label": "Human-review argument"
+        },
+        {
+          "id": "maintainer-position",
+          "label": "The maintainer’s long reply"
+        }
+      ]
+    },
+    {
+      "label": "The responses",
+      "text": "Facebook contains support as well as criticism about integrity, public shaming and maintenance costs. In one reply, Will explicitly accepts criticism and acknowledges insufficient consideration; elsewhere he continues to prioritize result quality.",
+      "sources": [
+        {
+          "id": "fbs-1842774710238647",
+          "label": "Accepting criticism"
+        },
+        {
+          "id": "fbs-1845401693148981",
+          "label": "Position on results and tools"
+        }
+      ]
+    }
+  ],
+  "limit": "Public statements and recorded actions can be checked. This chronicle has not comprehensively reviewed the translations or resolved every allegation of deception, mobilization or discrimination.",
+  "links": [
+    {
+      "id": "timeline",
+      "label": "Read the full timeline"
+    },
+    {
+      "id": "questions",
+      "label": "Compare the arguments"
+    },
+    {
+      "id": "sources",
+      "label": "Check cutoffs and gaps"
+    }
+  ],
+  "language": "en",
+  "sourceEditorialSha256": "6872d1f0dc4dade5650716ea2201e9d2369b9ec32e68ef1ebe72db2b9df523f7"
+}

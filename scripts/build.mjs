@@ -2,10 +2,12 @@ import {readFileSync, mkdirSync, writeFileSync, cpSync, rmSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
+import {renderBrief} from './render-brief.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const assetVersion = file => createHash('sha256').update(readFileSync(path.join(root,file))).digest('hex').slice(0,12);
 const data = JSON.parse(readFileSync(path.join(root, 'data/chronicle.json'), 'utf8'));
+const brief = JSON.parse(readFileSync(path.join(root, 'data/brief.json'), 'utf8'));
 const {records} = data;
 const facebook = JSON.parse(readFileSync(path.join(root, 'data/facebook-comments.json'), 'utf8'));
 const facebookFollowup = JSON.parse(readFileSync(path.join(root, 'data/facebook-followup-comments.json'), 'utf8'));
@@ -22,8 +24,8 @@ const when = iso => `<time datetime="${esc(iso)}">${stamp(iso)}</time>`;
 const clock = iso => `<span class="utc-pair">臺灣 ${when(iso)}<span class="utc">UTC ${esc(new Date(iso).toISOString().replace('T',' ').replace('.000Z','').replace(/\.\d+Z$/,''))}</span></span>`;
 const paras = arr => arr.map(p=>`<p>${esc(p)}</p>`).join('');
 const kinds={opening:'主文',comment:'留言',review:'機器人審查總評',inline:'行內討論'};
-const navItems=[['overview','事件導讀'],['timeline','完整時間線'],['archive','逐則留言'],['questions','爭點對照'],['sources','資料與方法']];
-const navigation = () => navItems.map(([id,t],i)=>`<a href="#${id}"><span>0${i+1}</span>${t}</a>`).join('');
+const navItems=[['brief','懶人包'],['overview','事件導讀'],['timeline','完整時間線'],['archive','逐則留言'],['questions','爭點對照'],['sources','資料與方法']];
+const navigation = () => navItems.map(([id,t],i)=>`<a href="#${id}"><span>${String(i).padStart(2,'0')}</span>${t}</a>`).join('');
 
 function card(r,index) {
  return `<article class="record" id="${r.id}" data-record data-author="${esc(r.author)}" data-thread="${r.thread}">
@@ -101,11 +103,12 @@ const html=`<!doctype html>
 <meta property="og:type" content="article"><meta property="og:locale" content="zh_TW"><meta property="og:site_name" content="開源現場 · TOML 事件全紀錄"><meta property="og:title" content="${esc(data.title)}"><meta property="og:description" content="${esc(data.description)}"><meta property="og:url" content="${data.siteUrl}"><meta property="og:image" content="${data.siteUrl}assets/toml-chronicle-cover-v1.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="TOML 繁中翻譯爭議：#97、#98、#99 事件全紀錄"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(data.title)}"><meta name="twitter:description" content="${esc(data.description)}"><meta name="twitter:image" content="${data.siteUrl}assets/toml-chronicle-cover-v1.png"><meta name="twitter:image:alt" content="TOML 繁中翻譯爭議事件紀實專題">
 </head><body><a class="skip-link" href="#main">跳至主要內容</a><div class="reading-progress" aria-hidden="true"></div>
 <header class="masthead"><a href="#top" class="brand"><span class="brand-mark" aria-hidden="true">誌</span><span>開源現場<small>THE OPEN SOURCE RECORD</small></span></a><div class="masthead-right"><span>獨立紀實專題</span><a class="language-switch" data-language-switch href="en/" lang="en" hreflang="en" aria-label="Read the English edition">English</a><a href="#sources">資料截至 2026.10.27 <span class="live-dot" aria-hidden="true"></span></a></div></header>
-<main id="main"><section class="hero" id="top"><div class="hero-copy"><div class="eyebrow hero-eyebrow"><span class="red-line"></span>開源協作 × 在地化 × 人工智慧</div><h1>一份繁中翻譯，<br>如何成為<br><span>AI 貢獻爭議。</span></h1><p class="hero-deck">TOML 事件全紀錄</p><p class="hero-intro">從一個新增 <code>zh-TW</code> 的提案開始，<br class="desktop-break">爭論走向工具、品質、信任，以及開源協作的邊界。</p><div class="hero-links"><a class="primary-link" href="#overview">從事件開始讀 <span aria-hidden="true">↘</span></a><a class="quiet-link" href="#archive">查閱逐則留言 ↗</a></div></div>
+<main id="main"><section class="hero" id="top"><div class="hero-copy"><div class="eyebrow hero-eyebrow"><span class="red-line"></span>開源協作 × 在地化 × 人工智慧</div><h1>一份繁中翻譯，<br>如何成為<br><span>AI 貢獻爭議。</span></h1><p class="hero-deck">TOML 事件全紀錄</p><p class="hero-intro">從一個新增 <code>zh-TW</code> 的提案開始，<br class="desktop-break">爭論走向工具、品質、信任，以及開源協作的邊界。</p><div class="hero-links"><a class="primary-link" href="#brief">先看懶人包 <span aria-hidden="true">↘</span></a><a class="quiet-link" href="#archive">查閱逐則留言 ↗</a></div></div>
 <aside class="dossier" aria-label="三份核心紀錄"><div class="dossier-top"><span>THE CASE FILE</span><span>001 / TOML</span></div><div class="dossier-glyph" aria-hidden="true"><span>zh</span><span class="glyph-slash">/</span><span>TW</span><i></i></div><p class="dossier-caption">一種語言需求。<br>三份公開紀錄。</p><div class="case-rows">${threads.map(t=>`<a href="#thread-${t.id}" class="case-row"><strong>#${t.id}</strong><span>${t.label}<small>${t.state}</small></span><span aria-hidden="true">↗</span></a>`).join('')}</div><div class="dossier-footer"><span>2026.10.23 — 10.27</span><span>PUBLIC RECORD</span></div></aside></section>
 <div class="edition-strip"><span><b>03</b> GitHub 討論串</span><span><b>${searchableCount}</b> 篇逐則整理</span><span><b>10.23</b> 提案與 PR 建立</span><span><b>10.25</b> 第二份提案關閉、鎖定</span></div>
 <div class="article-shell"><aside class="toc"><span class="eyebrow">本篇導覽</span><nav aria-label="專題章節">${navigation()}</nav><div class="toc-note">先理解脈絡，<br>再回到每一則發言。<a href="#sources">整理方法與限制 ↗</a></div></aside><div class="article-column">
 <details class="mobile-toc"><summary>閱讀章節 <span aria-hidden="true">＋</span></summary><nav aria-label="手機專題章節">${navigation()}</nav></details>
+${renderBrief(brief)}
 <section class="chapter" id="overview"><header class="chapter-header"><span class="section-no">01 / CONTEXT</span><h2>爭議之前，<br>先看見那份貢獻。</h2><p class="chapter-deck">這不是只有一則回覆的故事。需求、提交內容與後續公開討論，構成了不同層次的問題。</p></header>
 <div class="prose"><p>TOML 是用於設定檔的文字格式；toml.io 提供規格與不同語言版本。2026 年 10 月 23 日，doggy8088（Will 保哥）為網站提出臺灣繁體中文語系，並送出首頁、兩版規格與介面調整的 PR。${link('https://toml.io/en/','TOML 官網 ↗')} ${local('proposal-97','查看提案')}</p>
 <p>專案成員 arp242 將第一份 issue 判斷為 LLM 提示詞，要求不要用 agent 提交；issue 與 PR 隨後關閉。作者承認 AI 協助，主張自己審閱並負責，希望按成果品質評估。兩天後再次提出的 issue，則在維護者引用 Facebook 貼文後遭關閉及鎖定。${local('first-rejection','第一則拒絕')} · ${local('facebook-confrontation','再次關閉的脈絡')}</p>

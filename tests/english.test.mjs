@@ -44,6 +44,13 @@ test('英文完整正文直接輸出 HTML，所有固定錨點與來源可到達
   for(const text of [...r.paragraphs,...r.notes])assert.ok(enHTML.includes(esc(text)),r.id);
  }
  for(const q of json('data/en/translation-context.json').questions)for(const f of q.findings)assert.ok(enHTML.includes(esc(f.text)),q.id);
+ for(const [html,name] of [[zhHTML,'data/brief.json'],[enHTML,'data/en/brief.json']]){
+  const brief=json(name);assert.ok(html.includes('id="brief"'));assert.ok(html.indexOf('id="brief"')<html.indexOf('id="overview"'));
+  for(const text of [brief.title,brief.status,brief.limit,...brief.items.map(x=>x.text)])assert.ok(html.includes(esc(text)));
+ }
+ const enBrief=json('data/en/brief.json'),zhBrief=json('data/brief.json');
+ assert.equal(enBrief.sourceEditorialSha256,createHash('sha256').update(readFileSync(path.join(root,'data/brief.json'))).digest('hex'));
+ assert.deepEqual(enBrief.items.map(x=>x.sources.map(s=>s.id)),zhBrief.items.map(x=>x.sources.map(s=>s.id)));
  const times=s=>[...s.matchAll(/data-timeline-time="([^"]+)"/g)].map(m=>m[1]);
  assert.deepEqual(times(enHTML),times(zhHTML));assert.equal(times(enHTML).length,28);
 });

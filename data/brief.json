@@ -1,0 +1,28 @@
+{
+  "title": "一分鐘看懂這場爭議",
+  "status": "截至資料截點：三個 GitHub 討論串均已關閉，翻譯 PR #98 未合併。",
+  "items": [
+    {
+      "label": "起點",
+      "text": "10/23，保哥（doggy8088）提出繁中語系並送出翻譯與共用介面調整。他後來承認 AI 協助，並自述已審閱。",
+      "sources": [{"id": "proposal-98", "label": "PR 內容"}, {"id": "author-pushback", "label": "作者說明"}]
+    },
+    {
+      "label": "升高",
+      "text": "arp242 先反對透過 agent 提交，關閉第一份 issue 與 PR。10/25 的新 issue #99，則在維護者引用 Facebook 貼文質問後遭關閉及鎖定。",
+      "sources": [{"id": "first-rejection", "label": "第一次拒絕"}, {"id": "facebook-confrontation", "label": "#99 關閉脈絡"}]
+    },
+    {
+      "label": "爭點",
+      "text": "作者希望按成果品質評估；維護者主張官方收錄經仔細驗證的人類翻譯。爭論也涉及審校證據、維護負擔、拒絕語氣，以及將懷疑擴及未來 zh-TW 譯稿的措辭。",
+      "sources": [{"id": "daniel-review", "label": "人工審校論點"}, {"id": "maintainer-position", "label": "維護者長回覆"}]
+    },
+    {
+      "label": "後續",
+      "text": "Facebook 回應包括支持，也包括對誠信、公審與維護成本的批評。保哥有一則明確接受批評、承認考慮不周的回覆；他在其他回覆中仍主張看成果品質。",
+      "sources": [{"id": "fbs-1842774710238647", "label": "接受批評"}, {"id": "fbs-1845401693148981", "label": "成果與工具立場"}]
+    }
+  ],
+  "limit": "可核實的是公開發言與處理結果；本站未完成譯文的全面品質審校，也未判定所有欺瞞、動員或歧視指控。",
+  "links": [{"id": "timeline", "label": "看完整時間線"}, {"id": "questions", "label": "比較各方論點"}, {"id": "sources", "label": "查閱截點與缺漏"}]
+}

@@ -22,6 +22,8 @@
 @media(max-width:740px){.facebook-method{padding:18px 17px;font-size:12px}.facebook-record.fb-depth-1{margin-left:12px;padding-left:12px}.facebook-record.fb-depth-2{margin-left:24px;padding-left:12px}.facebook-record .record-content h4{font-size:20px}.facebook-record .record-time{gap:8px}.facebook-record .record-bottom{gap:12px}.facebook-record .record-top{gap:7px}.facebook-group .thread-number{font-size:27px}}
 
 .masthead-right .language-switch{border:1px solid var(--rule);padding:6px 10px;color:var(--red);white-space:nowrap}
+.quick-digest .chapter-header{margin-bottom:20px}.digest-status{border-left:3px solid var(--red);background:var(--pale);padding:16px 20px;font-size:14px;font-weight:600;line-height:1.8}.digest-list{list-style:none;padding:0;margin:22px 0}.digest-list>li{display:grid;grid-template-columns:65px minmax(0,1fr);gap:20px;border-bottom:1px solid var(--rule);padding:18px 0}.digest-label{font-size:11px;font-weight:650;color:var(--red);padding-top:3px}.digest-list p{font:16px/1.9 var(--serif);margin:0 0 9px}.digest-limit{font-size:12px;line-height:1.9;color:var(--muted);margin:20px 0}.quick-digest>.archive-jumps{margin-bottom:0}
+@media(max-width:740px){.digest-status{padding:15px 16px;font-size:13px}.digest-list>li{grid-template-columns:1fr;gap:7px;padding:18px 0}.digest-list p{font-size:16px}.digest-label{padding-top:0}.digest-list .topic-links{gap:7px 16px}}
 html[lang="en"] .brand{letter-spacing:.01em;font-size:22px}
 html[lang="en"] h1{font-size:clamp(38px,4.1vw,59px);line-height:1.2}
 html[lang="en"] .hero-deck{letter-spacing:.02em}
