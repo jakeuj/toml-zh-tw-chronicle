@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-27T07:25:46Z",
+  "method": "以瀏覽器開啟讀者提供的三個 Facebook 分享連結，核對轉址後的公開貼文網址與可見文字正文。保留原始分享連結及移除追蹤參數的貼文網址。此次連結核對不更新既有留言清單的擷取截點。",
+  "posts": [
+    {
+      "id": "facebook-source-reopened-issue",
+      "title": "重發 issue 與 AI 工具立場",
+      "author": "Will 保哥的技術交流中心",
+      "shareUrl": "https://www.facebook.com/share/p/1F4qE2tXkF/",
+      "postUrl": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l",
+      "summary": "以 PR 被拒與再次提出 #99 為主題；作者表示兩次均有 AI 協助並經自行審閱，質疑一定要人工翻譯的理由。",
+      "coverage": "已整理原有截點的 18 則可讀留言／回覆；此次確認分享連結對應同一篇貼文。",
+      "archiveId": "facebook-comments",
+      "commentCount": 18
+    },
+    {
+      "id": "facebook-source-self-published",
+      "title": "自述全文校對，並另行發布繁中網站",
+      "author": "Will 保哥的技術交流中心",
+      "shareUrl": "https://www.facebook.com/share/p/1JvHwd93Y9/",
+      "postUrl": "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl",
+      "summary": "作者自述曾為數百個 repository 貢獻正體中文資源，這次因使用 AI 撰寫 PR 感到遭受歧視，主張譯文經過全文校對；並表示已另行發布翻譯網站，推測自己可能被列入黑名單。貢獻數量、品質、歧視與封鎖狀態均按其自述記錄，不能直接當作已證實事實。",
+      "coverage": "此次新增來源，已核對可見文字正文；附圖與留言尚未逐項查核，不納入既有 93 筆逐則紀錄，也不推定原專案已接受譯文。",
+      "archiveId": null,
+      "commentCount": null
+    },
+    {
+      "id": "facebook-source-reflection",
+      "title": "AI 標籤與開源貢獻的心情",
+      "author": "Will 保哥的技術交流中心",
+      "shareUrl": "https://www.facebook.com/share/p/14uADCj83tq/",
+      "postUrl": "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl",
+      "summary": "回應 GitHub 個人檔案被認為是 AI 生成的說法，回顧長年分享與開源投入，並談及尊重、負面互動及保護貢獻熱情。",
+      "coverage": "已整理原有截點的 59 則可讀留言／回覆，包含江柏漢主留言下的 13 則回覆。",
+      "archiveId": "facebook-followup-comments",
+      "commentCount": 59
+    }
+  ]
+}
