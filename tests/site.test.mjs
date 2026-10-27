@@ -9,7 +9,8 @@ const data=JSON.parse(read('data/chronicle.json'));
 const coverage=JSON.parse(read('data/coverage.json'));
 const facebook=JSON.parse(read('data/facebook-comments.json'));
 const followupFacebook=JSON.parse(read('data/facebook-followup-comments.json'));
-const totalRecords=data.records.length+facebook.items.length+followupFacebook.items.length;
+const selfPublishedFacebook=JSON.parse(read('data/facebook-self-published-comments.json'));
+const totalRecords=data.records.length+facebook.items.length+followupFacebook.items.length+selfPublishedFacebook.items.length;
 const html=read('dist/index.html');
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 test('來源覆蓋：逐則紀錄、空白 review 與原始 ID 不遺漏、不重複',()=>{
@@ -84,9 +85,31 @@ test('後續貼文五十九則完整呈現，不替不確定的父回覆補造 I
    assert.ok(parent,r.id);assert.equal(parent.rootId,r.rootId);assert.ok(Date.parse(parent.createdAt)<=Date.parse(r.createdAt));
   }
  }
- assert.equal(totalRecords,93);
+ assert.equal(totalRecords,144);
  assert.ok(html.includes('value="facebook-followup"'));
  assert.ok(!html.includes('貼文留言未作全量擷取'));
+});
+test('另行發布貼文保留可讀內容與計數差額，不補造已刪父留言',()=>{
+ assert.equal(selfPublishedFacebook.items.length,51);
+ assert.equal(selfPublishedFacebook.observedPageCount,58);
+ assert.equal(selfPublishedFacebook.observedPageCount-selfPublishedFacebook.loadedCount,7);
+ assert.equal(selfPublishedFacebook.items.filter(r=>!r.isReply).length,34);
+ assert.equal(selfPublishedFacebook.items.filter(r=>r.isReply).length,17);
+ assert.equal(selfPublishedFacebook.deletionNotices.length,6);
+ assert.equal(selfPublishedFacebook.items.filter(r=>r.deletedParentNotice).length,6);
+ assert.equal(new Set([...facebook.items,...followupFacebook.items,...selfPublishedFacebook.items].map(r=>r.sourceId)).size,128);
+ assert.equal(selfPublishedFacebook.items.find(r=>r.id==='fbs-1698424805407093').createdAt,'2026-10-26T00:00+08:00');
+ for(const r of selfPublishedFacebook.items){
+  assert.ok(html.includes(`id="${r.id}"`));assert.ok(html.includes(escape(r.url)));
+  assert.match(r.sourceTextSha256,/^[a-f0-9]{64}$/);
+  assert.match(r.createdAt,/T\d{2}:\d{2}\+08:00$/);
+  for(const p of r.paragraphs)assert.ok(html.includes(escape(p)),r.id);
+  assert.equal(r.parentId,null);
+  if(r.isReply){assert.ok(selfPublishedFacebook.items.some(x=>x.id===r.rootId&&!x.isReply));assert.equal(r.parentResolution,'root-thread-only');}
+ }
+ assert.ok(html.includes('value="facebook-self-published"'));
+ assert.ok(html.includes('差額 7 則未能對應來源 ID 或文字'));
+ assert.ok(!html.includes('附圖與留言尚未逐項查核'));
 });
 test('跨串時間線以時間排序，重要事件全數呈現',()=>{
  const times=[...html.matchAll(/data-timeline-time="([^"]+)"/g)].map(m=>Date.parse(m[1]));

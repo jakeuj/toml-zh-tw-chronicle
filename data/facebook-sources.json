@@ -20,9 +20,10 @@
       "shareUrl": "https://www.facebook.com/share/p/1JvHwd93Y9/",
       "postUrl": "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl",
       "summary": "作者自述曾為數百個 repository 貢獻正體中文資源，這次因使用 AI 撰寫 PR 感到遭受歧視，主張譯文經過全文校對；並表示已另行發布翻譯網站，推測自己可能被列入黑名單。貢獻數量、品質、歧視與封鎖狀態均按其自述記錄，不能直接當作已證實事實。",
-      "coverage": "此次新增來源，已核對可見文字正文；附圖與留言尚未逐項查核，不納入既有 93 筆逐則紀錄，也不推定原專案已接受譯文。",
-      "archiveId": null,
-      "commentCount": null
+      "coverage": "已整理本次可讀的 51 則留言／回覆，含 8 則附圖留言；頁面計數 58，差額 7 則未還原。主文附圖未另作逐項查核，也不推定上游已接受譯文。",
+      "archiveId": "facebook-self-published-comments",
+      "commentCount": 51,
+      "commentsCapturedAt": "2026-10-27T07:35:15Z"
     },
     {
       "id": "facebook-source-reflection",
