@@ -1,0 +1,526 @@
+{
+  "title": "一份繁中翻譯，如何成為 AI 貢獻爭議：TOML 事件全紀錄",
+  "description": "逐則整理 TOML 繁體中文翻譯提案 #97、PR #98 與後續 #99，對照各方說法、技術審查、Facebook 脈絡及公開紀錄。",
+  "siteUrl": "https://jakeuj.github.io/toml-zh-tw-chronicle/",
+  "repositoryUrl": "https://github.com/jakeuj/toml-zh-tw-chronicle",
+  "capturedAt": "2026-10-27T03:59:44.222707+00:00",
+  "externalCheckedAt": "2026-10-27T04:05:09.536524+00:00",
+  "records": [
+    {
+      "id": "proposal-97",
+      "sourceId": "issue:97",
+      "thread": "97",
+      "kind": "opening",
+      "author": "doggy8088",
+      "role": "提案者",
+      "createdAt": "2026-10-23T14:11:06Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/97",
+      "title": "一個繁體中文語系的提案",
+      "lead": "從臺灣用語的差異出發，提案同時涵蓋翻譯、語言標記與網站介面。",
+      "paragraphs": [
+        "doggy8088 指出，網站已有簡體中文 cn，但尚缺繁體中文。他以「檔案／文件」「資料／數據」「雜湊表／哈希表」「剖析／解析」為例，說明臺灣技術語彙與現有譯文有所不同；提案也提及香港、澳門的繁體中文讀者。這是提案者對使用需求的陳述，並非各地讀者偏好的調查結果。",
+        "具體作法是新增 tw 目錄，使用 zh-TW 語言標籤，提供語言名稱、首頁及 TOML v1.0.0、v1.1.0 兩版規格。他主張從英文翻譯，採用臺灣慣用術語，而非只將簡體字轉為繁體字。",
+        "提案也超出純文字翻譯：將目錄代碼對應到正確語言標籤、在地化發布日期與純文字版本連結，並使導覽列、GitHub 連結提示及手機選單可使用翻譯字串；未提供翻譯的語系則保留英文備援。生成內容另加入 lang 屬性。",
+        "驗收條件包括成功建置並產生 publish/tw/、既有語系照常顯示，以及保留英文規格中的要求強度，特別是 MUST、SHOULD、MAY 等規範用語。程式碼範例原則上不變，僅允許翻譯註解。"
+      ],
+      "context": null,
+      "notes": [
+        "以上為 issue 的需求與驗收主張；不代表本專題已重新建置原 PR 或完成整份譯文的語意審校。"
+      ],
+      "related": [],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "proposal-98",
+      "sourceId": "issue:98",
+      "thread": "98",
+      "kind": "opening",
+      "author": "doggy8088",
+      "role": "提案者",
+      "createdAt": "2026-10-23T14:11:30Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/pull/98",
+      "title": "PR 不只加入譯文，也動到共用模板",
+      "lead": "提案後 24 秒，PR #98 建立；提交內容包含八個檔案。",
+      "paragraphs": [
+        "PR 說明將 #97 設為欲解決的 issue，列出四份 tw 語系檔案，另修改 formatter、HTML 產生器及兩個共用模板。GitHub 的檔案清單可核對到八個異動檔案、2,260 行新增與 11 行刪除；這些是差異統計，不等同於翻譯字數。",
+        "作者表示譯文直接來自英文，採用臺灣用語，程式碼範例只翻譯註解；並聲稱標題、段落、程式碼區塊與連結數量與英文一致。他也說明每段維持單行，以避免產生 HTML 時在中日韓文字間插入空白。",
+        "介面方面，PR 將 tw 對應為 zh-TW，新增日期、文字版本與導覽字串的查詢機制，只有繁中提供新增介面的譯詞，其餘語系使用英文備援。模板則加入語言標記和字串替換位置，因此變更會接觸所有語系共用的頁面結構。",
+        "作者報告以 Node.js 腳本與 webpack 成功生成繁中首頁、latest 及兩版規格，並舉出語言選單、發布日期和導覽名稱的輸出。他表示已進行多輪獨立審閱，但瀏覽器工具無法連入本機伺服器，故改查生成的 HTML；這段文字沒有具名列出人工審校者。",
+        "PR 末段以可回復性和影響範圍描述合併風險，主張既有語系的文字輸出不變。後續 Copilot 審查針對的正是共用模板中的語言標記，並非對兩版繁中譯文作全面評分。"
+      ],
+      "context": null,
+      "notes": [
+        "本專題核對了差異清單與相關程式碼；建置成功、範例一致及多輪審閱仍按作者的說法呈現。"
+      ],
+      "related": [
+        "proposal-97",
+        "review-overview",
+        "review-language"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "first-rejection",
+      "sourceId": "comment:6367006796",
+      "thread": "97",
+      "kind": "comment",
+      "author": "arp242",
+      "role": "專案成員",
+      "createdAt": "2026-10-23T14:17:20Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367006796",
+      "title": "維護者將 issue 判定為 LLM 提示詞",
+      "lead": "arp242 反對透過 agent 提交，並在同一秒關閉 issue。",
+      "paragraphs": [
+        "arp242 的第一則回覆直接將提案描述為一段 LLM 提示詞，要求不要用 agent 提交 issue 和 PR。留言沒有逐項指出翻譯錯誤，也沒有列出可修改後重送的條件。",
+        "GitHub 事件紀錄顯示，留言與 #97 被以不規劃處理的理由關閉，時間同為 10 月 23 日 22:17:20。23 秒後，PR #98 也被同一帳號關閉，未合併。",
+        "可確認的是拒絕訊息針對 agent 提交方式。僅由這則短留言，無法確認維護者實際閱讀了哪些檔案，也不能據此推論專案反對所有繁體中文翻譯。"
+      ],
+      "context": "回應 #97 的原始提案。",
+      "notes": [],
+      "related": [
+        "proposal-97",
+        "proposal-98"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "author-pushback",
+      "sourceId": "comment:6367329551",
+      "thread": "97",
+      "kind": "comment",
+      "author": "doggy8088",
+      "role": "提案者",
+      "createdAt": "2026-10-23T14:32:52Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367329551",
+      "title": "作者承認 AI 輔助，要求依成果審查",
+      "lead": "作者願意負責、縮小範圍，也要求釐清拒絕標準。",
+      "paragraphs": [
+        "doggy8088 在關閉後回覆，重新解釋繁中用語差異與從英文翻譯的目的。他明確承認使用 AI 工具協助撰寫翻譯和 issue，並表示提交與承擔責任的人是自己。",
+        "他主張 PR 遵循 README 的新增語系步驟，另作少量語言標記調整；表示自己找不到禁止 AI 協助的貢獻政策，希望維護者提供依據。他認為 PR 未經內容審查就遭關閉，要求按貢獻本身判斷。",
+        "他表示可逐段與英文核對，歡迎繁中母語者審閱，亦可縮小到首頁與 v1.1.0。他詢問是否能重開 #98 或重新提交，以及拒絕究竟針對 AI 輔助本身，還是這份 PR 的具體問題。"
+      ],
+      "context": "回應維護者的第一則拒絕，並要求重開 PR #98。",
+      "notes": [
+        "「未經審查」是作者的判斷。公開紀錄可見 Copilot 已作技術審查；維護者是否私下閱讀內容則無從確認。",
+        "PR 基底版本的 README 確有新增語系步驟，未在該段提及 AI；這不證明專案其他管道或所有歷史版本都沒有相關規範。"
+      ],
+      "related": [
+        "first-rejection",
+        "review-overview"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "author-tools",
+      "sourceId": "comment:6368029375",
+      "thread": "97",
+      "kind": "comment",
+      "author": "doggy8088",
+      "role": "提案者",
+      "createdAt": "2026-10-23T15:07:26Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6368029375",
+      "title": "再一次說明：工具、責任與審查負擔",
+      "lead": "第二則回覆引入 Linux 郵件討論，並再次提出縮小工作範圍。",
+      "paragraphs": [
+        "作者先表示希望將討論拉回需求：現有簡中版本無法完整滿足臺灣與香港繁中讀者。他再次強調語彙差異，並將新增翻譯視為填補缺口的貢獻。",
+        "他把 AI 類比為編輯器、拼字檢查或翻譯程式，認為應檢視成果是否正確、是否遵循慣例，以及提交者是否願意負責。他再次提出與英文逐段比較、保留範例及接受母語者審閱。",
+        "這則留言連到 10 月 13 日的 Linux 核心郵件，作為工具使用觀點的參考。作者也承認維護者時間有限，願意減少範圍、自行通讀全文，或按對方提供的貢獻指南調整。",
+        "他最後重申：若存在禁止 AI 輔助的書面規則，自己會尊重；否則希望重新依內容品質評估。這是要求說明規則與重議決定，並未取得維護者接受新提案的承諾。"
+      ],
+      "context": "接續作者第一次申覆；未見其間有維護者的新回覆。",
+      "notes": [
+        "被引用的 Linux 郵件討論屬另一個專案，不能代替 TOML 專案的決策或政策。"
+      ],
+      "related": [
+        "author-pushback"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "shiki-localization",
+      "sourceId": "comment:6369145889",
+      "thread": "97",
+      "kind": "comment",
+      "author": "ShikiSuen",
+      "role": "討論參與者",
+      "createdAt": "2026-10-23T16:02:36Z",
+      "editedAt": "2026-10-27T02:47:18Z",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6369145889",
+      "title": "ShikiSuen 區分在地化與程式碼貢獻",
+      "lead": "他質疑以 AI 使用方式拒絕在地化的理由，也在後來編輯中交代撤回另一則回應。",
+      "paragraphs": [
+        "ShikiSuen 主張這次提交的是在地化內容，且提案者的母語為臺灣繁體中文、已自行預審。他認為，若僅以 LLM 提示詞為由拒絕這類貢獻，可能被理解為對特定自然語言使用者的歧視。",
+        "他也表示，不同工作類型使用 LLM 的合理性應有區別。關於提案者是否充分預審，以及拒絕是否構成歧視，均屬這位參與者的主張，本專題沒有將之當作獨立確定的事實。",
+        "目前版本末段說明，他已移除自己另一則回應，理由是有其他更好的留言處理這個情況。此留言的最後編輯時間為 10 月 27 日 10:47:18；發表時間則是 10 月 24 日 00:02:36。"
+      ],
+      "context": "回應 arp242 在 #97 的拒絕。",
+      "notes": [
+        "較早的搜尋快照末段曾是對留言消失的觀察；本頁正文以本次 GitHub API 取得的最新版本為準，差異另見資料與方法。"
+      ],
+      "related": [
+        "first-rejection"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "daniel-review",
+      "sourceId": "comment:6401075448",
+      "thread": "97",
+      "kind": "comment",
+      "author": "d4n1elchen",
+      "role": "討論參與者",
+      "createdAt": "2026-10-25T17:52:07Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6401075448",
+      "title": "d4n1elchen 強調人工審校的投入",
+      "lead": "他反對將「使用機器翻譯」與「沒有品質把關」畫上等號。",
+      "paragraphs": [
+        "d4n1elchen 引用機械翻譯可由讀者自行完成的說法，反駁機器翻譯足以取代在地化工作的理解。他認為，即使用 LLM，機器仍可能遺失文化細節；高品質譯文經過人工審校，依然需要大量時間。",
+        "他指出，翻譯產業在 LLM 出現前便已使用機器翻譯，因此工具的存在本身不能抹去人工投入。他認為未評估成果就把貢獻簡化成提示詞，過於輕率且不公平。",
+        "他主張若不接受 AI 輔助，應在貢獻指南寫明，避免貢獻者猜測規則而引起衝突。這則留言支持以審校品質與明確政策處理貢獻，沒有提供對本次兩版譯文的逐段審查報告。"
+      ],
+      "context": "發表於 #99 關閉之後，回應「讀者可自行機械翻譯」的論點。",
+      "notes": [],
+      "related": [
+        "maintainer-position"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "brlin-deescalation",
+      "sourceId": "comment:6402061966",
+      "thread": "97",
+      "kind": "comment",
+      "author": "brlin-tw",
+      "role": "討論參與者",
+      "createdAt": "2026-10-25T19:21:32Z",
+      "editedAt": "2026-10-25T19:32:08Z",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6402061966",
+      "title": "brlin-tw 同時批評提交方式與拒絕方式",
+      "lead": "以個人身分發言，他呼籲遵循既有慣例、提供可操作回饋，並讓爭議降溫。",
+      "paragraphs": [
+        "brlin-tw 自介為臺灣自由開源軟體在地化社群成員，並強調以個人身分發言。他不認同 doggy8088 的處理方式，認為即使專案未明文規範，也不應預設維護者歡迎 AI／LLM 生成的 issue 或 PR。",
+        "他引用俄文 #86、法文 #96、葡文 #65 三份翻譯 PR，認為這些提交不需要先開規格式 issue，說明也以必要資訊為主。他批評 #98 的長篇說明增加雜訊，使審查者質疑貢獻的真實性；他建議沒有明文規則時先觀察既有專案慣例。",
+        "他也批評把爭議帶到 Facebook 的作法，將之描述為接近群體施壓。他主張遇到倉促關閉時應先追問，即使升級處理，也可禮貌詢問其他維護者，社群平台應是最後手段。這是他對外部公開討論的評價，不是本頁對動員事實的認定。",
+        "另一方面，他要求 arp242 避免在缺乏可操作回饋或理由時關閉 PR，否則提交者無法理解期待、修改內容。他仍肯定 doggy8088 有貢獻的善意，希望雙方降溫並找出可接受的解法。",
+        "留言最後揭露：先在 HackMD 撰寫草稿，再由 LLM 協助校正文句。這使討論進一步觸及使用工具的具體階段與人工責任，而非只有是否使用 AI 的二分。"
+      ],
+      "context": "回應整起事件，兼論專案慣例、Facebook 擴散與維護者回饋。",
+      "notes": [
+        "原文引用的法文與葡文 PR 已合併；俄文 PR 截點時未合併。過往說明長短的比較，不足以單獨證明本次拒絕的全部原因。"
+      ],
+      "related": [
+        "proposal-98",
+        "maintainer-position"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "pcchou-publicity",
+      "sourceId": "comment:6406637764",
+      "thread": "97",
+      "kind": "comment",
+      "author": "pcchou",
+      "role": "討論參與者",
+      "createdAt": "2026-10-26T02:07:46Z",
+      "editedAt": "2026-10-26T02:07:56Z",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6406637764",
+      "title": "pcchou 支持對公開討論採取較公平的評價",
+      "lead": "他支持 d4n1elchen 的分析，也認為事件曝光可能讓更多人理解在地化。",
+      "paragraphs": [
+        "pcchou 自述是參與臺灣自由開源軟體社群至少十年的臺灣人，也曾以個人身分從事有償翻譯。他表明支持 d4n1elchen 的分析，並希望更公平地看待 doggy8088 將事件擴大公開討論的行為。",
+        "他認為，事件帶來的能見度可能有助於國際化、在地化和開放標準社群，讓知情旁觀者注意與判斷這類議題。這與 brlin-tw 對公開擴散方式的批評形成不同看法。",
+        "他沒有要求採取特定合併行動，也未提出可量化的曝光成效或本次譯文審查結果；網站因此將「有益宣傳」標示為發言者的評價。"
+      ],
+      "context": "明確支持 d4n1elchen，並對如何評價對外公開爭議提出不同意見。",
+      "notes": [],
+      "related": [
+        "daniel-review",
+        "brlin-deescalation"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "proposal-99",
+      "sourceId": "issue:99",
+      "thread": "99",
+      "kind": "opening",
+      "author": "doggy8088",
+      "role": "提案者",
+      "createdAt": "2026-10-25T12:48:46Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/99",
+      "title": "重新提案：縮短說明，詢問是否願意接受",
+      "lead": "#99 改以個人使用經驗切入，並提出從較小範圍開始。",
+      "paragraphs": [
+        "doggy8088 以臺灣讀者的身分表示經常查閱 toml.io，注意到網站有簡體中文、沒有繁體中文。他以檔案與資料等術語說明，問題並非只是字形轉換，現有用語對臺灣讀者可能造成距離感。",
+        "他表示已在自己的 fork 從英文翻譯首頁及 v1.0.0、v1.1.0，也以母語者身分自行通讀，程式碼範例除註解外不變。他詢問維護者是否願意接受 PR，亦可先從首頁與 v1.1.0 開始。",
+        "他說明若因維護成本不想增加語系，自己可以理解。相較於 #97，這次主文更短，沒有詳列技術驗收條件，也未在主文提到 AI；但不能僅由文字形式判定是否試圖隱瞞，需連同公開 Facebook 貼文與後續各方說法閱讀。"
+      ],
+      "context": null,
+      "notes": [
+        "這是新的 issue，不是 #98 被重開；截至截點，#98 仍然關閉且未合併。"
+      ],
+      "related": [
+        "proposal-97",
+        "author-tools"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "ddman-localization",
+      "sourceId": "comment:6398226230",
+      "thread": "99",
+      "kind": "comment",
+      "author": "ddman",
+      "role": "討論參與者",
+      "createdAt": "2026-10-25T13:26:46Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398226230",
+      "title": "ddman：在地化牽涉文化與日常術語",
+      "lead": "第一則回覆以英文與中文重述支持新增繁中版本的理由。",
+      "paragraphs": [
+        "ddman 表示支持，認為繁體中文讀者的需求不只關乎字形轉換或能否辨讀，而是文化脈絡與在地化的技術術語。他認為使用與日常技術環境不同的譯詞，會增加閱讀摩擦。",
+        "他提到臺灣以外的香港、東南亞部分地區及全球繁中開發者，主張道地的繁中文件有實際價值，並希望維護者考慮接受貢獻。留言先以英文表達，再用中文重述同一組理由。",
+        "此留言支持新增語系的需求，並未提供整份譯文的品質驗證，也沒有對 AI 使用政策提出具體方案。"
+      ],
+      "context": "回應 #99 的繁中需求提案。",
+      "notes": [],
+      "related": [
+        "proposal-99"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "facebook-confrontation",
+      "sourceId": "comment:6398588114",
+      "thread": "99",
+      "kind": "comment",
+      "author": "arp242",
+      "role": "專案成員",
+      "createdAt": "2026-10-25T14:01:36Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398588114",
+      "title": "維護者貼出 Facebook 連結並質問作者",
+      "lead": "這則回覆與 #99 的關閉發生在同一秒，十秒後討論被鎖定。",
+      "paragraphs": [
+        "arp242 貼出 Will 保哥的技術交流中心一則 Facebook 貼文連結，接著重複質問對方出了什麼問題。這則簡短回覆沒有列出新增繁中語系的技術條件，語氣轉為直接針對提交者。",
+        "被連結的公開貼文提到先前 PR 因使用 Claude Code 而遭拒，作者稱對方未看未審；也表示再次使用 AI 撰寫較像人類口吻的 issue、自己已有審閱，並質疑一定要人工翻譯的理由。原貼文連到 #99。",
+        "紀錄顯示，#99 於 10 月 25 日 22:01:36 關閉，22:01:46 由 toml-lang 帳號鎖定，僅協作者可繼續留言。鎖定後 arp242 仍在 22:18:53 發表下一則回覆，這與協作者可發言的狀態一致。"
+      ],
+      "context": "回應者直接引用公開 Facebook 貼文，將社群平台上的討論帶回 issue。",
+      "notes": [
+        "可讀的貼文本身沒有明文要求讀者湧入 GitHub；這不足以證明所有其他貼文、留言或私下聯繫的情況。"
+      ],
+      "related": [
+        "proposal-99",
+        "maintainer-position"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "maintainer-position",
+      "sourceId": "comment:6398776847",
+      "thread": "99",
+      "kind": "comment",
+      "author": "arp242",
+      "role": "專案成員",
+      "createdAt": "2026-10-25T14:18:53Z",
+      "editedAt": "2026-10-25T14:24:03Z",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847",
+      "title": "維護者說明：接受語言，拒絕這種貢獻方式",
+      "lead": "他區分語系與提交方式，同時對作者與支持者使用貶抑措辭。",
+      "paragraphs": [
+        "arp242 明確表示不反對繁體中文，其他語言也可以新增。他將先前提案形容為人類代替 AI 轉交內容，使用 meat proxy 一詞；並指控作者在 Facebook 向支持者煽動不滿，認為這次重提只是在掩飾同一作法。",
+        "他接著主張，若只需要機械翻譯，讀者可使用免費工具或瀏覽器內建功能；他期待 toml.io 收錄經仔細驗證、準確的人類翻譯。這是本串中對可接受翻譯方式較明確的一次說明。",
+        "他以 AI slop 等負面措辭批評 AI 譯文，並指控對方及支持者對不誠實行為無所謂，表示這次事件會使後續 zh-TW 貢獻受到懷疑。這些對誠信、動員與未來貢獻的推論是他的指控及評價，不是本專題已證實的結論。",
+        "這則回覆使爭議同時涵蓋工具、品質標準、信任及對外公開討論。其對讀者文化差異與人工審校投入的理解，也引來 #97 後續參與者的反駁；但截至截點，未見重新開啟三個討論串或接受本次 PR。"
+      ],
+      "context": "在 #99 關閉、鎖定後補充立場；後來曾編輯。",
+      "notes": [
+        "截至截點，公開討論沒有足以判定所有動員或說謊指控的完整證據。也不能將這則個別成員的回覆自動等同於專案全體通過的正式政策。"
+      ],
+      "related": [
+        "facebook-confrontation",
+        "daniel-review",
+        "brlin-deescalation"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "review-overview",
+      "sourceId": "review:5629499481",
+      "thread": "98",
+      "kind": "review",
+      "author": "copilot-pull-request-reviewer[bot]",
+      "role": "自動審查工具",
+      "createdAt": "2026-10-23T14:15:23Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/pull/98#pullrequestreview-5629499481",
+      "title": "Copilot 審查總評：英文備援字串的語言標記",
+      "lead": "自動審查提出一項無障礙問題，並列出八個異動檔案。",
+      "paragraphs": [
+        "Copilot 的總評建議修改，指出英文備援介面可能繼承非英文的 lang 標籤，導致螢幕閱讀器以錯誤語言發音。它連到一則具體的行內意見。",
+        "總評另概述新增首頁、兩版規格、語系映射及模板變更，列出八個檔案。這是自動產生的變更摘要與技術意見，不是人工母語審校，也沒有認證整份翻譯的語意或可讀性。"
+      ],
+      "context": null,
+      "notes": [],
+      "related": [
+        "proposal-98",
+        "review-language"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "review-language",
+      "sourceId": "inline:4360491030",
+      "thread": "98",
+      "kind": "inline",
+      "author": "Copilot",
+      "role": "自動審查工具",
+      "createdAt": "2026-10-23T14:15:23Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360491030",
+      "title": "行內意見：頁面語言不一定等於介面字串語言",
+      "lead": "問題出在現有非英文語系的英文備援，以及選單與語言選單的標記。",
+      "paragraphs": [
+        "Copilot 在導覽模板指出，新增的 lang 屬性表示頁面語系，但新查詢函式對既有非英文語系可能回傳英文。若英文標籤被包在 zh-CN 等語言的容器，螢幕閱讀器可能選錯發音；手機選單也有相同情況。",
+        "建議作法是保留翻譯內容的語言標記，讓每個介面字串同時攜帶實際使用的語言，英文備援明確標記為英文；語言選單中的各語言名稱則分別標記。",
+        "行內意見與上方總評是同一次審查的兩種呈現。這裡分別記錄原始物件，但不將它們當成兩次獨立的品質判斷。"
+      ],
+      "context": "對應共用導覽模板第一行，審查的提交為 b9bd601。",
+      "notes": [],
+      "related": [
+        "review-overview",
+        "review-response"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    },
+    {
+      "id": "review-response",
+      "sourceId": "inline:4360774614",
+      "thread": "98",
+      "kind": "inline",
+      "author": "doggy8088",
+      "role": "提案者",
+      "createdAt": "2026-10-23T14:42:29Z",
+      "editedAt": null,
+      "url": "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360774614",
+      "title": "作者回覆已修正；提交存在，PR 未包含它",
+      "lead": "修正提交接在原始提交之後，但當前 PR 清單仍只有原始版本。",
+      "paragraphs": [
+        "doggy8088 回覆已在 83dd824 修正：各介面標籤使用實際語言，英文備援標為 en、繁中標為 zh-TW；移除導覽外層語言標記，手機選單同樣處理，語言選單各項則依自身語言標示。規格內容容器仍保留頁面語言。",
+        "本專題另查得完整修正提交 83dd824cc5581e89ef853ca07221ee5b6ca4219d，時間為 10 月 23 日 22:42:18，父提交就是原 PR 的 b9bd601。可核對到該修正確實存在，而不只是留言中的承諾。",
+        "然而，截點時 PR #98 的 head 仍為 b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f，提交清單也只有這一筆。因此不能寫成修正已推入本 PR，或 Copilot 已重新確認通過。作者回覆時間晚於 PR 關閉。",
+        "API 同時記錄一個由作者提交、沒有獨立總評文字的 review 物件。它與這則回覆時間相同，本頁記在覆蓋清單中，歸入此回覆脈絡，不另算一篇有文字的留言。"
+      ],
+      "context": "回覆 Copilot 的行內意見，in_reply_to_id 為 4360491030。",
+      "notes": [
+        "此處已查核修正提交及父提交關係；本專題未執行原專案的無障礙或翻譯驗收。"
+      ],
+      "related": [
+        "review-language"
+      ],
+      "verification": "來源可核對；發言內容屬當事人說法，另列查核註記"
+    }
+  ],
+  "events": [
+    {
+      "id": "event-34059377496",
+      "sourceId": "event:34059377496",
+      "thread": "97",
+      "createdAt": "2026-10-23T14:17:20Z",
+      "author": "arp242",
+      "title": "提案被關閉",
+      "summary": "arp242 將 #97 以「不規劃處理」關閉。",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#event-34059377496"
+    },
+    {
+      "id": "event-34058851533",
+      "sourceId": "event:34058851533",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:11:33Z",
+      "author": "doggy8088",
+      "title": "請求 Copilot 審查",
+      "summary": "依自動審查設定請求 Copilot；不是維護者的人工審查。",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#event-34058851533"
+    },
+    {
+      "id": "event-34058901763",
+      "sourceId": "event:34058901763",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:12:07Z",
+      "author": "doggy8088",
+      "title": "Copilot 開始審查",
+      "summary": "GitHub 記錄自動審查工作開始。",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#event-34058901763"
+    },
+    {
+      "id": "event-34059411449",
+      "sourceId": "event:34059411449",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:17:43Z",
+      "author": "arp242",
+      "title": "PR 關閉、未合併",
+      "summary": "arp242 關閉 #98；沒有附上另一則一般 PR 留言。",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#event-34059411449"
+    },
+    {
+      "id": "event-34185279231",
+      "sourceId": "event:34185279231",
+      "thread": "99",
+      "createdAt": "2026-10-25T14:01:36Z",
+      "author": "arp242",
+      "title": "第二份 issue 被關閉",
+      "summary": "arp242 將 #99 以「不規劃處理」關閉。",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#event-34185279231"
+    },
+    {
+      "id": "event-34185286539",
+      "sourceId": "event:34185286539",
+      "thread": "99",
+      "createdAt": "2026-10-25T14:01:46Z",
+      "author": "toml-lang",
+      "title": "討論限協作者發言",
+      "summary": "toml-lang 鎖定 #99；十秒前該 issue 剛被關閉。",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#event-34185286539"
+    }
+  ],
+  "extraEvents": [
+    {
+      "id": "commit-original",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:11:04Z",
+      "author": "doggy8088",
+      "title": "原始翻譯提交建立",
+      "summary": "b9bd601：新增繁中規格、首頁與共用模板調整。",
+      "url": "https://github.com/toml-lang/toml.io/commit/b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f"
+    },
+    {
+      "id": "commit-fix",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:42:18Z",
+      "author": "doggy8088",
+      "title": "另一筆修正提交建立",
+      "summary": "83dd824 修正英文備援的語言標記；當前 PR 未包含此提交。",
+      "url": "https://github.com/toml-lang/toml.io/commit/83dd824cc5581e89ef853ca07221ee5b6ca4219d"
+    }
+  ],
+  "historical": {
+    "id": "historical-shiki",
+    "date": "2026-10-25",
+    "author": "ShikiSuen",
+    "url": "https://github.com/toml-lang/toml.io/issues/97",
+    "status": "較早搜尋頁快照可見；本次 API 留言清單已無此則",
+    "paragraphs": [
+      "較早的頁面快照另見 ShikiSuen 向 mojombo、BurntSushi 與 pradyunsg 呼籲討論在地化貢獻策略。他質疑當時拒絕方式是否代表團隊共識，擔心後續繁中人工翻譯也受牽連，建議建立貢獻指南；同時承認 doggy8088 的策略有可議之處，希望事件降溫。",
+      "在該快照中，他也主張 doggy8088 並未要求 Facebook 追隨者湧入 GitHub，認為讀者的不滿與維護者的敵意有關；他質疑這些決定是否經其他維護者討論，並自述原本想邀請人工翻譯志工，但對方已感到卻步。這些是快照中發言者的說法，沒有據此認定團隊內部溝通、所有社群互動或志工的實際情況。",
+      "這段屬歷史補充，不在目前可讀留言總數內。快照只提供日期，未取得原留言 ID 與精確發表時間，故不插入按秒排序的現行時間線。現有紀錄不足以判定撤除者與時間；另一則現存留言雖提到作者自行移除回應，仍不能單憑它確定就是同一則。"
+    ]
+  }
+}

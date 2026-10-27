@@ -1,0 +1,218 @@
+{
+  "capturedAt": "2026-10-27T03:59:44.222707+00:00",
+  "repository": "toml-lang/toml.io",
+  "items": [
+    {
+      "sourceId": "issue:97",
+      "representedBy": "proposal-97",
+      "url": "https://github.com/toml-lang/toml.io/issues/97",
+      "author": "doggy8088",
+      "createdAt": "2026-10-23T14:11:06Z",
+      "bodySha256": "07a1aff46ce513a04d27eaefcf3904a2c42bf66a1a9353c0a2559d262b5ee224"
+    },
+    {
+      "sourceId": "issue:98",
+      "representedBy": "proposal-98",
+      "url": "https://github.com/toml-lang/toml.io/pull/98",
+      "author": "doggy8088",
+      "createdAt": "2026-10-23T14:11:30Z",
+      "bodySha256": "801bd0d3bf94d0e28cbbd8f7d517234ce072d2779085c5e5c3edd4990cb5a1d4"
+    },
+    {
+      "sourceId": "comment:6367006796",
+      "representedBy": "first-rejection",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367006796",
+      "author": "arp242",
+      "createdAt": "2026-10-23T14:17:20Z",
+      "bodySha256": "6e530926ca235acd11127a54ddfcc3b4ae5653b76c9302a92d979e0fb739bc1f"
+    },
+    {
+      "sourceId": "comment:6367329551",
+      "representedBy": "author-pushback",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367329551",
+      "author": "doggy8088",
+      "createdAt": "2026-10-23T14:32:52Z",
+      "bodySha256": "dbb7c8fc520ee2a134694c6351e6f5324706a9ed6ebc8406613533aa202e28ea"
+    },
+    {
+      "sourceId": "comment:6368029375",
+      "representedBy": "author-tools",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6368029375",
+      "author": "doggy8088",
+      "createdAt": "2026-10-23T15:07:26Z",
+      "bodySha256": "9c924f4ec88c82156c46b3177442a535dd44a4979b0d874c50deb6301f94c31f"
+    },
+    {
+      "sourceId": "comment:6369145889",
+      "representedBy": "shiki-localization",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6369145889",
+      "author": "ShikiSuen",
+      "createdAt": "2026-10-23T16:02:36Z",
+      "bodySha256": "90d3117af373a2c914751dc7592961683074edf75c4ed5a3f27af18123903cd7"
+    },
+    {
+      "sourceId": "comment:6401075448",
+      "representedBy": "daniel-review",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6401075448",
+      "author": "d4n1elchen",
+      "createdAt": "2026-10-25T17:52:07Z",
+      "bodySha256": "b7089265cf5a8941602574eb91e10671e641ba8f044640bb282a30b4978502a5"
+    },
+    {
+      "sourceId": "comment:6402061966",
+      "representedBy": "brlin-deescalation",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6402061966",
+      "author": "brlin-tw",
+      "createdAt": "2026-10-25T19:21:32Z",
+      "bodySha256": "8f9ad8b93162aa7de80de04f406bc4e96afd8bf1dd5070f308fa1f342ef3f433"
+    },
+    {
+      "sourceId": "comment:6406637764",
+      "representedBy": "pcchou-publicity",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6406637764",
+      "author": "pcchou",
+      "createdAt": "2026-10-26T02:07:46Z",
+      "bodySha256": "40c49ecb32cb936c297bcbfdea0f565c0f11f46edf6a428e289a6dcf098fb1d5"
+    },
+    {
+      "sourceId": "issue:99",
+      "representedBy": "proposal-99",
+      "url": "https://github.com/toml-lang/toml.io/issues/99",
+      "author": "doggy8088",
+      "createdAt": "2026-10-25T12:48:46Z",
+      "bodySha256": "577b24301233fe96862c03d26ac1493047de61ac34c6a62a5cdc3cae2dc50733"
+    },
+    {
+      "sourceId": "comment:6398226230",
+      "representedBy": "ddman-localization",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398226230",
+      "author": "ddman",
+      "createdAt": "2026-10-25T13:26:46Z",
+      "bodySha256": "a270d4a22794da27563c8b6349aafbaba2f5c9e6d2876fffd78380951432dd97"
+    },
+    {
+      "sourceId": "comment:6398588114",
+      "representedBy": "facebook-confrontation",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398588114",
+      "author": "arp242",
+      "createdAt": "2026-10-25T14:01:36Z",
+      "bodySha256": "ce44f96c33c7f5b2b796542ee48a6cdb32e869c052c02b471aac2332269f3d8e"
+    },
+    {
+      "sourceId": "comment:6398776847",
+      "representedBy": "maintainer-position",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847",
+      "author": "arp242",
+      "createdAt": "2026-10-25T14:18:53Z",
+      "bodySha256": "58007bf2b4c67338a22636f202ff224a20e09aed5e7470d3ed285fc9730ec365"
+    },
+    {
+      "sourceId": "review:5629499481",
+      "representedBy": "review-overview",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#pullrequestreview-5629499481",
+      "author": "copilot-pull-request-reviewer[bot]",
+      "createdAt": "2026-10-23T14:15:23Z",
+      "bodySha256": "70d8fc342abde168622731bb7d70f5971b786b49bdda27a3da607b891291d3ed"
+    },
+    {
+      "sourceId": "inline:4360491030",
+      "representedBy": "review-language",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360491030",
+      "author": "Copilot",
+      "createdAt": "2026-10-23T14:15:23Z",
+      "bodySha256": "3735e907cecc6d259088677d881dc9b7a831eb11f75846c7741fb22527e3fcf6"
+    },
+    {
+      "sourceId": "inline:4360774614",
+      "representedBy": "review-response",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360774614",
+      "author": "doggy8088",
+      "createdAt": "2026-10-23T14:42:29Z",
+      "bodySha256": "393901f666122fbcda7c0272b34f38be821eab678de4bb7833cc16a0aefd04c1"
+    },
+    {
+      "sourceId": "review:5629883300",
+      "representedBy": "review-response",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#pullrequestreview-5629883300",
+      "author": "doggy8088",
+      "createdAt": "2026-10-23T14:42:29Z",
+      "bodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "emptyBody": true
+    }
+  ],
+  "events": [
+    {
+      "id": "event-34059377496",
+      "sourceId": "event:34059377496",
+      "thread": "97",
+      "createdAt": "2026-10-23T14:17:20Z",
+      "author": "arp242",
+      "title": "提案被關閉",
+      "summary": "arp242 將 #97 以「不規劃處理」關閉。",
+      "url": "https://github.com/toml-lang/toml.io/issues/97#event-34059377496"
+    },
+    {
+      "id": "event-34058851533",
+      "sourceId": "event:34058851533",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:11:33Z",
+      "author": "doggy8088",
+      "title": "請求 Copilot 審查",
+      "summary": "依自動審查設定請求 Copilot；不是維護者的人工審查。",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#event-34058851533"
+    },
+    {
+      "id": "event-34058901763",
+      "sourceId": "event:34058901763",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:12:07Z",
+      "author": "doggy8088",
+      "title": "Copilot 開始審查",
+      "summary": "GitHub 記錄自動審查工作開始。",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#event-34058901763"
+    },
+    {
+      "id": "event-34059411449",
+      "sourceId": "event:34059411449",
+      "thread": "98",
+      "createdAt": "2026-10-23T14:17:43Z",
+      "author": "arp242",
+      "title": "PR 關閉、未合併",
+      "summary": "arp242 關閉 #98；沒有附上另一則一般 PR 留言。",
+      "url": "https://github.com/toml-lang/toml.io/pull/98#event-34059411449"
+    },
+    {
+      "id": "event-34185279231",
+      "sourceId": "event:34185279231",
+      "thread": "99",
+      "createdAt": "2026-10-25T14:01:36Z",
+      "author": "arp242",
+      "title": "第二份 issue 被關閉",
+      "summary": "arp242 將 #99 以「不規劃處理」關閉。",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#event-34185279231"
+    },
+    {
+      "id": "event-34185286539",
+      "sourceId": "event:34185286539",
+      "thread": "99",
+      "createdAt": "2026-10-25T14:01:46Z",
+      "author": "toml-lang",
+      "title": "討論限協作者發言",
+      "summary": "toml-lang 鎖定 #99；十秒前該 issue 剛被關閉。",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#event-34185286539"
+    }
+  ],
+  "counts": {
+    "openings": 3,
+    "issueComments": 10,
+    "inlineComments": 2,
+    "reviewsWithText": 1,
+    "emptyReviews": 1
+  },
+  "prHead": "b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f",
+  "prCommitShas": [
+    "b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f"
+  ],
+  "fixCommit": "83dd824cc5581e89ef853ca07221ee5b6ca4219d",
+  "fixParent": "b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f"
+}
