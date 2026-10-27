@@ -2,7 +2,7 @@
 
 獨立繁體中文紀實專題，逐則整理 `toml-lang/toml.io` 的 Issue #97、PR #98 與 Issue #99，以及直接相關的公開外部脈絡。
 
-**網站：<https://jakeuj.github.io/toml-zh-tw-chronicle/>**
+**網站：<https://blog.jakeuj.com/toml-zh-tw-chronicle/>**
 
 本文採中立紀實方向，分開呈現可查核的紀錄、發言者主張與尚無法確認的問題。這不是 TOML 官方網站，也不是兩版翻譯的全面品質認證。資料截點與限制見網站「資料與方法」。網站由 jakeuj 委託 Codex 協作整理、製作與發布；不宣稱完成具名人工語言審校。
 
