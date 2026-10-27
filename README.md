@@ -26,6 +26,16 @@ npm run preview
 
 正文在建置時寫入 HTML；不執行 JavaScript 仍能閱讀全部內容。JavaScript 增加搜尋、作者／討論串篩選、複製錨點與閱讀位置提示，不在訪客端呼叫 GitHub API。
 
+## 閱讀設定
+
+正文預設使用 20px 黑體、1.85 行高，大標題保留明體。使用系統字型：Apple 平台優先蘋方，Windows 備援微軟正黑體 UI／微軟正黑體，沒有額外下載字型。實際字型仍取決於裝置安裝情況。
+
+懶人包前的共用閱讀設定提供黑體／明體、18／20／22／24 四級字體與恢復預設。字級使用 `rem`，瀏覽器預設 16px 時對應上述尺寸；仍尊重使用者的預設字級與頁面縮放。註記至少 16px、輔助標籤至少 14px，並隨選定字級放大。
+
+`assets/reading-settings.js` 在樣式前讀取 `localStorage` 的 `toml-chronicle.reading.v1`，中英文共用偏好；恢復預設只清除此鍵。儲存受限時仍可在目前頁面調整，並顯示無法儲存的提示。停用 JavaScript 時使用預設字體與字級，隱藏設定控制項。`assets/reading.css` 集中管理閱讀樣式，兩種語言共用 `scripts/render-reading-settings.mjs` 元件。
+
+本次瀏覽器驗證環境為 Mac；窄螢幕檢查不代表已在 Windows 實機驗證。Windows 字型實際呈現仍待讀者提供截圖回驗。
+
 ## 內容與更新
 
 - `data/brief.json`：首頁懶人包的四項重點、截至截點的結果、查核限制與來源錨點；英文對應檔為 `data/en/brief.json`。
