@@ -1,0 +1,2793 @@
+{
+  "zh": {
+    "ids": [
+      "main",
+      "top",
+      "brief",
+      "brief-title",
+      "overview",
+      "followup-reflection",
+      "timeline",
+      "archive",
+      "search",
+      "author",
+      "thread",
+      "result-count",
+      "thread-97",
+      "proposal-97",
+      "first-rejection",
+      "author-pushback",
+      "author-tools",
+      "shiki-localization",
+      "daniel-review",
+      "brlin-deescalation",
+      "pcchou-publicity",
+      "thread-98",
+      "proposal-98",
+      "review-overview",
+      "review-language",
+      "review-response",
+      "thread-99",
+      "proposal-99",
+      "ddman-localization",
+      "facebook-confrontation",
+      "maintainer-position",
+      "facebook-comments",
+      "thread-facebook",
+      "fb-1895440511836418",
+      "fb-1153848950926302",
+      "fb-1142861922010708",
+      "fb-1010006622125930",
+      "fb-1096829016309549",
+      "fb-1645821010888841",
+      "fb-1425740689091000",
+      "fb-1436487435329862",
+      "fb-1841948403603836",
+      "fb-994431642963162",
+      "fb-1636187431320874",
+      "fb-1423904753272004",
+      "fb-1111411041689827",
+      "fb-1425758755759536",
+      "fb-2311514916273451",
+      "fb-4378748772435591",
+      "fb-1363891813478154",
+      "fb-1845649283450119",
+      "facebook-self-published-comments",
+      "thread-facebook-self-published",
+      "fbs-1501969721979417",
+      "fbs-4100467020248772",
+      "fbs-1147729691258440",
+      "fbs-1515556433756116",
+      "fbs-2330886287681365",
+      "fbs-1080532691709094",
+      "fbs-1698424805407093",
+      "fbs-1105923902147153",
+      "fbs-1127335559768205",
+      "fbs-1876884577096148",
+      "fbs-2675957632857546",
+      "fbs-1663061218690738",
+      "fbs-1072839382405764",
+      "fbs-1607221117700776",
+      "fbs-2457008624793229",
+      "fbs-1156380690157660",
+      "fbs-1089625803698815",
+      "fbs-1335615888651784",
+      "fbs-1082483261296202",
+      "fbs-1928419341897870",
+      "fbs-1796707804877585",
+      "fbs-1870331227651057",
+      "fbs-1744764544322603",
+      "fbs-1594983742402771",
+      "fbs-1873534790315821",
+      "fbs-1113523464910570",
+      "fbs-1455761273175968",
+      "fbs-1676881460722767",
+      "fbs-1710955860816863",
+      "fbs-996669762914408",
+      "fbs-1118001904053217",
+      "fbs-2156030659124136",
+      "fbs-1500466428581967",
+      "fbs-1472451058136180",
+      "fbs-1461778155830897",
+      "fbs-29025024027138512",
+      "fbs-1802822527422191",
+      "fbs-1827492768399938",
+      "fbs-1163867776204673",
+      "fbs-1736859784047759",
+      "fbs-1074828772272358",
+      "fbs-1143471691670108",
+      "fbs-4070944953207406",
+      "fbs-1681901193550291",
+      "fbs-4545139285727276",
+      "fbs-1029603240167492",
+      "fbs-1131301483188107",
+      "fbs-1845401693148981",
+      "fbs-1842774710238647",
+      "fbs-4816464751908537",
+      "fbs-1107182212033345",
+      "facebook-followup-comments",
+      "thread-facebook-followup",
+      "fbf-1163842863023402",
+      "fbf-1425239149719450",
+      "fbf-940143578919574",
+      "fbf-1376765501200741",
+      "fbf-1655512566358258",
+      "fbf-2665072870620551",
+      "fbf-1832777904721121",
+      "fbf-900419679728246",
+      "fbf-2076514799663679",
+      "fbf-1182038630830919",
+      "fbf-976700714914814",
+      "fbf-1839510410653976",
+      "fbf-1601189524493912",
+      "fbf-989348290192078",
+      "fbf-1107389802148573",
+      "fbf-1105947282033160",
+      "fbf-975943071676349",
+      "fbf-2238280693756950",
+      "fbf-1601376431013300",
+      "fbf-3429366483936745",
+      "fbf-1778276309957565",
+      "fbf-2193797354873350",
+      "fbf-1614433930479473",
+      "fbf-1128929252951850",
+      "fbf-1427154999576829",
+      "fbf-2323276165160721",
+      "fbf-1673015054482438",
+      "fbf-1780223096426177",
+      "fbf-1141923698277487",
+      "fbf-1602712801333676",
+      "fbf-1764208124698267",
+      "fbf-1674860230851111",
+      "fbf-1450152280378798",
+      "fbf-1023501800777839",
+      "fbf-1521808349994531",
+      "fbf-2224269502304135",
+      "fbf-1126219983220937",
+      "fbf-4540075556235297",
+      "fbf-1508052698096690",
+      "fbf-1836198694060094",
+      "fbf-1592947895920568",
+      "fbf-1110667958618704",
+      "fbf-1120237167379382",
+      "fbf-1124065903658710",
+      "fbf-1651437983252836",
+      "fbf-1845367223480124",
+      "fbf-983843947781378",
+      "fbf-947212654815425",
+      "fbf-1841184240224558",
+      "fbf-2180755649145684",
+      "fbf-2637727956662489",
+      "fbf-1643649167148364",
+      "fbf-1099647512909751",
+      "fbf-1909044517171047",
+      "fbf-2121005428491822",
+      "fbf-1454699756595011",
+      "fbf-1086822067556043",
+      "fbf-862250600282443",
+      "fbf-1115987844562084",
+      "historical-shiki",
+      "questions",
+      "translation-context",
+      "translation-context-title",
+      "russian-comparison",
+      "translation-tool-distinction",
+      "zh-tw-generalization",
+      "bbc-human-review",
+      "sources",
+      "facebook-original-links",
+      "facebook-original-links-title",
+      "facebook-source-reopened-issue",
+      "facebook-source-self-published",
+      "facebook-source-reflection",
+      "source-translation-context",
+      "method-history",
+      "copy-status"
+    ],
+    "timelineTimes": [
+      "2026-10-23T14:11:04Z",
+      "2026-10-23T14:11:06Z",
+      "2026-10-23T14:11:30Z",
+      "2026-10-23T14:11:33Z",
+      "2026-10-23T14:12:07Z",
+      "2026-10-23T14:15:23Z",
+      "2026-10-23T14:15:23Z",
+      "2026-10-23T14:17:20Z",
+      "2026-10-23T14:17:20Z",
+      "2026-10-23T14:17:43Z",
+      "2026-10-23T14:32:52Z",
+      "2026-10-23T14:42:18Z",
+      "2026-10-23T14:42:29Z",
+      "2026-10-23T15:07:26Z",
+      "2026-10-23T16:02:36Z",
+      "2026-10-25T12:48:46Z",
+      "2026-10-25T13:26:46Z",
+      "2026-10-25T14:01:36Z",
+      "2026-10-25T14:01:36Z",
+      "2026-10-25T14:01:46Z",
+      "2026-10-25T14:18:53Z",
+      "2026-10-25T14:24:03Z",
+      "2026-10-25T17:52:07Z",
+      "2026-10-25T19:21:32Z",
+      "2026-10-25T19:32:08Z",
+      "2026-10-26T02:07:46Z",
+      "2026-10-26T02:07:56Z",
+      "2026-10-27T02:47:18Z"
+    ],
+    "editorialParagraphs": [
+      {
+        "sha256": "26c5cfa20cdb7d9a6fa33a971a78c8fbb9a634dabd77a624a7ab276056682a62",
+        "preview": "這不是只有一則回覆的故事。需求、提交內容與後續公開討論，構成了不同層次的問題。"
+      },
+      {
+        "sha256": "77aa48a534c51ee1da093eded508dcd455e5b2e623a0ccb4345fddf74e2b37d1",
+        "preview": "TOML 是用於設定檔的文字格式；toml.io 提供規格與不同語言版本。2026 年 10 月 23 日，doggy8088（Will 保"
+      },
+      {
+        "sha256": "7493a5d75579d5146cbb20702899b659a38eed80c6939d1e94be5009f52b861f",
+        "preview": "專案成員 arp242 將第一份 issue 判斷為 LLM 提示詞，要求不要用 agent 提交；issue 與 PR 隨後關閉。作者承認"
+      },
+      {
+        "sha256": "435ef7a77dc919d2b2a38ece3f5e66854d9f5ee9f2092ccc3a6757f93ae099e4",
+        "preview": "後續留言並未形成單一陣營：有人強調人工審校與文化差異，有人批評提交及公開擴散方式，也有人同時要求維護者改善回饋。這份專題逐則轉述各方論點，並"
+      },
+      {
+        "sha256": "f81bd13abee897f20bdd8b6c1993c43084536872eaf077c19bc18d76b2afe644",
+        "preview": "#97 與 #99 的關閉理由為不規劃處理；#99 另限協作者發言。本專題沒有完成兩版譯文的全面語意審校，也不以是否使用 AI 推定譯文合格"
+      },
+      {
+        "sha256": "cbaae1104c4f15e6d54042f9aa9437b266b883ab5ef4e15723327a806b050a4f",
+        "preview": "字形、臺灣技術術語與閱讀習慣。新增語系的必要性，由哪些讀者需求支持？"
+      },
+      {
+        "sha256": "944cd7f099acbfe2159d58bf8134f9f6fad7383c2af61af208c6f05573c4400b",
+        "preview": "文字是否準確？共用模板是否正確？如何提供可查核的審校證據？"
+      },
+      {
+        "sha256": "f861c0621e27e1efe62cfde885a89a928e1efb36a286299b191e0c6d7b718912",
+        "preview": "專案接受什麼提交方式？拒絕如何說明？公開討論如何影響彼此信任？"
+      },
+      {
+        "sha256": "21b80143b7db0431618f401c4ab382efd8fd7a294589edbfa8cca2c9eaaac452",
+        "preview": "提案與 PR 作者；公開表示使用 AI 協助並願意負責。"
+      },
+      {
+        "sha256": "4a22ed11634809f2b40d890021f83e1c6b563c5975731e7aa619351ae04281dd",
+        "preview": "GitHub 顯示為專案成員；執行關閉並說明拒絕立場。"
+      },
+      {
+        "sha256": "bb6f6ffb072af7ea92bfc11a17e727fbafe44ed5c16ecc63a5488cfe75a5d064",
+        "preview": "分別提出在地化、人工審校及對拒絕方式的意見。"
+      },
+      {
+        "sha256": "2b3f6cbfbe5ee2187433bbdc3a4ecc721a34c52239bbd65d1b97b43f036829f2",
+        "preview": "自述有在地化或社群經驗；對處理及公開擴散方式提出不同評價。"
+      },
+      {
+        "sha256": "074735ed493ddf5d0486c090da8d85355206fe4c407d4181fa8f8ca405393a75",
+        "preview": "自動審查工具；意見聚焦介面語言標記。"
+      },
+      {
+        "sha256": "2e397457ce675a6d35ab5d14e8c91c4e02f081b03cbaf08616f879328eeeb744",
+        "preview": "另一篇公開 Facebook 貼文中，作者回應有人認為他的 GitHub 個人檔案看來都是 AI 生成、因此把他視為 Vibe Coder。"
+      },
+      {
+        "sha256": "799e2e994cef7fe721ac3c4b603b4b0a81a8917bbcd38ebea47202f4c6e87a3f",
+        "preview": "他回顧長年的分享經驗，自述寫文章已持續 19 年，AI 出現前已累積八、九百個 GitHub 專案；也承認不是每個專案都很好，但認為它們在當"
+      },
+      {
+        "sha256": "ca204735b15be7faf3389a909e0ac9d7020afaf319b717ed3d1a28e56036b0f9",
+        "preview": "他表示這篇不是尋求安慰，請讀者不必留言打氣，並穿插報名課程的玩笑；接著把重點放在給同樣熱愛開源的參與者。他描述無償貢獻出於內在動力，雖不以回"
+      },
+      {
+        "sha256": "e478bbc0d21af8bc82c0a0986f5bcd1c129edf69308442300c16462beacc7edc",
+        "preview": "他建議面對不被領情、偏見或負面互動時，調整心態，必要時轉身離開以保護熱情；不必說服所有人，應重視自己是否享受投入。這是作者對自身經驗與開源參"
+      },
+      {
+        "sha256": "01ee09c13ab2c0aedb8e280bc7e2953065322e0043713b0785c633f54d905a3b",
+        "preview": "已核對公開正文。未取得精確發布時間，故不混入按秒排序的 GitHub 時間線；此篇可載入的 59 則留言與回覆另列獨立清單，截點與最初讀取主"
+      },
+      {
+        "sha256": "1755f40e307fc2375a56e1eaba27b512781de39bce22b4e98a03477aca5cb397",
+        "preview": "以下依論點整理，不替任何一方補上沒有說過的立場，也不將個別留言等同專案全體共識。"
+      },
+      {
+        "sha256": "633d0f2d6f6d063b494e45139247eae9f18ed296dbe1a95926764e7ec346a784",
+        "preview": "提案者與 ddman 強調臺灣用語與文化脈絡；arp242 後來明確表示不反對新增繁中。語系需求與本次貢獻方式，應分別閱讀。"
+      },
+      {
+        "sha256": "96124803b270c6c753fd1d688def36df42d7520c6985a29ce82693144715f113",
+        "preview": "作者主張工具不決定品質、提交者應負責；維護者期待經仔細驗證的人類翻譯。自述人工通讀、AI 審閱與具名人工校對並非同一種證據。"
+      },
+      {
+        "sha256": "ea71d84a549f9e3e7d11f2764d6e22ee630e23433affea542dd3b91891c71210",
+        "preview": "作者要求提供禁止 AI 的書面依據；brlin-tw 認為還應觀察專案既有慣例。此處是對貢獻期待的分歧，不等於已有一份團隊一致通過的完整 A"
+      },
+      {
+        "sha256": "a4b46d2f35ed3b6ad3d19412c98c4440721b663d1d4e54e872e6b97dfa1e80ad",
+        "preview": "PR 除了譯文也修改共用模板，確有技術審查面向。作者願意縮小範圍；brlin-tw 則批評長篇說明增加負擔，同時要求維護者提供可操作回饋。"
+      },
+      {
+        "sha256": "0df85a3c981b5e4c7641e69fefbfa3b1b233a8cc3c5b0ff63662b2626b4ed427",
+        "preview": "維護者指控作者煽動支持者；brlin-tw 批評處理方式；pcchou 認為曝光也可能有益。原始貼文主文沒有明文號召湧入；另行發布貼文的留言"
+      },
+      {
+        "sha256": "3b02d328ca36c0e07a2e4fde4ff64aa1a43af715ebccc36d3ed55ac7b6f50817",
+        "preview": "參與者對「提示詞」「機械翻譯」與後續貶抑措辭提出異議。可確認的是措辭與狀態變更；關於個人動機、歧視或誠信的指控，仍須與已證實的事實區分。"
+      },
+      {
+        "sha256": "bdf79213cff4d4fdaf5813d4528f7762957e446556e2f7087de57f058dae3a48",
+        "preview": "依讀者提供的公開連結重新核對兩則 GitHub 留言，並以瀏覽器讀取 BBC 中文報導。以下為有來源的編輯分析，不是新增當事人留言，不增加逐"
+      },
+      {
+        "sha256": "2de7769a3bcd8a242ab00943fb1da5abe1f1e5386315a0f4a6c90f8114999b6c",
+        "preview": "原文可證實：2025 年的 #86 留言同時提到兩項限制：arp242 不會俄文，而且連網站也無法建置，因此表示無法檢查。只摘出不會俄文，會"
+      },
+      {
+        "sha256": "584a0335fbb8ff38b25428d56d3fc30ef5a31fa338979b50e4f1620e782bc5bc",
+        "preview": "推論界線：這則留言沒有說只有會該語言才能評估貢獻方式。在 #99 對 AI 流程、提交說明或信任作出判斷，也不需要先具備中文能力。因此，兩則"
+      },
+      {
+        "sha256": "1d10ba3765a62a23cdd960f7d32e39cf430351b4cadfbf61a9688f92ed801a59",
+        "preview": "尚無法確認：這組來源未提供 arp242 的中文能力證據，也沒有呈現他對本次繁中譯文逐句比對的語言審查。不同 PR 的回應差異值得比較，仍不"
+      },
+      {
+        "sha256": "2cf452296708473e9bd0cf1a2a4e475eaded7aae744e67778371d74a094d6aa1",
+        "preview": "原文可證實：#99 把讀者自行使用機械翻譯工具，與 toml.io 正式收錄經仔細驗證的人類翻譯分開處理。個人為閱讀而使用工具，和維護者替網"
+      },
+      {
+        "sha256": "3aedcde0cd2334cef50ead78affd7726a11585808dc88c95e624949a1b309033",
+        "preview": "仍有爭點：這個區分能說明維護者的立場，但沒有回答 AI 初稿經人工逐句審校後應如何評估。作者已自述審閱；該投入是否足夠，以及如何提出可核驗的"
+      },
+      {
+        "sha256": "72b001a62ca2d5fb7cc6810d20f7f1c284f985615e3ab03d47a852d7326e2f75",
+        "preview": "原文可證實：arp242 先表示不反對新增繁中或其他語言，後段卻把這次衝突延伸成對未來任何 zh-TW 譯稿的懷疑，使用 any zh-TW"
+      },
+      {
+        "sha256": "942a56001ca7247dbf5e8774b7b118b62f1710fe1d9b6701fe8b887d7801a092",
+        "preview": "編輯分析：從一次提交推及尚未看到的同語系譯稿，確有以語系擴大懷疑範圍的問題。讀者可能因此感到受連帶貶抑；對措辭與公平性的批評有具體原文依據。"
+      },
+      {
+        "sha256": "61657f2e0076d8aa746debca6140d9ce70bfabf890b1dae452b3b58603619d13",
+        "preview": "推論界線：原句說的是對 zh-TW 譯稿產生懷疑，並未逐字宣稱所有繁中使用者、其全部日常用語都是 AI 產物；懷疑也不等於已查證。這段文字不"
+      },
+      {
+        "sha256": "094bee2223de14e5b377e679e3630d98295d860f1ccf6573f0592477b8c0558c",
+        "preview": "報導可證實：2026 年 10 月 14 日的 BBC 中文報導討論 AI 翻譯的效率、人工審校與語境誤判，並以專業翻譯案例呈現流暢文字仍可"
+      },
+      {
+        "sha256": "559152d027f5dcf136b0a19ff54990badf1e0cd232b697ea47966728454114e2",
+        "preview": "對照意義：這提供一個公開揭露 AI 協助與人工審核並行的出版流程，可用來討論工具來源、審校責任與成果品質應如何分別驗證。它不是針對 TOML"
+      },
+      {
+        "sha256": "eedebf607dd610ffd60d768e8a775c748536d3589fe4eb40a9f06df8d3d29a9f",
+        "preview": "來源時間與查閱限制 · 查看本節整理資料 ↗"
+      },
+      {
+        "sha256": "df5ea42940f58f975213f837c1f5e2aa7c88cfdcf9c8fc542a89284a18307869",
+        "preview": "維護者究竟讀過多少譯文？作者的人工審校深度如何？社群擴散是否涉及其他動員？缺乏完整證據時，這些問題應維持開放，不能由語氣、工具或陣營直接推斷"
+      },
+      {
+        "sha256": "02ea8aefdc8c0fe685dbb30afd43c4c00af8894d07e243373be821b1c7e98c0f",
+        "preview": "這是一份有截點的獨立整理，不是 TOML 官方聲明，也不是對兩版譯文的品質認證。"
+      },
+      {
+        "sha256": "7866ace910ef0ba9c1f694c48fce4871802a21a25686bbdff5a8f0907da39da6",
+        "preview": "主要外部資料查閱於 2026/10/27 14:05:42 完成；新增語意查核另於 2026/10/27 14:44:12 核對，詳見 補充"
+      },
+      {
+        "sha256": "9620ff1ac04b75b86ac361a906ef39fb6c880c814ae88a3967af5aa300279585",
+        "preview": "以 GitHub API 分頁取得一般留言、review、行內留言、timeline、提交與檔案差異，依原始 ID 去重。空白 review"
+      },
+      {
+        "sha256": "4f15f22a0afae00e0e6692b518841070cad2fbe5d5f7c19785684ea5d0708db7",
+        "preview": "公開的 覆蓋清單 JSON 記錄來源 ID、網址、對應本頁位置及內容雜湊；專題內容 JSON 提供整理後的繁中資料。來源全文暫存不隨網站發布"
+      },
+      {
+        "sha256": "be25461b6ffb65bf771244672da1a8d2d5eb46eaddf3778bfa4001d716b068b0",
+        "preview": "Facebook 採瀏覽器讀取可見的公開留言，切換「所有留言」後展開回覆及再回覆。本次讀到的 18 個唯一留言 ID，與頁面顯示數量一致；F"
+      },
+      {
+        "sha256": "e350e48e3a913811b9a1318aacf1ffbddb78bccd3c5d926aa5479f6913cc8bee",
+        "preview": "以瀏覽器開啟讀者提供的三個 Facebook 分享連結，核對轉址後的公開貼文網址與可見文字正文。保留原始分享連結及移除追蹤參數的貼文網址。此"
+      },
+      {
+        "sha256": "e846a44c560f7641e74b81975e51702b797ad9f615dcc1af7ff040723cc24d0a",
+        "preview": "以 PR 被拒與再次提出 #99 為主題；作者表示兩次均有 AI 協助並經自行審閱，質疑一定要人工翻譯的理由。"
+      },
+      {
+        "sha256": "863541eda49cef462a2a10db39d557050a797eb63b8024579899518ac5d96224",
+        "preview": "已整理原有截點的 18 則可讀留言／回覆；此次確認分享連結對應同一篇貼文。"
+      },
+      {
+        "sha256": "9bf59ae27fa84c30e7b5fbc0b34b0d488430113d62e5d31a5f0c7305e0818923",
+        "preview": "作者自述曾為數百個 repository 貢獻正體中文資源，這次因使用 AI 撰寫 PR 感到遭受歧視，主張譯文經過全文校對；並表示已另行發"
+      },
+      {
+        "sha256": "65f2fcf73b5005d8123075e9f2547e9b1e2fce469665bd45dcc881ce39282297",
+        "preview": "已整理本次可讀的 51 則留言／回覆，含 8 則附圖留言；頁面計數 58，差額 7 則未還原。主文附圖未另作逐項查核，也不推定上游已接受譯文"
+      },
+      {
+        "sha256": "4cb13aa1365f9236c89e9c4827fc1f43822e7feadd1788b33bec2a7775e089a7",
+        "preview": "回應 GitHub 個人檔案被認為是 AI 生成的說法，回顧長年分享與開源投入，並談及尊重、負面互動及保護貢獻熱情。"
+      },
+      {
+        "sha256": "aecf910b9330858a9d9445679320e9b85455a3294c37b6ff94b7871be1711443",
+        "preview": "已整理原有截點的 59 則可讀留言／回覆，包含江柏漢主留言下的 13 則回覆。"
+      },
+      {
+        "sha256": "5d54e4a836bcb269873cb1fb8465bf8808fe2a4220bfb650a1ded88ea27f0ddf",
+        "preview": "已透過瀏覽器讀取公開貼文正文。作者稱前一份 PR 因 AI 被拒，表示再次使用 AI 調整語氣，已有自行審閱，並反問人工翻譯的必要性。這是 "
+      },
+      {
+        "sha256": "a07363ab18baa83598fef23406c88d0b22424454224f27a0ec183a129c15566e",
+        "preview": "這篇主文本身沒有明文號召讀者湧入 GitHub；另一篇貼文的 Brune Kz 留言則提出邀請多位臺灣讀者留言的建議，詳見該則紀錄。這與作者"
+      },
+      {
+        "sha256": "cfeda64f57cf51500307c9c9efcbd032984dccf7b1dfdb60d7acedac93a18d41",
+        "preview": "一般網頁擷取受限，但公開 Markdown 下載端點可讀。草稿的主要論點與 GitHub 發言相對照，涉及提交方式、專案慣例、公開擴散與可操"
+      },
+      {
+        "sha256": "ccfa06fb357b612a08377d75a6865b336b6ada3e5042dcf5f84ec009a397e4b9",
+        "preview": "可讀取現存草稿，不代表已取得每一版修訂歷史或驗證實際寫作流程；流程揭露依作者說法記錄。"
+      },
+      {
+        "sha256": "6f9415ccf9b23169eed94de627bf763d7ca0d2e6af973a0cd82c4423a67cf429",
+        "preview": "已透過瀏覽器核對 Linus Torvalds 在 2026 年 10 月 13 日的原始郵件。他以編譯器、編輯器類比反對對工具作一概禁止，"
+      },
+      {
+        "sha256": "35330e743ce7c073326d7d20654bf049aa07de92c07237c0cbb28507bf225b6a",
+        "preview": "它是另一個專案的討論，只能說明引用的論證背景，不能視為 TOML 的政策或 Linux 對這份翻譯的認可。"
+      },
+      {
+        "sha256": "8c78a301538f2a4b559705aba703db2eb43225c50a92de62dfc77b7693f6d1ba",
+        "preview": "brlin-tw 引用 俄文 #86、法文 #96、葡文 #65。截點時法文與葡文已合併，俄文仍開啟、未合併。法文主文很短；俄文則有雙語說明"
+      },
+      {
+        "sha256": "dd2cb6f839742a0910482f15ba5a7bcc248eece6ba9a56679c5ddfdb15d293da",
+        "preview": "核對 PR 基底版本的 README，可見複製英文語系、設定語言名稱及建立版本的貢獻步驟。該文件未提 AI；本頁不據此宣稱其他文件、管道或歷"
+      },
+      {
+        "sha256": "32dc011b83d162661683bbb1ae3c7670710c59e6777048dbc127957400d49908",
+        "preview": "提交確實存在，其父提交為原 PR 的 b9bd601。截點時 #98 提交清單與 head 均仍是原始版本；「另有修正」與「PR 已包含修正"
+      },
+      {
+        "sha256": "6e7a5fe6c195f04d262c81cc5893d2fc28e0949a671ce1295365a31a7b1538ac",
+        "preview": "公開正文已透過瀏覽器核對，重點另列於 事件導讀後的獨立段落。其中的寫作年資、專案數量與感受均按作者自述呈現，沒有以這篇文章推定翻譯品質、動員"
+      },
+      {
+        "sha256": "d0b6464a67cf6bcea5ef734d49e747eb91398877eb07f193b303a2b20abab9ed",
+        "preview": "查閱時間：2026/10/27 14:05:42（臺灣時間）。未取得主文精確發布時間，不以相對時間推算時間線；可載入的 59 則留言另列於 "
+      },
+      {
+        "sha256": "152c3729cb33d79b5035f7b55bcae4c998637fdadf040368e571907f0861fee3",
+        "preview": "語意查核與編輯分析另見爭點章；本節查閱時間 2026/10/27 14:44:12（臺灣時間）。此次補充不代表重新全量擷取 GitHub 或"
+      },
+      {
+        "sha256": "3d8c9ed0ccd5184f0c291611d036ead8ebf5b3856bc11af211709965455b74f6",
+        "preview": "俄文 PR #86：arp242 說明無法檢查 ↗ · arp242。發布 2025/05/26 17:51:37，最後編輯 2025/05"
+      },
+      {
+        "sha256": "ad06d8fa1a3f61bf1a931152934211b89cda1098803a6f40187dbb0a7b2eb2be",
+        "preview": "#99：機械翻譯、人工翻譯與後續 zh-TW 譯稿 ↗ · arp242。發布 2026/10/25 22:18:53，最後編輯 2026/"
+      },
+      {
+        "sha256": "295449a0ee83a014c86e054d1d534da013c0a1459fc4f2126cfd878aaac8adda",
+        "preview": "AI翻譯：還有多久會完全取代人類？ ↗ · 約翰·勞倫森（John Laurenson）／BBC News 中文。發布日期 2026-10-"
+      },
+      {
+        "sha256": "63cad1be1b5148f477a8b0bc4d69f42d44d3962999d604c2d6253878d10bd019",
+        "preview": "BBC 報導作為一般翻譯流程背景，不當成本次 TOML 譯文的審查或任何一方的背書。"
+      },
+      {
+        "sha256": "51525bffe683b61e1c9a1cc35f4ecb9fea02a54e28b138b280c30d08da078b54",
+        "preview": "GitHub API 提供現存留言與最後編輯時間，不能重建所有過去版本。ShikiSuen 的一則現存留言已於 10 月 27 日編輯；較早"
+      },
+      {
+        "sha256": "342cebff261653bf642fb28ba863dd979ce06009be3f4036ef1fc19ce045d75e",
+        "preview": "較早快照另見他於 10 月 25 日向其他維護者呼籲討論策略的留言，目前不在 API 清單。該段只列為 有標示的歷史補充，未補造 ID 或精"
+      },
+      {
+        "sha256": "6eb6e751da8e0df2046fb7c4bbc8cfac91bc21db6997119081a85d656f2ded63",
+        "preview": "英文版 提供同一份專題的英文轉述，涵蓋全部 144 筆紀錄，沿用來源 ID、網址、資料截點與缺漏說明；英文版製作日期不代表重新擷取來源，也不"
+      },
+      {
+        "sha256": "eb2879ff0fea8855bbe0780998a160c96ddf11403e8e202d6a7d5b774fe836b9",
+        "preview": "網站由 jakeuj 委託 Codex 協助調查、轉述、製作與部署。本文不是逐字翻譯；工具協助也不代表所有內容已經具名人工審校。人名與帳號僅"
+      },
+      {
+        "sha256": "e48506f8660ecd465b4cf3b3235a45cbe87e8124f6dc484b92d3794a72df05ba",
+        "preview": "發言者的指控、價值判斷及自述經歷均標明歸屬；不以 AI 使用方式、瀏覽器翻譯功能、留言反應數或一則技術審查替代翻譯品質判定。讀者可對照來源，"
+      }
+    ],
+    "records": {
+      "proposal-97": {
+        "textSha256": "0535fbc5625681eb0e585832123910b3df90604089d411f6f104301ad996e55d",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97"
+        ]
+      },
+      "first-rejection": {
+        "textSha256": "f99118889d96442aae2ae00c00e9e28ca70f2e2c029ca922f26e837fee066fe7",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367006796"
+        ]
+      },
+      "author-pushback": {
+        "textSha256": "d50d07a3349f1d25325fab003e547c2967240450bc9104a311fd5e954efa155b",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367329551"
+        ]
+      },
+      "author-tools": {
+        "textSha256": "82e7c8ed75c03e28b0d65daa85a5c0dbaaf5b3b822d172f50129e400e742c18c",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6368029375"
+        ]
+      },
+      "shiki-localization": {
+        "textSha256": "ef753b0aca87f6246c672500c928b8cb0d63ec2b341b9aed2a5f0d1ff853700b",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6369145889"
+        ]
+      },
+      "daniel-review": {
+        "textSha256": "c17cbe876911ab1bf08468d5f9b1d0449b5750ee3f2ca522cc224d2eaea80853",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6401075448"
+        ]
+      },
+      "brlin-deescalation": {
+        "textSha256": "0b93f56acf961d3723d7a40907e32e682cd4289555becdade0f948375fdce0d0",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6402061966"
+        ]
+      },
+      "pcchou-publicity": {
+        "textSha256": "f1c3bebae1cec2f2143a2582cc13037ca989e575711f0d47583b4c498e973c2e",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6406637764"
+        ]
+      },
+      "proposal-98": {
+        "textSha256": "3927ce421c7848da159c89fe7e3ab7e5ff54a0bdfa5e140bef8dc94dddf41f3a",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/pull/98"
+        ]
+      },
+      "review-overview": {
+        "textSha256": "669409b0d17e7b8e245ecdc1d5d7fa9aa846aa3f06706b6d9d28aafa3d21bad8",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/pull/98#pullrequestreview-5629499481"
+        ]
+      },
+      "review-language": {
+        "textSha256": "c8d8f230a6159edea65bf2c48df9a979a25f521cd2a4ae04f15fd7a38c876f01",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360491030"
+        ]
+      },
+      "review-response": {
+        "textSha256": "567f7c5fe47ccb9dff985d0e4fd6da6320eaead5cee58f48a8adced48a989664",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360774614"
+        ]
+      },
+      "proposal-99": {
+        "textSha256": "6138a05cae56abf97d9c1c8542fb85327cdf8a344b8b4046d3cec0b860d4d8b6",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/99"
+        ]
+      },
+      "ddman-localization": {
+        "textSha256": "46edda6ac5fde3836561ea7d3c8e08169d130e8d3010020591ca982b0406a5ae",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398226230"
+        ]
+      },
+      "facebook-confrontation": {
+        "textSha256": "0507ec9f8743615416184078c9de8bf8d7bb18cc27c90b42167ee317baf713b9",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398588114"
+        ]
+      },
+      "maintainer-position": {
+        "textSha256": "41c142f89b7c743e950476ef0263978bf25cbb9fc69a1cead788f5030cbc2c97",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847"
+        ]
+      },
+      "fb-1895440511836418": {
+        "textSha256": "c01174d4676d5467fbc36e878345f58285b83120d6f85cd25bae979b49ceb512",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1895440511836418"
+        ]
+      },
+      "fb-1153848950926302": {
+        "textSha256": "c826f001cd44e7381a642fcd994e8ac35808511c9ecb97daa04b39ba1e44f624",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1895440511836418&reply_comment_id=1153848950926302"
+        ]
+      },
+      "fb-1142861922010708": {
+        "textSha256": "9e8bd277089c1acb4091e0824e2705681333465587d58300825a3dd1a89460b7",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1142861922010708"
+        ]
+      },
+      "fb-1010006622125930": {
+        "textSha256": "0197d2a8c5a4c9537a0a14c0f23b66727898969e3af84cb07b20ffae22e9f5a2",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1010006622125930"
+        ]
+      },
+      "fb-1096829016309549": {
+        "textSha256": "e29eac72dac1f5eedb7e036caf3c71acbdd15e604e0b14be9e45bccccab28237",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1096829016309549"
+        ]
+      },
+      "fb-1645821010888841": {
+        "textSha256": "90e4d5606c4d3cd74f79ef289c881278076c0fdb58fc625dbdc297abe0e5a35a",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1096829016309549&reply_comment_id=1645821010888841"
+        ]
+      },
+      "fb-1425740689091000": {
+        "textSha256": "9996fed5ad102ececf10c17bcdc5cf88009d7beafea6b5b5826192a17eca428f",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1425740689091000"
+        ]
+      },
+      "fb-1436487435329862": {
+        "textSha256": "804d4ade5f814dff813f3d97feb05352f9646fa9c8a9f815222ba9dd21cef66d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1425740689091000&reply_comment_id=1436487435329862"
+        ]
+      },
+      "fb-1841948403603836": {
+        "textSha256": "b4780eb96a1d1f2900b0bb08b4eca1cd1b50a5f69c2ee94f72e9f904dd6c1778",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836"
+        ]
+      },
+      "fb-994431642963162": {
+        "textSha256": "32e914d377ee0f870537f0c1af9e1c1c508ad9989f0ea4b6be556e9d44ff76f6",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836&reply_comment_id=994431642963162"
+        ]
+      },
+      "fb-1636187431320874": {
+        "textSha256": "f8495222ec5a4108469b9e150596d2f5e81ca79cba75cc440121c6e88c2df9f4",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836&reply_comment_id=1636187431320874",
+          "https://github.com/toml-lang/toml.io/pull/98#issue-5999358415"
+        ]
+      },
+      "fb-1423904753272004": {
+        "textSha256": "3c688506fd77f1228f05bc993d05de3e241b38576eaf59e224e4154b999880a7",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004",
+          "https://github.com/toml-lang/toml.io/blob/b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f/lib/formatter.js#L64-L78"
+        ]
+      },
+      "fb-1111411041689827": {
+        "textSha256": "df6ec34c714ec1d2183807a8581b4d1c4458d9645ecfe685cd22e42537557481",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=1111411041689827",
+          "https://github.com/toml-lang/toml.io/blob/b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f/lib/formatter.js#L64-L78"
+        ]
+      },
+      "fb-1425758755759536": {
+        "textSha256": "9c70a7cdf2e99cc9bbbaf90b7b07ca104d7381ebe49b499bc1de85b81683f1ed",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=1425758755759536"
+        ]
+      },
+      "fb-2311514916273451": {
+        "textSha256": "1241a2cd9ce60892c437c19e5e00a75aba1462316037e429f10471b32a05c259",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=2311514916273451"
+        ]
+      },
+      "fb-4378748772435591": {
+        "textSha256": "966a11ca2ee5f3d04d6ebc24057737046ddb0c3bd70ae258ed23d708e21bb2e9",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=4378748772435591"
+        ]
+      },
+      "fb-1363891813478154": {
+        "textSha256": "ef3dbd00920c257a3dd5d25694bf1fc6015bff0a47e7cddbf7e5beabc2f0abf9",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1363891813478154"
+        ]
+      },
+      "fb-1845649283450119": {
+        "textSha256": "4bd8b40a6f94e761ce96a783c69de3b7bc5ec3c745ed0c07b897d0b8b9616991",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1845649283450119"
+        ]
+      },
+      "fbs-1501969721979417": {
+        "textSha256": "8bb16e929e49f633d37e19ae1a6681bdf8e534ca0c9e4712a4dd398cf75bf23d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1501969721979417",
+          "https://toml.gh.miniasp.com/tw/index"
+        ]
+      },
+      "fbs-4100467020248772": {
+        "textSha256": "4523a5db52c7b8938a91f9dc18091a43598a7975e5523c86b57081625a12c7e6",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=4100467020248772"
+        ]
+      },
+      "fbs-1147729691258440": {
+        "textSha256": "c9f56d61eac32d583485b733d9a3a3685ce04276d7fba3feaada98f4da15be6e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1147729691258440"
+        ]
+      },
+      "fbs-1515556433756116": {
+        "textSha256": "18534ed97c1786cfc4f8abbff49462f6a7b9bd1529b28678c1dba70165851cb8",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1515556433756116"
+        ]
+      },
+      "fbs-2330886287681365": {
+        "textSha256": "2cf9794a01191c0ec2d7a55ae5e8c6b3d4fd0ccccd61b4981edea97ca5c39ac5",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=2330886287681365"
+        ]
+      },
+      "fbs-1080532691709094": {
+        "textSha256": "bcd583e695f92fe97268281f5d860f2fe15043474835e67b6a6cd1631e5916ad",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1080532691709094"
+        ]
+      },
+      "fbs-1698424805407093": {
+        "textSha256": "7c4f8226f546f288917863b8d390b3a5d116ce7ef9118ca69a9451e22f4c82a9",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093"
+        ]
+      },
+      "fbs-1105923902147153": {
+        "textSha256": "af43dbc30fd7f9d075d81b5d76a3af01b467e570fe69408ccfe8214f72b4c645",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1105923902147153"
+        ]
+      },
+      "fbs-1127335559768205": {
+        "textSha256": "ffe086d279a9d11ecab046b610b7757e33acf7088b868e7a32bacc3b26d7d75d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1127335559768205"
+        ]
+      },
+      "fbs-1876884577096148": {
+        "textSha256": "3475491be53f1ea4710c81cc434a6c34ebca57b565987e67b5f1ae44121818ef",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1876884577096148"
+        ]
+      },
+      "fbs-2675957632857546": {
+        "textSha256": "954de8b45b409c08338b51ac54f89bd178121237c55d5a3f247b5092f6b1d6e1",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=2675957632857546"
+        ]
+      },
+      "fbs-1663061218690738": {
+        "textSha256": "26ed51fbb29dea4a8092f567f554728ac2d3a5b854cbc0e15a3f791118e26ae5",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1663061218690738"
+        ]
+      },
+      "fbs-1072839382405764": {
+        "textSha256": "4e4336308e8d1c6ecb4cd0c37d1735f04abb7cb302f047ac013e9013bfa64b95",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1072839382405764"
+        ]
+      },
+      "fbs-1607221117700776": {
+        "textSha256": "e8d9bd7d307687205621975ef269d331294c95c412c405db010d06b9d45ed805",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1607221117700776"
+        ]
+      },
+      "fbs-2457008624793229": {
+        "textSha256": "d0501e1eef2173dd2570e110ccd3779c0a16b71158c12bf8098c48c1a009c79c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=2457008624793229"
+        ]
+      },
+      "fbs-1156380690157660": {
+        "textSha256": "85ea2ee8e536ed6b7ce2657a75860d2eabb118756f6d1a1421a008be85f35d6b",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1156380690157660"
+        ]
+      },
+      "fbs-1089625803698815": {
+        "textSha256": "066ed30dcb14f097b5613ec7976faab2e87c211b5235c89e4bdddbea8bfa71b5",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1089625803698815"
+        ]
+      },
+      "fbs-1335615888651784": {
+        "textSha256": "a3834c8c7f1e5947185c19b63f31db925a2f3565a96ef144aac8dfb1cb3f8268",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1335615888651784"
+        ]
+      },
+      "fbs-1082483261296202": {
+        "textSha256": "c59658f762aced047d21dbfcc71d84c2983c249cc5280af9aba124aefef11dbd",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1082483261296202"
+        ]
+      },
+      "fbs-1928419341897870": {
+        "textSha256": "904b2ffd13ca51f2a3033a106dfe9c9cadddb118ce3d7e53fa0787218ab6c44d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1928419341897870"
+        ]
+      },
+      "fbs-1796707804877585": {
+        "textSha256": "d9656871e3fe97285bd2630cffa6e13d899af0e39a65a544a6890b0a7d74eba2",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1928419341897870&reply_comment_id=1796707804877585",
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847"
+        ]
+      },
+      "fbs-1870331227651057": {
+        "textSha256": "3b0dc8e6262d225b47c01f0dff80d4f24e38008207e49d34f4340e13e2ca700c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1870331227651057"
+        ]
+      },
+      "fbs-1744764544322603": {
+        "textSha256": "b016845bf1676be4c7f8bd9af419367fe1a942ddc4beb689bce1ef932e4a2bd3",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1744764544322603"
+        ]
+      },
+      "fbs-1594983742402771": {
+        "textSha256": "72726b6081e676de8d944df23af81c52a6e4d59117007be26c33031e7cb1e598",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1594983742402771"
+        ]
+      },
+      "fbs-1873534790315821": {
+        "textSha256": "faabe22afcc37b4e4a80901457496e1044646250599f78f0f2d4f0ee25a2e791",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1594983742402771&reply_comment_id=1873534790315821"
+        ]
+      },
+      "fbs-1113523464910570": {
+        "textSha256": "ab2df2bc9c33001bcf432db4becda91c9bb5e9dce2bc6368de02b9eea3cea976",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1113523464910570"
+        ]
+      },
+      "fbs-1455761273175968": {
+        "textSha256": "be6602d953734abd3196594bc85b318898afe22384abe9fe7170ed48974e6a6b",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1455761273175968"
+        ]
+      },
+      "fbs-1676881460722767": {
+        "textSha256": "3b4c75a52055a098fa3dc29d36ea780fe8e971b82a06b7e4190c40aaa78cc013",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1676881460722767",
+          "https://www.facebook.com/photo.php?fbid=10235218457707801&set=p.10235218457707801"
+        ]
+      },
+      "fbs-1710955860816863": {
+        "textSha256": "88324fca8e2ac1d0893aa2e32e2a613f8a4d5a2fb0b0cd38eb059cde81d2810a",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1710955860816863",
+          "https://www.facebook.com/photo.php?fbid=10235218467788053&set=p.10235218467788053"
+        ]
+      },
+      "fbs-996669762914408": {
+        "textSha256": "43e82c510ef15fc404b1ce09af7f45235f57416360f98f15242366ec6f7d772d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=996669762914408",
+          "https://www.facebook.com/photo.php?fbid=10235218480108361&set=p.10235218480108361"
+        ]
+      },
+      "fbs-1118001904053217": {
+        "textSha256": "dfa6f25490a8330527248b2cc7d345e3c4b9536a79ff918af40e5b9a75f9a309",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=996669762914408&reply_comment_id=1118001904053217"
+        ]
+      },
+      "fbs-2156030659124136": {
+        "textSha256": "1154f1cad32f7bf3e0c4b2b9dbb3d638039f6fc461ae52fba9c0c75ceaec5a20",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=2156030659124136",
+          "https://www.facebook.com/photo.php?fbid=10235218492948682&set=p.10235218492948682",
+          "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360491030"
+        ]
+      },
+      "fbs-1500466428581967": {
+        "textSha256": "1cb811ddbfdc762ff50a7290e11233b92cb9319e5e82855609d8d605bdb3d45b",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1500466428581967",
+          "https://www.facebook.com/photo.php?fbid=10235218526989533&set=p.10235218526989533",
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6402061966"
+        ]
+      },
+      "fbs-1472451058136180": {
+        "textSha256": "492eff010e003eb2381f8a323e2bf6d2fc4e5e4ac47e03f9edd1074bf701a920",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1472451058136180"
+        ]
+      },
+      "fbs-1461778155830897": {
+        "textSha256": "219f1d63ce7ae075dc25e1ba54e49683e286c210e1331bdc7a78274f83e71e63",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1461778155830897"
+        ]
+      },
+      "fbs-29025024027138512": {
+        "textSha256": "d965ae3a5209b764b2c839fec5b4613ede26b802129f5426f6f369e9873dc625",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=29025024027138512"
+        ]
+      },
+      "fbs-1802822527422191": {
+        "textSha256": "72ffb37b5b7706160f01e45d2d8e41879543c2dd0e986efb7614c8c2e434e071",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1802822527422191"
+        ]
+      },
+      "fbs-1827492768399938": {
+        "textSha256": "77aa50ed68ed375024649c37c950e85f76b3e2ce465cb50232c256bd611a94ab",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1802822527422191&reply_comment_id=1827492768399938"
+        ]
+      },
+      "fbs-1163867776204673": {
+        "textSha256": "ccfac15e9b66d8227adf97f09412cf836850b75d4fd12c967c73707b1e467469",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1163867776204673"
+        ]
+      },
+      "fbs-1736859784047759": {
+        "textSha256": "f78dceb6f87eaa542f92875c4981dc18e9c2863a8e0cebb947eb66a727890384",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1736859784047759",
+          "https://www.facebook.com/photo.php?fbid=40413279301592656&set=p.40413279301592656",
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=4378748772435591",
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847"
+        ]
+      },
+      "fbs-1074828772272358": {
+        "textSha256": "bc0f8855e334667139e31bd7098a2c8b8da0db0fbb7f8594ece10ef6e24f1c7c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1736859784047759&reply_comment_id=1074828772272358",
+          "https://www.facebook.com/photo.php?fbid=10242109810455320&set=p.10242109810455320",
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847"
+        ]
+      },
+      "fbs-1143471691670108": {
+        "textSha256": "c77da19f47fbf2d6c2bcded19002e23b00b66d50eb30d7dabb79d231aa17f56e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1143471691670108"
+        ]
+      },
+      "fbs-4070944953207406": {
+        "textSha256": "3b063dc85e1ea8edd3689a85b60ffa89b6a31e84c99e5b9643415dfb3e050cfa",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=4070944953207406"
+        ]
+      },
+      "fbs-1681901193550291": {
+        "textSha256": "1119e7e113d607bb4e8f4b4a4b6df6aa70851a9586e332929b137e8e7eb5ead9",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1681901193550291"
+        ]
+      },
+      "fbs-4545139285727276": {
+        "textSha256": "1089dcc51dd5e576ec68474274c552c94a9896837040ad0394fb85dc73e4765e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1681901193550291&reply_comment_id=4545139285727276"
+        ]
+      },
+      "fbs-1029603240167492": {
+        "textSha256": "643666b1e17072b5f40acb18eb0e8867e1ce2fe57d8769dd658f90ee95c3f242",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1029603240167492",
+          "https://www.facebook.com/photo.php?fbid=29498923126358209&set=p.29498923126358209",
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847"
+        ]
+      },
+      "fbs-1131301483188107": {
+        "textSha256": "d3d8c61fa1951ff6dc99a0c3f40e6300a08d6b51ce22cb8383b3d1b561ef1713",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1029603240167492&reply_comment_id=1131301483188107"
+        ]
+      },
+      "fbs-1845401693148981": {
+        "textSha256": "83b4655ad9cc85019318501264e9d3468077bb27f19920b64bd325a7e8ec10b5",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1029603240167492&reply_comment_id=1845401693148981"
+        ]
+      },
+      "fbs-1842774710238647": {
+        "textSha256": "6c5584c0f6e2df312df2450458ee534660d980aef7d509df40c2f25b3e52f8c8",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1029603240167492&reply_comment_id=1842774710238647"
+        ]
+      },
+      "fbs-4816464751908537": {
+        "textSha256": "c8663d347bd534b195fcf64c8b123fb24b2a0af2c671debd60e0013243b8eed2",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1029603240167492&reply_comment_id=4816464751908537"
+        ]
+      },
+      "fbs-1107182212033345": {
+        "textSha256": "87ef5b81170423dc586da57ecf9f4a37f22d0a84a753981fb7c4689d216f206f",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1107182212033345",
+          "https://x.com/Hesamation/status/2110675668161659043"
+        ]
+      },
+      "fbf-1163842863023402": {
+        "textSha256": "b83fa6e528e2757b8a0a5136c9954a4a6e7ab04aee293be00300c198f2ab1af7",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1163842863023402"
+        ]
+      },
+      "fbf-1425239149719450": {
+        "textSha256": "dc8174104bd0319a430efc7a463400b4ad76497d2bc09f371255b1e7faa4e918",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1425239149719450"
+        ]
+      },
+      "fbf-940143578919574": {
+        "textSha256": "3e1508cfc917f439b43606e6eafdb4974f81e58cd79296ca5bad45b9b9195416",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1425239149719450&reply_comment_id=940143578919574"
+        ]
+      },
+      "fbf-1376765501200741": {
+        "textSha256": "ba9f0b20349afb6d2f5e68459a5490c862b862d50e02b644cefd06a7b027a315",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1376765501200741"
+        ]
+      },
+      "fbf-1655512566358258": {
+        "textSha256": "c79975c0dfa2058c83408c8c79cad27e55b554824396063e1ef37b18bf6e7500",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1376765501200741&reply_comment_id=1655512566358258"
+        ]
+      },
+      "fbf-2665072870620551": {
+        "textSha256": "4e19c1694d0bd66ed5d8f59bad0e4f09a3ad8d6fd75b6763c80f16208f1a48a7",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2665072870620551"
+        ]
+      },
+      "fbf-1832777904721121": {
+        "textSha256": "ffe9f8ecae7b533d4903b328c0c54b2bc4db28f6966da9d1d765efaad861b38b",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1832777904721121"
+        ]
+      },
+      "fbf-900419679728246": {
+        "textSha256": "90bfcdb6f6af195339cb4fea220089b646d53464c790336fab9c60e6341906cc",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=900419679728246"
+        ]
+      },
+      "fbf-2076514799663679": {
+        "textSha256": "97f3d0edaa7bf7587972eace0d88fab2fdc3f5ce6efce45576b46f4befa2d13c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679"
+        ]
+      },
+      "fbf-1182038630830919": {
+        "textSha256": "1cc2e9b6ba7a91d6d31684f27e4555f843fff5e72c7a500435980f3331c699de",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1182038630830919"
+        ]
+      },
+      "fbf-976700714914814": {
+        "textSha256": "f0e1d25c2b66c995a3d8b4d048c7a56f9c4e9c7c8828d45dded4def2921cda4c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=976700714914814"
+        ]
+      },
+      "fbf-1839510410653976": {
+        "textSha256": "a30040018aa79eefe9924409260f2ea604615911cbcaebb73814720041852386",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1839510410653976"
+        ]
+      },
+      "fbf-1601189524493912": {
+        "textSha256": "5b0077b913ab4136b337592dcafe4b71b2fdd8b62bb570c767732adebbbafcd9",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1601189524493912"
+        ]
+      },
+      "fbf-989348290192078": {
+        "textSha256": "a2a58cf820d41876b944c57e54757896c9559d380eb67fd2ee103d7f43d28ace",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=989348290192078"
+        ]
+      },
+      "fbf-1107389802148573": {
+        "textSha256": "72de9a8ff13a6aa757f1d2172bc685a1d511a42578f0b98488bb719dd800677e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1107389802148573"
+        ]
+      },
+      "fbf-1105947282033160": {
+        "textSha256": "ed750cb9e47c522375c48f7bfd17c12e038be5202ca493fb6ef0d857ef9cecb0",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1105947282033160"
+        ]
+      },
+      "fbf-975943071676349": {
+        "textSha256": "cdddb94d4de181ae55038732e11bbbd4c0d203f73b2b87bd4a950327b267869a",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=975943071676349"
+        ]
+      },
+      "fbf-2238280693756950": {
+        "textSha256": "699e4991d167b7a47ee16706c55211f56832f15704d5e8e4c412bcbd3373b113",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=2238280693756950"
+        ]
+      },
+      "fbf-1601376431013300": {
+        "textSha256": "b67f8d52946dbb089925427ee51bdb4bad98e8b4051f6980f685f66ecf1d5514",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1601376431013300"
+        ]
+      },
+      "fbf-3429366483936745": {
+        "textSha256": "948c8383c4e0ebbde4f2566245b8a1debcfbc84ec20ade48717778d5731c85ac",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=3429366483936745"
+        ]
+      },
+      "fbf-1778276309957565": {
+        "textSha256": "8f12458aadc94474a2a24ecfbc00302682fe474683fced3284863046ebe1e293",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1778276309957565"
+        ]
+      },
+      "fbf-2193797354873350": {
+        "textSha256": "5d86daa609d846674748edf94f58284605dd7c1b9fa4b476e29eb9d8d985541f",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=2193797354873350"
+        ]
+      },
+      "fbf-1614433930479473": {
+        "textSha256": "eb5a4432d235f6e1000009c3058418862a558ee10de98d665d5a1113fe6fced5",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1614433930479473"
+        ]
+      },
+      "fbf-1128929252951850": {
+        "textSha256": "94f2d9b30dbd8ea219c3aa577c3b873c84dd7ea8bdceb7141c03c6ac803fe1de",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1128929252951850"
+        ]
+      },
+      "fbf-1427154999576829": {
+        "textSha256": "599d0947689d93d9607ec00c158cd6fdf6cfd8949b2ba0f703bbdd1bc544853a",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1427154999576829"
+        ]
+      },
+      "fbf-2323276165160721": {
+        "textSha256": "b65115947e3357bd5e714b49c551241395ca634d25992c32ef971bdc0c827009",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1427154999576829&reply_comment_id=2323276165160721"
+        ]
+      },
+      "fbf-1673015054482438": {
+        "textSha256": "e70a600d955775cddb4658930a62c002f1a7bbc636fd229efdf67118e6e58eb2",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1427154999576829&reply_comment_id=1673015054482438"
+        ]
+      },
+      "fbf-1780223096426177": {
+        "textSha256": "0da1cc8a62c02ec03d411ce1ea83f6fb2f9b14369e04efb0dec63cc5db8a0222",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1780223096426177"
+        ]
+      },
+      "fbf-1141923698277487": {
+        "textSha256": "080699cf755535c5b6f37bfea2f8ba9bfc21b788e6c26809c39cb474889716b0",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1141923698277487"
+        ]
+      },
+      "fbf-1602712801333676": {
+        "textSha256": "270308008d2d1c0fdec492cb29fbf206c5f160564c464c59a3fb4733de5e37b4",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1602712801333676"
+        ]
+      },
+      "fbf-1764208124698267": {
+        "textSha256": "beab4920c3bef8673b491c98f4052e33ebd3ee2ef402d4ca8c5d057de7475950",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1764208124698267"
+        ]
+      },
+      "fbf-1674860230851111": {
+        "textSha256": "33dbd96098f4471aec4f629b990405be052b3b31b98a067d21d5618b11a5747a",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1674860230851111"
+        ]
+      },
+      "fbf-1450152280378798": {
+        "textSha256": "7a12746cbbc8bc921de63de7a473e5d636f72f9aba30fad602dbb1efbd0b4b58",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1450152280378798"
+        ]
+      },
+      "fbf-1023501800777839": {
+        "textSha256": "fd01122729f499827af4e2d42e1013cfada7e7823b0b14510d41a51b5d739306",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1023501800777839"
+        ]
+      },
+      "fbf-1521808349994531": {
+        "textSha256": "77b973b6a2229addf84b80f6e09c72fd2be1e1af2e83330ffa6be0837ace2e07",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1521808349994531"
+        ]
+      },
+      "fbf-2224269502304135": {
+        "textSha256": "346d0266bc928248ae40f61fa58129c06e08fec7e396372a9ebb8d8c4a7e9576",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2224269502304135"
+        ]
+      },
+      "fbf-1126219983220937": {
+        "textSha256": "9810312cd7769f44e04d996351f48f45bfb8bf993ee8981fc774765a9fd8fe60",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1126219983220937"
+        ]
+      },
+      "fbf-4540075556235297": {
+        "textSha256": "079d24ab4dd8519abc178cac0ef2f25d665fab7f9e264c6bb3b3765297497ca5",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=4540075556235297"
+        ]
+      },
+      "fbf-1508052698096690": {
+        "textSha256": "0fa497cd267ec7199be471d22c6a73019d73640f99e60dd3f93f809bb5a49630",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1508052698096690"
+        ]
+      },
+      "fbf-1836198694060094": {
+        "textSha256": "0aa53f43720c20cf67a67874d7b8110f7c3e934fe4f55234d08f14332e44adba",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1836198694060094"
+        ]
+      },
+      "fbf-1592947895920568": {
+        "textSha256": "6598dd49af52263aef56145cf691176bffb00e34cc5a489206d253a5a2d14d2c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1592947895920568"
+        ]
+      },
+      "fbf-1110667958618704": {
+        "textSha256": "594c421251a63d2f29536c4fbe29a57446fd1dd30e11faef5c5e4b494d50b784",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1110667958618704"
+        ]
+      },
+      "fbf-1120237167379382": {
+        "textSha256": "018abfbd850a38381426eb5912436c4821fc0490c42da927712ec05d1170395f",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1120237167379382"
+        ]
+      },
+      "fbf-1124065903658710": {
+        "textSha256": "f9776d0196f7af96515d965c5d0befbb53692520d8ae1f543492be228ec3120a",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1124065903658710"
+        ]
+      },
+      "fbf-1651437983252836": {
+        "textSha256": "7d09cadfaac0be24a05daf0a44ca3cefbeac5bfbfa72f9eb2f80e9c68c89f206",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1651437983252836"
+        ]
+      },
+      "fbf-1845367223480124": {
+        "textSha256": "5c4f1cf5abd2b461cd4684cfbf4af6df3232d7fb0f797c553dbf3e83a688b669",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1845367223480124"
+        ]
+      },
+      "fbf-983843947781378": {
+        "textSha256": "92384d05acaefa07fc6550eae161db4341302156f19b432082559d95cb365671",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=983843947781378"
+        ]
+      },
+      "fbf-947212654815425": {
+        "textSha256": "31cb152a232ef4d1e8cd8c979f9ae653c54382ce1676e998dfb7b01e9a54177e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=947212654815425"
+        ]
+      },
+      "fbf-1841184240224558": {
+        "textSha256": "c55697868843385ab1bdfe007f073bd65cbc281539683067964d66ce24e5a8b1",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1841184240224558"
+        ]
+      },
+      "fbf-2180755649145684": {
+        "textSha256": "889937ebc79c7b71b33e24d8785054b2261846f3338cd0dd11cebb2239022f8c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2180755649145684"
+        ]
+      },
+      "fbf-2637727956662489": {
+        "textSha256": "9c5fc8dd94a33a9c4c6e96def9595b085a3c40d2e65642009e8524177e60befe",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2637727956662489"
+        ]
+      },
+      "fbf-1643649167148364": {
+        "textSha256": "bc35387b81f7c6f309cd203779b932ecfea8bebf5cb8d342dfa301cfe4c2b130",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1643649167148364",
+          "https://github.com/toml-lang/toml.io/pull/98/files"
+        ]
+      },
+      "fbf-1099647512909751": {
+        "textSha256": "f7a7bedf70631eb0123df2d3f0739c404c54601e5f4e9001ba154d511881c6af",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1099647512909751"
+        ]
+      },
+      "fbf-1909044517171047": {
+        "textSha256": "21111bb46b04010438539d15ada9f387f97a85f1769b6e96471e5527c8462cfa",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1909044517171047"
+        ]
+      },
+      "fbf-2121005428491822": {
+        "textSha256": "dc0231aa83f32079fe9e784a194abd06ef5ed2f0b308d2dbb4d6ccf547faf816",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2121005428491822"
+        ]
+      },
+      "fbf-1454699756595011": {
+        "textSha256": "6338cb3ccff3674e1a5522e555d10aed2838753584710dd68132b303821f0df2",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1454699756595011"
+        ]
+      },
+      "fbf-1086822067556043": {
+        "textSha256": "5b6e74793974a8456a533752b1c531986b6eb634c59e3a5b77e7cbddbce2c38b",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1086822067556043"
+        ]
+      },
+      "fbf-862250600282443": {
+        "textSha256": "6f7138b26e3951426f79cdc97d3cc3f775863982c66bfae45bc1bcb16235f84b",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=862250600282443"
+        ]
+      },
+      "fbf-1115987844562084": {
+        "textSha256": "7b254a47213dc90693709b3855e212b5873e9389a4bc6783b2904ac75bb8090c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1115987844562084"
+        ]
+      }
+    }
+  },
+  "en": {
+    "ids": [
+      "main",
+      "top",
+      "brief",
+      "brief-title",
+      "overview",
+      "followup-reflection",
+      "timeline",
+      "archive",
+      "search",
+      "author",
+      "thread",
+      "result-count",
+      "thread-97",
+      "proposal-97",
+      "first-rejection",
+      "author-pushback",
+      "author-tools",
+      "shiki-localization",
+      "daniel-review",
+      "brlin-deescalation",
+      "pcchou-publicity",
+      "thread-98",
+      "proposal-98",
+      "review-overview",
+      "review-language",
+      "review-response",
+      "thread-99",
+      "proposal-99",
+      "ddman-localization",
+      "facebook-confrontation",
+      "maintainer-position",
+      "facebook-comments",
+      "thread-facebook",
+      "fb-1895440511836418",
+      "fb-1153848950926302",
+      "fb-1142861922010708",
+      "fb-1010006622125930",
+      "fb-1096829016309549",
+      "fb-1645821010888841",
+      "fb-1425740689091000",
+      "fb-1436487435329862",
+      "fb-1841948403603836",
+      "fb-994431642963162",
+      "fb-1636187431320874",
+      "fb-1423904753272004",
+      "fb-1111411041689827",
+      "fb-1425758755759536",
+      "fb-2311514916273451",
+      "fb-4378748772435591",
+      "fb-1363891813478154",
+      "fb-1845649283450119",
+      "facebook-self-published-comments",
+      "thread-facebook-self-published",
+      "fbs-1501969721979417",
+      "fbs-4100467020248772",
+      "fbs-1147729691258440",
+      "fbs-1515556433756116",
+      "fbs-2330886287681365",
+      "fbs-1080532691709094",
+      "fbs-1698424805407093",
+      "fbs-1105923902147153",
+      "fbs-1127335559768205",
+      "fbs-1876884577096148",
+      "fbs-2675957632857546",
+      "fbs-1663061218690738",
+      "fbs-1072839382405764",
+      "fbs-1607221117700776",
+      "fbs-2457008624793229",
+      "fbs-1156380690157660",
+      "fbs-1089625803698815",
+      "fbs-1335615888651784",
+      "fbs-1082483261296202",
+      "fbs-1928419341897870",
+      "fbs-1796707804877585",
+      "fbs-1870331227651057",
+      "fbs-1744764544322603",
+      "fbs-1594983742402771",
+      "fbs-1873534790315821",
+      "fbs-1113523464910570",
+      "fbs-1455761273175968",
+      "fbs-1676881460722767",
+      "fbs-1710955860816863",
+      "fbs-996669762914408",
+      "fbs-1118001904053217",
+      "fbs-2156030659124136",
+      "fbs-1500466428581967",
+      "fbs-1472451058136180",
+      "fbs-1461778155830897",
+      "fbs-29025024027138512",
+      "fbs-1802822527422191",
+      "fbs-1827492768399938",
+      "fbs-1163867776204673",
+      "fbs-1736859784047759",
+      "fbs-1074828772272358",
+      "fbs-1143471691670108",
+      "fbs-4070944953207406",
+      "fbs-1681901193550291",
+      "fbs-4545139285727276",
+      "fbs-1029603240167492",
+      "fbs-1131301483188107",
+      "fbs-1845401693148981",
+      "fbs-1842774710238647",
+      "fbs-4816464751908537",
+      "fbs-1107182212033345",
+      "facebook-followup-comments",
+      "thread-facebook-followup",
+      "fbf-1163842863023402",
+      "fbf-1425239149719450",
+      "fbf-940143578919574",
+      "fbf-1376765501200741",
+      "fbf-1655512566358258",
+      "fbf-2665072870620551",
+      "fbf-1832777904721121",
+      "fbf-900419679728246",
+      "fbf-2076514799663679",
+      "fbf-1182038630830919",
+      "fbf-976700714914814",
+      "fbf-1839510410653976",
+      "fbf-1601189524493912",
+      "fbf-989348290192078",
+      "fbf-1107389802148573",
+      "fbf-1105947282033160",
+      "fbf-975943071676349",
+      "fbf-2238280693756950",
+      "fbf-1601376431013300",
+      "fbf-3429366483936745",
+      "fbf-1778276309957565",
+      "fbf-2193797354873350",
+      "fbf-1614433930479473",
+      "fbf-1128929252951850",
+      "fbf-1427154999576829",
+      "fbf-2323276165160721",
+      "fbf-1673015054482438",
+      "fbf-1780223096426177",
+      "fbf-1141923698277487",
+      "fbf-1602712801333676",
+      "fbf-1764208124698267",
+      "fbf-1674860230851111",
+      "fbf-1450152280378798",
+      "fbf-1023501800777839",
+      "fbf-1521808349994531",
+      "fbf-2224269502304135",
+      "fbf-1126219983220937",
+      "fbf-4540075556235297",
+      "fbf-1508052698096690",
+      "fbf-1836198694060094",
+      "fbf-1592947895920568",
+      "fbf-1110667958618704",
+      "fbf-1120237167379382",
+      "fbf-1124065903658710",
+      "fbf-1651437983252836",
+      "fbf-1845367223480124",
+      "fbf-983843947781378",
+      "fbf-947212654815425",
+      "fbf-1841184240224558",
+      "fbf-2180755649145684",
+      "fbf-2637727956662489",
+      "fbf-1643649167148364",
+      "fbf-1099647512909751",
+      "fbf-1909044517171047",
+      "fbf-2121005428491822",
+      "fbf-1454699756595011",
+      "fbf-1086822067556043",
+      "fbf-862250600282443",
+      "fbf-1115987844562084",
+      "historical-shiki",
+      "questions",
+      "translation-context",
+      "translation-context-title",
+      "russian-comparison",
+      "translation-tool-distinction",
+      "zh-tw-generalization",
+      "bbc-human-review",
+      "sources",
+      "facebook-original-links",
+      "facebook-original-links-title",
+      "facebook-source-reopened-issue",
+      "facebook-source-self-published",
+      "facebook-source-reflection",
+      "source-translation-context",
+      "method-history",
+      "copy-status"
+    ],
+    "timelineTimes": [
+      "2026-10-23T14:11:04Z",
+      "2026-10-23T14:11:06Z",
+      "2026-10-23T14:11:30Z",
+      "2026-10-23T14:11:33Z",
+      "2026-10-23T14:12:07Z",
+      "2026-10-23T14:15:23Z",
+      "2026-10-23T14:15:23Z",
+      "2026-10-23T14:17:20Z",
+      "2026-10-23T14:17:20Z",
+      "2026-10-23T14:17:43Z",
+      "2026-10-23T14:32:52Z",
+      "2026-10-23T14:42:18Z",
+      "2026-10-23T14:42:29Z",
+      "2026-10-23T15:07:26Z",
+      "2026-10-23T16:02:36Z",
+      "2026-10-25T12:48:46Z",
+      "2026-10-25T13:26:46Z",
+      "2026-10-25T14:01:36Z",
+      "2026-10-25T14:01:36Z",
+      "2026-10-25T14:01:46Z",
+      "2026-10-25T14:18:53Z",
+      "2026-10-25T14:24:03Z",
+      "2026-10-25T17:52:07Z",
+      "2026-10-25T19:21:32Z",
+      "2026-10-25T19:32:08Z",
+      "2026-10-26T02:07:46Z",
+      "2026-10-26T02:07:56Z",
+      "2026-10-27T02:47:18Z"
+    ],
+    "editorialParagraphs": [
+      {
+        "sha256": "9af73e37bd1b26ffce627f96865c290e86e7c60bd874630832b4eee9298221cb",
+        "preview": "Demand, submitted work and the public response are distinct parts of t"
+      },
+      {
+        "sha256": "f71e986e532599c739dc16d9bed32be94b5aa874daa1c634d8ee9bb8cc8120fd",
+        "preview": "TOML is a text format for configuration files. Its website provides sp"
+      },
+      {
+        "sha256": "1188076b9353196dee41f7002b2d92331c39d8f65abdb09c8664e7f803c0ae6e",
+        "preview": "Project member arp242 characterized the first issue as an LLM prompt a"
+      },
+      {
+        "sha256": "9d046e5d9fc7ed982363c2c1754d8e1fff4736dae4a6731c96ee138e35a48a75",
+        "preview": "Responses do not form a single camp: some emphasize human review and c"
+      },
+      {
+        "sha256": "00f3b2aa839bd2767f52214e30f6c3ec6200aea796dd4a02375dab5d7f938e83",
+        "preview": "#97 and #99 were closed as not planned; #99 also restricts comments to"
+      },
+      {
+        "sha256": "4cf8a4835ec0a16cf6d29136dc68f318994d00f535fc055b65b2cce48d02ff80",
+        "preview": "Characters, Taiwanese technical terms and reading habits: whose needs "
+      },
+      {
+        "sha256": "35321f6e07b5bba1f9f5f4fb1db974710689cc8b9fdf4338e2d924198e4ddbad",
+        "preview": "Is the prose accurate? Are shared templates correct? What review evide"
+      },
+      {
+        "sha256": "84b126713cb264596e3625df3d19e9bfb8cab10bc2e0f11766e2c2ca226518eb",
+        "preview": "Which methods are welcome? How is rejection explained? How does public"
+      },
+      {
+        "sha256": "97c18637801fa8b8bb2bfd1e4813668f7c4d8e1a11ee1c13d86e65502bd0ce72",
+        "preview": "Issue and PR author; publicly discloses AI assistance and accepts resp"
+      },
+      {
+        "sha256": "5e055ffb41e43e2c9adee4fc020b3ee1a31e1cf2eafa18a9210775e47a17ea3a",
+        "preview": "Shown as a project member on GitHub; closes threads and explains his p"
+      },
+      {
+        "sha256": "42bc498b08931b2a6f7978f3baefe54c26435b96489c4dfada749ec8f5757b6e",
+        "preview": "Discuss localization, human review and the rejection’s handling."
+      },
+      {
+        "sha256": "41ee1d8aedda932e27308ef29a229df8f7b0e09e6e699df4e83292b693e9770e",
+        "preview": "Describe localization or community experience and differ on publicity "
+      },
+      {
+        "sha256": "c714ce8ca0a3671307a5cb30e7f88759a2ed1826b79389de1a9b16faf2966d2f",
+        "preview": "An automated reviewer; the concrete finding concerns interface languag"
+      },
+      {
+        "sha256": "e0765995d8652564ce0a7e590085db9a26e3e4f583c8914b70c66c25e4bbfb22",
+        "preview": "In another public Facebook post, the author responds to a remark that "
+      },
+      {
+        "sha256": "aa9bdf9942ebe23b1fc0186b1eb2a888b5510c591104eddcc0bef20cd967fc08",
+        "preview": "He looks back on years of sharing, saying he has written articles for "
+      },
+      {
+        "sha256": "c60f29d8da9b8978c8bccde501f42948e0d228944ba71e1361e37d01e18d9aa8",
+        "preview": "He says he is not seeking consolation and asks readers not to add enco"
+      },
+      {
+        "sha256": "e990c8babe7805884fbd612d540c8c498d30a6804db65f130d374bfc57a7ad62",
+        "preview": "He suggests adjusting expectations when goodwill is met with indiffere"
+      },
+      {
+        "sha256": "5ae8cf5126ab04f00d6dfff6bc15380b3f4a8ed697a899c184b1a7425b076dd4",
+        "preview": "The public text was checked. Its exact publication time was unavailabl"
+      },
+      {
+        "sha256": "d466ecdaf4872742cadefa7ac31cca1a55b9e334f5693e837674ae46abc91c59",
+        "preview": "Arguments are compared without assigning unstated positions or equatin"
+      },
+      {
+        "sha256": "f9c85100f6282ac05fb5b32980f5ef00cfaf3e28c53e981143f6c81ae8d6ef3c",
+        "preview": "The contributor and ddman emphasize Taiwanese terminology and cultural"
+      },
+      {
+        "sha256": "944d3780647935c9affc53905b9513b4060f03b5c21c91be20017522d0de13b9",
+        "preview": "The contributor says tools do not determine quality and he takes respo"
+      },
+      {
+        "sha256": "47a9498944791b53d5b0c3c91eb7bfcc4a76bfe3b23719cf00dece0bdaae555b",
+        "preview": "The contributor asks for a written AI prohibition. brlin-tw also empha"
+      },
+      {
+        "sha256": "89f3259d64d15f687e29c755b1d914b43d2dd9d4d0fbeb8158809bcb2268e4a4",
+        "preview": "The PR changes shared templates as well as prose, creating technical r"
+      },
+      {
+        "sha256": "3db69dc48ede791b17e69c3c0d55489a43d1edc4d938c494389516571b663117",
+        "preview": "The maintainer alleges agitation; brlin-tw criticizes the publicity st"
+      },
+      {
+        "sha256": "2e70fba15a5868a743d76c2acbca51aff5df02b24fd7bcf81067bfc778c9462a",
+        "preview": "Participants challenge the prompt characterization, mechanical-transla"
+      },
+      {
+        "sha256": "85c1241aa11ec7a7a1d53ed65ed7d296cd5007a38dcb9b0207339aa9fa2ff65e",
+        "preview": "Two GitHub comments were rechecked using public links supplied by a re"
+      },
+      {
+        "sha256": "0311a0d16e36fecef1a3f1e041a6c9719553e8f80d620c0a49a0829caed06826",
+        "preview": "Verified wording: The 2025 comment in #86 identifies two limitations: "
+      },
+      {
+        "sha256": "48f3158606686b727c4147b9ff5ba18f1660fa7f00f292eafaf00ffa83a90156",
+        "preview": "Limits of inference: The comment does not say that speaking a language"
+      },
+      {
+        "sha256": "520768e2572efa7ae52e52ca88f42a45fe8c30e2047a484edda8ccd1db6494f8",
+        "preview": "Unconfirmed: These sources supply no evidence of arp242’s Chinese abil"
+      },
+      {
+        "sha256": "27a9159f9f3c773eeaf77950a8981963d04549cb15e3afb1559d5d95f4f77cf2",
+        "preview": "Verified wording: #99 distinguishes readers obtaining mechanical trans"
+      },
+      {
+        "sha256": "4f2d7ff111404cf358f4a4bc4e9abec7ed178a76038639644a5fef39a33f2ca0",
+        "preview": "Remaining disagreement: That distinction explains the maintainer’s pos"
+      },
+      {
+        "sha256": "a55f746798fea4ac535c31cf28ce11c20d8ae6839ec004ad0000ab744b46e581",
+        "preview": "Verified wording: arp242 first says he does not object to Traditional "
+      },
+      {
+        "sha256": "c5820567f99b899b4bd916066a2200e56651d12812f6388a6790416f96da3f8e",
+        "preview": "Editorial analysis: Extending one submission dispute to unseen future "
+      },
+      {
+        "sha256": "82518d75437867ed69f3611badc094217fc05181a58d5de4da3f76ae59219148",
+        "preview": "Limits of inference: In context the statement expresses suspicion abou"
+      },
+      {
+        "sha256": "3e7937fabbfb8157be77b16c2db30c0aee0e0ed95a5e1f298cf80317b62e9a24",
+        "preview": "Verified article: The BBC Chinese article of October 14, 2026 discusse"
+      },
+      {
+        "sha256": "31a94ba0143322e19d800eea2638918c7477ab56de3645ec846107d2d2ea66ee",
+        "preview": "Meaning of the comparison: This is a publicly disclosed publishing wor"
+      },
+      {
+        "sha256": "98aa8dcea74d260ef3d7033191f589160239dfa932577109832eff7435b0c7c9",
+        "preview": "Source times and access limits · Read the editorial data ↗"
+      },
+      {
+        "sha256": "c6bc4a18f07417a4294bf48e86524df59e26f39b2029b398e52192c2a4761202",
+        "preview": "How much of the translation did the maintainer read? How extensive was"
+      },
+      {
+        "sha256": "613fd5e713bea54b478ea45a3594fc4a02f9d2576b47b084ae2ff5aff00816fa",
+        "preview": "An independent record with capture cutoffs, not a TOML statement or a "
+      },
+      {
+        "sha256": "95f66df55d5f574da6488418966ce8e3914fa64f07e36a135c8aa0eed1ecf8fd",
+        "preview": "Main external material was read by 27 Oct 2026, 14:05:42; the addition"
+      },
+      {
+        "sha256": "be33c42e7fdb55162a5b66b4ad975dde5ab80e4c864ac9b26cd7021df38b8f9c",
+        "preview": "GitHub API pagination covers general comments, reviews, inline comment"
+      },
+      {
+        "sha256": "85f920cd1f2a48b4830a04fbcb946efe49be81b00b2087a80dcf940fab490969",
+        "preview": "The coverage inventory records source IDs, URLs, page mappings and has"
+      },
+      {
+        "sha256": "0e0d46b82d4c961d3eacba1e0a268b6a0c83033a1024691050dacf9bc727b8a1",
+        "preview": "Facebook material was read through visible public interfaces using All"
+      },
+      {
+        "sha256": "3d18dfb3a039f096bfa2b082bd5a785a73def9d033af7d67ab821b3653e82036",
+        "preview": "The three reader-supplied Facebook share links were opened in a browse"
+      },
+      {
+        "sha256": "4d1b403b1c54cf29958ac81b053ab5a6ccb55c22508f4e820f3fc47a566c370c",
+        "preview": "The author discusses rejection of the PR and opening #99. He says both"
+      },
+      {
+        "sha256": "41e798137112e6efae22cf541b978cc6c985079c5c4f3059d21ffd1ddc9edd22",
+        "preview": "Eighteen readable comments and replies are recorded at their original "
+      },
+      {
+        "sha256": "395df7d795f3fbd285df9928ea56b361266d7ad24d3b47fcec65fda6f80ff77d",
+        "preview": "The author says he contributed Traditional Chinese resources to hundre"
+      },
+      {
+        "sha256": "761d0b4672dd3d00df5dc1411cbad27863be28a01e6d2818be0028e769257a42",
+        "preview": "Fifty-one readable comments and replies, including eight with attachme"
+      },
+      {
+        "sha256": "53e3710ceeca77c9e2ad5c096cb1de14c7e81c84860de23541c2750a5d6ff46d",
+        "preview": "The author responds to a claim that his GitHub profile looks AI-genera"
+      },
+      {
+        "sha256": "1426287ac99f8c4a8621fdfc0e88ca95541c0fa003eb4f4deeb642d5b3f299a0",
+        "preview": "Fifty-nine readable comments and replies are recorded at their origina"
+      },
+      {
+        "sha256": "85613b2d465c978fc53d8945146c6ced484bbeb2824126755efa728f3b7caccf",
+        "preview": "The text was read in a browser. The author says the PR was rejected be"
+      },
+      {
+        "sha256": "f9807656138d49cc40e4c07e6a4d3aafa18ba827feaaf85790d1d97764c9363a",
+        "preview": "The opening post itself does not explicitly invite an influx to GitHub"
+      },
+      {
+        "sha256": "27e7991a94d48f14d44ef97a5256761c57342fdabfea8f0cc5e7ddb9aa074cdf",
+        "preview": "General webpage retrieval was restricted, but the public Markdown down"
+      },
+      {
+        "sha256": "bb530ba44a2eaf92528db70a4c69931b3bb2b69cb3e926d6bee91ca1bdaa4d33",
+        "preview": "Access to a current draft does not provide every historical revision o"
+      },
+      {
+        "sha256": "cf09a4aefda3e762c940414ea3fc26e68c58c7dd0e3f40a74bc4bb8b0cee8575",
+        "preview": "Linus Torvalds’s original October 13, 2026 message was checked in the "
+      },
+      {
+        "sha256": "6f1eace8d404c8350ef30f3a0465b67e5661d0c2799589ac20b49287477d2c7e",
+        "preview": "This is another project’s discussion. It explains the cited argument, "
+      },
+      {
+        "sha256": "18565a0d95d7101ae33dd4374c15fef5192af89c32f9e2c19b08e70a4591b7d9",
+        "preview": "brlin-tw cites Russian #86, French #96 and Portuguese #65. French and "
+      },
+      {
+        "sha256": "c0f30a5322c73c1927d9b54a1c2b657f5bfd9eedc31c95ed28e65bb68f5eb8f1",
+        "preview": "The PR-base README describes copying the English locale, setting the l"
+      },
+      {
+        "sha256": "904f084a9963399deaee809df730581b8871290f272bad7797061d263cc58002",
+        "preview": "The commit exists, with original PR commit b9bd601 as its parent. The "
+      },
+      {
+        "sha256": "f80380acb2b72e69af9799bd74e86099eec06d34e9426b932006db6500d51620",
+        "preview": "The public text was checked in the browser and is paraphrased after th"
+      },
+      {
+        "sha256": "a7d9e49e628a7c4550e6666af40559b088201e21b32f06de0c911f23f7df7ace",
+        "preview": "Checked: 27 Oct 2026, 14:05:42 (Taiwan, UTC+8). The exact publication "
+      },
+      {
+        "sha256": "ba3b9c3b2265286c1d725a0275f2b834ac1c82c784f536d10884be0e4712feb0",
+        "preview": "Wording checks and editorial analysis were made at 27 Oct 2026, 14:44:"
+      },
+      {
+        "sha256": "42d2f5e0b6f11c3056e4bf26e48ab800dff8aaf7a2956b7eb06eda5c34c54324",
+        "preview": "Russian PR #86: arp242 explains why he cannot check it ↗ · arp242. Pub"
+      },
+      {
+        "sha256": "eaa193b46091244ea916184068873f4c1677965225f6ae840c664e2396982887",
+        "preview": "#99: mechanical translation, human translation and future zh-TW submis"
+      },
+      {
+        "sha256": "604f5ec5ad898934c4135ce1f978b4e44a08debe5fd330fc3780b0ac380e92d4",
+        "preview": "AI translation: how long until it completely replaces humans? (BBC Chi"
+      },
+      {
+        "sha256": "aeea70cefb9a5a26dd2583568b240819c385554563f0f45b8a1d12711297bd7c",
+        "preview": "The BBC article provides general workflow context, not a review of thi"
+      },
+      {
+        "sha256": "cdaad34dc41a96dc57211dc7a6c421b06f95ce449c012f31c8aef503449899b4",
+        "preview": "The GitHub API provides surviving comments and last-edit timestamps, n"
+      },
+      {
+        "sha256": "824f2b3d77463cf3ea0d92b0b6a1cb2a31e0c958106a0b2dd1ff1dd23f0a52e7",
+        "preview": "An earlier snapshot also showed an October 25 appeal to other maintain"
+      },
+      {
+        "sha256": "4e4dbc01e14cc5cc2790975ee1fdd2b70f44cdc3d3114b4833283da0b233b7d7",
+        "preview": "jakeuj commissioned Codex to assist with research, paraphrasing, imple"
+      },
+      {
+        "sha256": "b7ff2173e49f38dd72efd51f8930266562563b4947b24abb04693b9a476e4a0a",
+        "preview": "Accusations, value judgments and personal histories are attributed. AI"
+      }
+    ],
+    "records": {
+      "proposal-97": {
+        "textSha256": "f74319cdefe274522de526b3f8ff826d0f7866f3cd2f04562a282b41d2db49db",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97"
+        ]
+      },
+      "first-rejection": {
+        "textSha256": "5c0046bb5338390809d01b42becf4390c8e52c022209de8a563f976bac1d2baf",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367006796"
+        ]
+      },
+      "author-pushback": {
+        "textSha256": "1c5ae98ba3bc4076be0edfc336cfe30a995b7ac1bf54e57f457cac2d8639f84e",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367329551"
+        ]
+      },
+      "author-tools": {
+        "textSha256": "d5fbe4b232ea595f9cc2e72ecb1617d2a6732abe93d2b8e1062405b177b33ebf",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6368029375"
+        ]
+      },
+      "shiki-localization": {
+        "textSha256": "462511cf57f811aafc9906f94efb702be4d72f19bdbd9eaf1891f2ad861103e5",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6369145889"
+        ]
+      },
+      "daniel-review": {
+        "textSha256": "f1186359b6821b941364e5f3fd1e31f2fdd46ba24121e74c2eaafecf8b56315d",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6401075448"
+        ]
+      },
+      "brlin-deescalation": {
+        "textSha256": "e57fb007e7025cb9a959499ec4af3b2814869a44fc03776cfd0284233125ecb8",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6402061966"
+        ]
+      },
+      "pcchou-publicity": {
+        "textSha256": "99ae4dc675d1ec14802fa6d59270fed60e2dd5d4da8f7b3e355862632ca7845c",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6406637764"
+        ]
+      },
+      "proposal-98": {
+        "textSha256": "8f670b9f7d701c7128a3ccdc8f7938d0dfbda47bb83a2b674eb153e957f7628e",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/pull/98"
+        ]
+      },
+      "review-overview": {
+        "textSha256": "c0e7e07f6d07c532f986c33ea380ad8ca9a90572a236f32a6058b8248852c0c1",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/pull/98#pullrequestreview-5629499481"
+        ]
+      },
+      "review-language": {
+        "textSha256": "1252aac1e043637c9eea22b9c612e91f54dfae109b30b1abe22dd5f6d07e871f",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360491030"
+        ]
+      },
+      "review-response": {
+        "textSha256": "fd730beb42ebb80ac3ff6ea04dd705616f370475486695b791aabe1db3d82e51",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360774614"
+        ]
+      },
+      "proposal-99": {
+        "textSha256": "bb26622eeb746336d53d524267db6bba500b0104e596d422ccfd169d5086c251",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/99"
+        ]
+      },
+      "ddman-localization": {
+        "textSha256": "77260a74135c2cef469cc238c0f3c0dc3024a78d1da8d76f308cdabc30377ce6",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398226230"
+        ]
+      },
+      "facebook-confrontation": {
+        "textSha256": "392b7d4b90ec8e4d075ccb4e887709b3269dabf3266d5292b5260bb96e487722",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398588114"
+        ]
+      },
+      "maintainer-position": {
+        "textSha256": "b45c252deb6cbc68fa5948115c36bee21adc429969221f6883a499d0870b6d35",
+        "sourceUrls": [
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847"
+        ]
+      },
+      "fb-1895440511836418": {
+        "textSha256": "fdac0355952a5db774068faf9162dd0092d3797eb2b32e33e67550d6ec1abc73",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1895440511836418"
+        ]
+      },
+      "fb-1153848950926302": {
+        "textSha256": "ebdec41f21ff7e808f88ce18b0a59168fd321392d48ce99cf93ee5b6f4a5354f",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1895440511836418&reply_comment_id=1153848950926302"
+        ]
+      },
+      "fb-1142861922010708": {
+        "textSha256": "bbba156a4c849b9c536c3d076a2c9313c133e2d19d66f0b492132decccb8b433",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1142861922010708"
+        ]
+      },
+      "fb-1010006622125930": {
+        "textSha256": "a2ed93b0e230dd773930653fa57a32cbd97e4e76630af08b12240755f3c69e46",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1010006622125930"
+        ]
+      },
+      "fb-1096829016309549": {
+        "textSha256": "406355fec439f1848c316a99a264cf5bfc3c3a25fda2444ac405c4993cfdb063",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1096829016309549"
+        ]
+      },
+      "fb-1645821010888841": {
+        "textSha256": "c7a9141cfb859613873f4f723bac9a23689886b3dcf95f941159f3b745c42762",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1096829016309549&reply_comment_id=1645821010888841"
+        ]
+      },
+      "fb-1425740689091000": {
+        "textSha256": "2f82935a99583cd32d3d6c53449c5177943c3d42fb2d3b1fe214e20c94f110b6",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1425740689091000"
+        ]
+      },
+      "fb-1436487435329862": {
+        "textSha256": "8fc4483ac910738e7bc1f972b41561515a137e3a2bde3d756b2277e043b90085",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1425740689091000&reply_comment_id=1436487435329862"
+        ]
+      },
+      "fb-1841948403603836": {
+        "textSha256": "14805f33bf9b01905e373a92c9b0d3b98610231897869329868f596c01ff3352",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836"
+        ]
+      },
+      "fb-994431642963162": {
+        "textSha256": "11bd58133a7d32fbae63fdb9eb1e381979d754a7c46a6b59a1dfd46708d9884d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836&reply_comment_id=994431642963162"
+        ]
+      },
+      "fb-1636187431320874": {
+        "textSha256": "486ddd90a3f72e73df708294ecab702258f97f55f708a81bce3f751fc175749a",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836&reply_comment_id=1636187431320874",
+          "https://github.com/toml-lang/toml.io/pull/98#issue-5999358415"
+        ]
+      },
+      "fb-1423904753272004": {
+        "textSha256": "065af7b5af229ee0f73b954d067f3dfc26a19438e2c01205da4c9c9fb265c6b2",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004",
+          "https://github.com/toml-lang/toml.io/blob/b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f/lib/formatter.js#L64-L78"
+        ]
+      },
+      "fb-1111411041689827": {
+        "textSha256": "cc91401f083c6069a9e451ee8d8ec54289983f00cb3680462c9002915dd287c4",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=1111411041689827",
+          "https://github.com/toml-lang/toml.io/blob/b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f/lib/formatter.js#L64-L78"
+        ]
+      },
+      "fb-1425758755759536": {
+        "textSha256": "8af0e0d2fbc8215c6aa8b55571f4ecab411e76b09ba368e945b4e1e87177c49d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=1425758755759536"
+        ]
+      },
+      "fb-2311514916273451": {
+        "textSha256": "c0adf24773ba28a6eb07b043456faa917194273c04729291d2b292622f6e100c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=2311514916273451"
+        ]
+      },
+      "fb-4378748772435591": {
+        "textSha256": "a002bb1ce2d07c74e6d53590ae38cc76ad36530b60916445cfe6a6c38993bc42",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=4378748772435591"
+        ]
+      },
+      "fb-1363891813478154": {
+        "textSha256": "4ccaf450027ea37b37aa115a894e81f775e473adbd02b71f255bf7caa21f5ae0",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1363891813478154"
+        ]
+      },
+      "fb-1845649283450119": {
+        "textSha256": "15668a94889f62551b8f0b687a6f05428cf0c5311c86739ea1cb7c3914e2539f",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1845649283450119"
+        ]
+      },
+      "fbs-1501969721979417": {
+        "textSha256": "7b75a39e3a4cdc68676d046889d997d946af44a6210b231927a5db9d5bdf2e73",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1501969721979417",
+          "https://toml.gh.miniasp.com/tw/index"
+        ]
+      },
+      "fbs-4100467020248772": {
+        "textSha256": "67839e59eaeb1966d8b458bd62e4d478c38f80ea1e12552c7edb911b8508a593",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=4100467020248772"
+        ]
+      },
+      "fbs-1147729691258440": {
+        "textSha256": "fc5668ffd31d7c620782262b98e7b91287ab28efa135f5459f9f9ba36a002de5",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1147729691258440"
+        ]
+      },
+      "fbs-1515556433756116": {
+        "textSha256": "b42e6a12af6b608e4691813cd963a968d4f47012d7e6d8ba3b1bd47df0347745",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1515556433756116"
+        ]
+      },
+      "fbs-2330886287681365": {
+        "textSha256": "20a960d01d3fe6907d7473ef9312f8f9e542bc824c64ab635a488ec18d90b116",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=2330886287681365"
+        ]
+      },
+      "fbs-1080532691709094": {
+        "textSha256": "d872d42222623c7ce81a11bee9a15cdee16c2228725ea420ff6866092cfadee0",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1080532691709094"
+        ]
+      },
+      "fbs-1698424805407093": {
+        "textSha256": "5b96873f3aa1ddae6ceb230e5cc6ad7510d28c9583bdf1313a7504f230643f91",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093"
+        ]
+      },
+      "fbs-1105923902147153": {
+        "textSha256": "7f04e38ff83a3b1c83ee8c19bb726672e11cf6a650b6a14836b19b8bb4e3f39f",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1105923902147153"
+        ]
+      },
+      "fbs-1127335559768205": {
+        "textSha256": "6e74be2867ab2b8673ffa9bcc439877a5760e55e364aa9c6b5e67114c4bdac73",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1127335559768205"
+        ]
+      },
+      "fbs-1876884577096148": {
+        "textSha256": "68e53e9092ebd559080b736e9fe8525ff8d720df3d03383291ca988236e2de5c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1876884577096148"
+        ]
+      },
+      "fbs-2675957632857546": {
+        "textSha256": "e6682a3eefdb1896f959d545a1146c43af1e36e9eb9d4b7688d4286cdca5ac93",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=2675957632857546"
+        ]
+      },
+      "fbs-1663061218690738": {
+        "textSha256": "b4f386479a4e7d726464577ff5b928bf4fdf7a5353990338b685803789718d77",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1663061218690738"
+        ]
+      },
+      "fbs-1072839382405764": {
+        "textSha256": "4bc3238136054733fa535fac252f56a5e1c2299d59cd1c9f1e2b4bf9f0713d31",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1072839382405764"
+        ]
+      },
+      "fbs-1607221117700776": {
+        "textSha256": "ca646eec329ed78120f80fcd7caf3114d4f1a554b7b5abc78e2f3e29e5026b6d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1698424805407093&reply_comment_id=1607221117700776"
+        ]
+      },
+      "fbs-2457008624793229": {
+        "textSha256": "2b20bc207011729f8eedd159656cf4a6df2790da7eb4b7e1cf6ac8a60d3543df",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=2457008624793229"
+        ]
+      },
+      "fbs-1156380690157660": {
+        "textSha256": "427e6898d71ce2adf20459d0edda010afca7cf733a4614b42ea602206caa581e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1156380690157660"
+        ]
+      },
+      "fbs-1089625803698815": {
+        "textSha256": "5d4ede920af34e1af07f74b53164dc26f2a591003d2219a2ad8f2851ce65d4eb",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1089625803698815"
+        ]
+      },
+      "fbs-1335615888651784": {
+        "textSha256": "c83d13618967473c6bc4a9d9145795daa66cdd20fdb166a25fd36fdd06fe68d0",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1335615888651784"
+        ]
+      },
+      "fbs-1082483261296202": {
+        "textSha256": "a64534bf5eb9b75f56ae8128db0ae314cdf2dcb34a5516af93a3eb85729283aa",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1082483261296202"
+        ]
+      },
+      "fbs-1928419341897870": {
+        "textSha256": "79dea52d63b69f94f644b982447f830a8c25de5256e19b296e5cd91683d0ee73",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1928419341897870"
+        ]
+      },
+      "fbs-1796707804877585": {
+        "textSha256": "363dd041ecf22ac4fe58ff3192ee16234541ea6280fce10eaff89e2b8ce4838a",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1928419341897870&reply_comment_id=1796707804877585",
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847"
+        ]
+      },
+      "fbs-1870331227651057": {
+        "textSha256": "3669ac90ffd74c3936c4782b3675b6b8bf07f55176e6e5f64431ded3914d92cc",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1870331227651057"
+        ]
+      },
+      "fbs-1744764544322603": {
+        "textSha256": "8ab865ce759d06a7d1c8d784abe9d16b147417f4a6b9e79c202f849a0dd9302f",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1744764544322603"
+        ]
+      },
+      "fbs-1594983742402771": {
+        "textSha256": "1d4aaae2398682a3e6622a8008db5482261d68ca2e12767d1ac4306e22832ea8",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1594983742402771"
+        ]
+      },
+      "fbs-1873534790315821": {
+        "textSha256": "cefd13ebb51434f241914c7d8fdcb0fc86ee22cc710a1d8afe56b9b8871e85c0",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1594983742402771&reply_comment_id=1873534790315821"
+        ]
+      },
+      "fbs-1113523464910570": {
+        "textSha256": "3c8a8d6b2d19a91633c2001b5b7a4956a6fa82e8f0a57a048319ac8712156a00",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1113523464910570"
+        ]
+      },
+      "fbs-1455761273175968": {
+        "textSha256": "0122a9638e0fe16912ce2b942b8609bce6388fbf878b422436d926ffcef05573",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1455761273175968"
+        ]
+      },
+      "fbs-1676881460722767": {
+        "textSha256": "c5569aa0be6ec1ccc919ebc021bc69d821b85412d59be44522f39d678cee924a",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1676881460722767",
+          "https://www.facebook.com/photo.php?fbid=10235218457707801&set=p.10235218457707801"
+        ]
+      },
+      "fbs-1710955860816863": {
+        "textSha256": "f5ed5f03ad0ab790b46aec06cb1125851c92efbd46380cb21e7c49aa84d7257e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1710955860816863",
+          "https://www.facebook.com/photo.php?fbid=10235218467788053&set=p.10235218467788053"
+        ]
+      },
+      "fbs-996669762914408": {
+        "textSha256": "c263ddd52d5be676e9f0b1903f2fbdda8982607d25706f69eb66eaa6d2c995e3",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=996669762914408",
+          "https://www.facebook.com/photo.php?fbid=10235218480108361&set=p.10235218480108361"
+        ]
+      },
+      "fbs-1118001904053217": {
+        "textSha256": "d6a7ab9ae1fb890acfa34daa82e37b9c26bdcd36be5526a84674c97e9e5339c1",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=996669762914408&reply_comment_id=1118001904053217"
+        ]
+      },
+      "fbs-2156030659124136": {
+        "textSha256": "4790901f0b858751b8cc4c89aeac0e32db6be6a9bad6bd2f3a90e03a3d1fe6f0",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=2156030659124136",
+          "https://www.facebook.com/photo.php?fbid=10235218492948682&set=p.10235218492948682",
+          "https://github.com/toml-lang/toml.io/pull/98#discussion_r4360491030"
+        ]
+      },
+      "fbs-1500466428581967": {
+        "textSha256": "6d78f2915d4d837421539da19bc91c59eaf8369717d222e5c5ee3350a3bbd300",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1500466428581967",
+          "https://www.facebook.com/photo.php?fbid=10235218526989533&set=p.10235218526989533",
+          "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6402061966"
+        ]
+      },
+      "fbs-1472451058136180": {
+        "textSha256": "1348f235267b73e8d4c215ec05a1f5449e0aa5bc66a790462072b7a90b55a1b5",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1472451058136180"
+        ]
+      },
+      "fbs-1461778155830897": {
+        "textSha256": "bc82bd1ed84e33a3212ee20becdd4536d2d303aea086e30f3a8637697f1483ff",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1461778155830897"
+        ]
+      },
+      "fbs-29025024027138512": {
+        "textSha256": "f652e0c919d8a62b73c16bd26ab3f0bc6049bbebb455e12f715017285eb40271",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=29025024027138512"
+        ]
+      },
+      "fbs-1802822527422191": {
+        "textSha256": "8719f92ce94be6412d48e8f2990ebb9f74e55121bab0731eda1611b62be7eb56",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1802822527422191"
+        ]
+      },
+      "fbs-1827492768399938": {
+        "textSha256": "9e63225e63b5f7dbb6d7284dde48b3d0eb45b124e3fba0167bc9c80821658e9e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1802822527422191&reply_comment_id=1827492768399938"
+        ]
+      },
+      "fbs-1163867776204673": {
+        "textSha256": "176007758fe5326281016cdca667cbf2e44a984f9467efc233e6b77a17d740e5",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1163867776204673"
+        ]
+      },
+      "fbs-1736859784047759": {
+        "textSha256": "d723317226a4ad8eb19424ae875e05b7a8ec3bfb971c8784f77e21650b93759b",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1736859784047759",
+          "https://www.facebook.com/photo.php?fbid=40413279301592656&set=p.40413279301592656",
+          "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=4378748772435591",
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847"
+        ]
+      },
+      "fbs-1074828772272358": {
+        "textSha256": "8cbb15e0c595bf65e0e8e1cddeb2af28110160067043ebd7f48484663188f33b",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1736859784047759&reply_comment_id=1074828772272358",
+          "https://www.facebook.com/photo.php?fbid=10242109810455320&set=p.10242109810455320",
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847"
+        ]
+      },
+      "fbs-1143471691670108": {
+        "textSha256": "eedd308de88b2a0e9a3a13ae781162418e6c41a88ba02be51c786fe0fff0349f",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1143471691670108"
+        ]
+      },
+      "fbs-4070944953207406": {
+        "textSha256": "bff8a3c5bb1eb0003affed1a87a55da9653f969762699082617b295bff60e9f9",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=4070944953207406"
+        ]
+      },
+      "fbs-1681901193550291": {
+        "textSha256": "0ecb0da5c0523437772b497cd1a700674d3227b994a13d6cd888977a4e6ab34a",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1681901193550291"
+        ]
+      },
+      "fbs-4545139285727276": {
+        "textSha256": "ed047c05e81da546b70cdc9e151390c7eab5428896b52810b2cdded2fd0c8366",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1681901193550291&reply_comment_id=4545139285727276"
+        ]
+      },
+      "fbs-1029603240167492": {
+        "textSha256": "40fcdd05379ddcbc12779d84f074caa572b6d7c50c058c995738212b4e819e44",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1029603240167492",
+          "https://www.facebook.com/photo.php?fbid=29498923126358209&set=p.29498923126358209",
+          "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847"
+        ]
+      },
+      "fbs-1131301483188107": {
+        "textSha256": "063332ec1337277fffe62762876af4b99562cc0100d5735ef4f6d8f896977e7f",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1029603240167492&reply_comment_id=1131301483188107"
+        ]
+      },
+      "fbs-1845401693148981": {
+        "textSha256": "1b7a585d2bf42e97305001193b33833b08937fdfbb0b6fb1d60a6584630fd6b4",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1029603240167492&reply_comment_id=1845401693148981"
+        ]
+      },
+      "fbs-1842774710238647": {
+        "textSha256": "9fd04a990f04c76c4673904dfec4916e3877eeb12f2a1a2da2105a637b589457",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1029603240167492&reply_comment_id=1842774710238647"
+        ]
+      },
+      "fbs-4816464751908537": {
+        "textSha256": "0611b1492a1b66eca36dfc0dde017ba08cc4348a8bb4873458e5e39ed5f0aa42",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1029603240167492&reply_comment_id=4816464751908537"
+        ]
+      },
+      "fbs-1107182212033345": {
+        "textSha256": "140119c46be505ed589ec80383322d33a02c50421e2f7a326bc52a5d75e5628c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl?comment_id=1107182212033345",
+          "https://x.com/Hesamation/status/2110675668161659043"
+        ]
+      },
+      "fbf-1163842863023402": {
+        "textSha256": "cc818c1d8b10e55e040e6b23b1c5daf8be262faab59ecf69558017475515a063",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1163842863023402"
+        ]
+      },
+      "fbf-1425239149719450": {
+        "textSha256": "09a4e86fba909371060a998623d06d942ae9add7b7052ac9e3d8fd11018e49d7",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1425239149719450"
+        ]
+      },
+      "fbf-940143578919574": {
+        "textSha256": "dc42083d2c2f4b8b535540b7110e3d487d253f26a3bac8d857c197bd4ff0e252",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1425239149719450&reply_comment_id=940143578919574"
+        ]
+      },
+      "fbf-1376765501200741": {
+        "textSha256": "00294f325b9d057659cd20667337ebea25a852d04a56add3b3215f409e37509b",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1376765501200741"
+        ]
+      },
+      "fbf-1655512566358258": {
+        "textSha256": "acb86c7c2e80611cb113dd65f2ed607e85dcd310260a8ca6b6e6382d40dd0b13",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1376765501200741&reply_comment_id=1655512566358258"
+        ]
+      },
+      "fbf-2665072870620551": {
+        "textSha256": "6889e9f19c58bd554d664430e02c01397ff80bb2df2806501f281a20c748c874",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2665072870620551"
+        ]
+      },
+      "fbf-1832777904721121": {
+        "textSha256": "2c94df5264677f46a329febd6f35b78ad1689c8782f5479637e7f740b2b85a14",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1832777904721121"
+        ]
+      },
+      "fbf-900419679728246": {
+        "textSha256": "b9f4ed7cd52ca49cdb682db64b272554ef59cd3516bc7d75ab7c04b4d47a358c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=900419679728246"
+        ]
+      },
+      "fbf-2076514799663679": {
+        "textSha256": "a278e52c62f4b38ee067d4eeb035ccbbb7035cb63566a6f17b97a5536e9e8ba4",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679"
+        ]
+      },
+      "fbf-1182038630830919": {
+        "textSha256": "89b8bc8bce80c515ce13f02e21755f861a3f08650c097574d041739a63b4034e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1182038630830919"
+        ]
+      },
+      "fbf-976700714914814": {
+        "textSha256": "4050d60e6de00612aa6713e54853e2befdc162df8a0ac89f30211b215d8f0228",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=976700714914814"
+        ]
+      },
+      "fbf-1839510410653976": {
+        "textSha256": "0b8d8e1490253a4f018dfafafb2f3e121ef9f324dbb1fb32961ec5a55dd5a335",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1839510410653976"
+        ]
+      },
+      "fbf-1601189524493912": {
+        "textSha256": "e2608c82a10199c566effa228a3b11bac6cd11c3f92ff6dfe796da05ac586f90",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1601189524493912"
+        ]
+      },
+      "fbf-989348290192078": {
+        "textSha256": "9a0b01e5c0ee663c8edef7f1b6b6ba7904cb5e7c84aba73931eb66f846cafc39",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=989348290192078"
+        ]
+      },
+      "fbf-1107389802148573": {
+        "textSha256": "47e06082dac225e25bbc1c99cb3160167038d298af3a0db83f824d2ff1a5e69d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1107389802148573"
+        ]
+      },
+      "fbf-1105947282033160": {
+        "textSha256": "03a69723ed67ebd1404a7f24b898ab7c948907b05ed1af92cdc8ce8d140a9ff0",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1105947282033160"
+        ]
+      },
+      "fbf-975943071676349": {
+        "textSha256": "d1854f2dcfe53567239125b3c4dee6246ad8b526f3afc7d4002d007f75b1fde1",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=975943071676349"
+        ]
+      },
+      "fbf-2238280693756950": {
+        "textSha256": "0d84d8542efef7e78e9697084cbde9fab3eac17ac9d67a3f73c59d77e5519afc",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=2238280693756950"
+        ]
+      },
+      "fbf-1601376431013300": {
+        "textSha256": "74516a81e9dd4f67e59471180cc38efe50f0a25cbe2cf32f06151def5a8ea92c",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1601376431013300"
+        ]
+      },
+      "fbf-3429366483936745": {
+        "textSha256": "b150c23a362f47ba909278d6feb7d790be481a803e899844ba131659ec8a97d1",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=3429366483936745"
+        ]
+      },
+      "fbf-1778276309957565": {
+        "textSha256": "00324fa3f05b1b1f85e3165ce452343b5873cf5ffc6133d94f802ee83dc3c530",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=1778276309957565"
+        ]
+      },
+      "fbf-2193797354873350": {
+        "textSha256": "386bd7aa494e0c4eb153b040d48ca7fafac1d7b17bbcad4c2a0c04feaaba68d3",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2076514799663679&reply_comment_id=2193797354873350"
+        ]
+      },
+      "fbf-1614433930479473": {
+        "textSha256": "0149befda2187884157ed33dd2fa081a417e0fe2cb3bebe2c222589ad32c52d4",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1614433930479473"
+        ]
+      },
+      "fbf-1128929252951850": {
+        "textSha256": "53328fbb8fd38714526e0a0c507cbf5ee6c98ff6432309c38b453174c1409c7e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1128929252951850"
+        ]
+      },
+      "fbf-1427154999576829": {
+        "textSha256": "db5138f1156db6a799fb8a2f4983fddb9bbe1bcf564d02af610b8880b57fb7e0",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1427154999576829"
+        ]
+      },
+      "fbf-2323276165160721": {
+        "textSha256": "039228c6ae4ae29720af34df30a683421f0c8297e69d98278231a8e4c2b1aed5",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1427154999576829&reply_comment_id=2323276165160721"
+        ]
+      },
+      "fbf-1673015054482438": {
+        "textSha256": "ee4502e831ee8bf2cc468bed949bd5c8532420a1b308bef08563131a607820b3",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1427154999576829&reply_comment_id=1673015054482438"
+        ]
+      },
+      "fbf-1780223096426177": {
+        "textSha256": "d0f40b0d0fce3bfceedbe00db53af8f23ea1823f6490795d3a0e3706dbc259b9",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1780223096426177"
+        ]
+      },
+      "fbf-1141923698277487": {
+        "textSha256": "1c307c525fc92e11862e8669d28cbb08221668a87e8b028dd2063a66398061e8",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1141923698277487"
+        ]
+      },
+      "fbf-1602712801333676": {
+        "textSha256": "c216de9488255259dd5dba23046a4c51a6a090aeacce4210ca257d20051e148e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1602712801333676"
+        ]
+      },
+      "fbf-1764208124698267": {
+        "textSha256": "aca584d09e5f9c6811d0b0853c553d425c6c7d11df771ddeb0ceaf78dab1cf1d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1764208124698267"
+        ]
+      },
+      "fbf-1674860230851111": {
+        "textSha256": "eaba8427c146863191f54a906a17cbc4f4fda6f53bc3bf669276cba910c89660",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1674860230851111"
+        ]
+      },
+      "fbf-1450152280378798": {
+        "textSha256": "cc0b10da732161e13bcae73525e2a6a0476d2f22f36bf145d90d794f58244c0e",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1450152280378798"
+        ]
+      },
+      "fbf-1023501800777839": {
+        "textSha256": "3dc0aa8abaee477589aaf78b19e3db4c18e9f65dd0e566117431eb8e613bfb56",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1023501800777839"
+        ]
+      },
+      "fbf-1521808349994531": {
+        "textSha256": "fd82d371ae9fc65e7530526eef59b3e8b31a7904652547481f2a1d0b94c66f50",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1521808349994531"
+        ]
+      },
+      "fbf-2224269502304135": {
+        "textSha256": "71ec1d19f245106757f9a04963ccb9756d1bdadda5649cfdd9bd4c9f2d43b009",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2224269502304135"
+        ]
+      },
+      "fbf-1126219983220937": {
+        "textSha256": "ecbae03efa86ad92dbda6075633d3997ff9b53cd27c445da6d4a5ec0e33651bb",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1126219983220937"
+        ]
+      },
+      "fbf-4540075556235297": {
+        "textSha256": "c791c7fd6b79092fc67b2ded5d58e855573f90b7f881680f86ebaad811f57d6d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=4540075556235297"
+        ]
+      },
+      "fbf-1508052698096690": {
+        "textSha256": "f5b1bc170da33efb9ed31cacc6ad7094bc5f6bd5a100a265e7fe00abdc2cf535",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1508052698096690"
+        ]
+      },
+      "fbf-1836198694060094": {
+        "textSha256": "4a64875bc5997cbad21529a35a97a2639c56edb100628147d54a9a6d5e41f0e3",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1836198694060094"
+        ]
+      },
+      "fbf-1592947895920568": {
+        "textSha256": "0d2e60c6f9b9931765d97bb67c9057ce843731e264860b0cb894f025df3f1c63",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1592947895920568"
+        ]
+      },
+      "fbf-1110667958618704": {
+        "textSha256": "b443297cb784e82c7cde1616bfd002820430809d967a9b0717534d73c0cc0ac3",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1110667958618704"
+        ]
+      },
+      "fbf-1120237167379382": {
+        "textSha256": "012a4c660c3a60d89e69a7ad8547b9a24226ec8e5b5ba21e993b897e19f73284",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1120237167379382"
+        ]
+      },
+      "fbf-1124065903658710": {
+        "textSha256": "6650d0658d5382f6ded0e13424cc0f68e8045a17ceb950b8b1182b85d1ff8151",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1124065903658710"
+        ]
+      },
+      "fbf-1651437983252836": {
+        "textSha256": "0c3e2cb39e33562bc95f57a54c2d25eb3712c709d9c0e075067284d635e8c1e0",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1651437983252836"
+        ]
+      },
+      "fbf-1845367223480124": {
+        "textSha256": "5270210bbacbb53f42b71697f4cc6f321240cff1486c91e42dc9cb21d46463a1",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1845367223480124"
+        ]
+      },
+      "fbf-983843947781378": {
+        "textSha256": "3151957f5742a8913f59b4cff8bacab2ed4689486e8cfadedddcbf85dcbf7278",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=983843947781378"
+        ]
+      },
+      "fbf-947212654815425": {
+        "textSha256": "0c1d4cf7502634d9d779cfaf0d0d1c167fc7e02347be85bc2525a4f313083bd5",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=947212654815425"
+        ]
+      },
+      "fbf-1841184240224558": {
+        "textSha256": "11a3a81d75223291cd1e8527fc15c8f973344ffe82d514732e341217ed4950a1",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1841184240224558"
+        ]
+      },
+      "fbf-2180755649145684": {
+        "textSha256": "14285910ad468096847ddb03f737a34fdb8a359a827421d64250ec136bc66992",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2180755649145684"
+        ]
+      },
+      "fbf-2637727956662489": {
+        "textSha256": "bbca8ec50af71cc388ec85d385cce0e7c634452c519d9cc9a2197229f295eb23",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2637727956662489"
+        ]
+      },
+      "fbf-1643649167148364": {
+        "textSha256": "88841539f64323f4474be10ecf13bac3a3d36fcc39963f1ed144d4d625393b99",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1643649167148364",
+          "https://github.com/toml-lang/toml.io/pull/98/files"
+        ]
+      },
+      "fbf-1099647512909751": {
+        "textSha256": "61d6cd999d166492386447ecfde9526331fc501bfa0badf5f1ce4dc7b4ee1f73",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1099647512909751"
+        ]
+      },
+      "fbf-1909044517171047": {
+        "textSha256": "ef99ad06e852fb6aef1f71abab5015cc8f937efdfb4c7a84376ccdfe0a4317f7",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1909044517171047"
+        ]
+      },
+      "fbf-2121005428491822": {
+        "textSha256": "f8b719a0f74efffffedbb55d7a364ec6de7864bad715d70a3d9fb4f5b400382d",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=2121005428491822"
+        ]
+      },
+      "fbf-1454699756595011": {
+        "textSha256": "864cbd991fd1c9027c6b3f0758abcc9ce64f6661af6e8303d11c03146e97726f",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1454699756595011"
+        ]
+      },
+      "fbf-1086822067556043": {
+        "textSha256": "591da948839cbc8d6cbb739ce56c73c1109dc2c5b125ad7865f8a3e7827547fb",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1086822067556043"
+        ]
+      },
+      "fbf-862250600282443": {
+        "textSha256": "a19792815eb6efc051a87d2a9e44da826f3d8e752746941f28e2485582935d50",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=862250600282443"
+        ]
+      },
+      "fbf-1115987844562084": {
+        "textSha256": "529706946c3248a5c96185ed5d4452778cb79a0e49a9fe0a6b4c3714e934604a",
+        "sourceUrls": [
+          "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl?comment_id=1115987844562084"
+        ]
+      }
+    }
+  },
+  "sourceFiles": {
+    "data/facebook-comments.json": "008f55e2d52df7041ff9e5ce182b8fd8a488f44467f05a95fbaf91f979db736e",
+    "data/brief.json": "6872d1f0dc4dade5650716ea2201e9d2369b9ec32e68ef1ebe72db2b9df523f7",
+    "data/facebook-sources.json": "a6569509d672c1a7165e6c1e153b2edd53f7abe782b976b91edec9f385a2c637",
+    "data/coverage.json": "f9721d9db6d76b4775a6d19d2cac2171f69fb4be8292082b8efb98236e3fb04b",
+    "data/translation-context.json": "58e6065b4549510f4c52a75759cdc339721333705b3c1b86076adbd6fb51538c",
+    "data/facebook-followup-comments.json": "4f28a2908e8e88866436ceafeb53f6df2094c096218300a8b88489b7c52de46d",
+    "data/chronicle.json": "c5396a9510e63aa4f8351736b9a1bfcee0d7cd919246bd64b1a88363ffa219ba",
+    "data/facebook-self-published-comments.json": "376f86c2629bc1e85c99c49071318153147acb417c2859c8d3890f67c9347035",
+    "data/en/facebook-comments.json": "a95666bd96566151a914a996094b4d63942cc11ab7bdcdd872dd929f0d84eadc",
+    "data/en/brief.json": "931cc572417b1437fe330e1d01dc06d5081bead4f1d213dcdb0dfed841f165db",
+    "data/en/facebook-sources.json": "09d8b01a3bf0da59f9768bee916db774c4061f89b3613a205a4a995f73d376f7",
+    "data/en/translation-context.json": "1bf9067afe19d2a8e3a4eb21ca7deff95da9b95f958b4999ff3937658a5ce4ee",
+    "data/en/facebook-followup-comments.json": "aa632b4d01266fa63ae00764fcc1284a088b4744dac4ab67fcd8e5e37906620a",
+    "data/en/chronicle.json": "cb0cdd6889478247705981f4cff593d05882e0ef73611ddfb0950030d46538ca",
+    "data/en/facebook-self-published-comments.json": "05f7488aa2235c007bedcff854c3cc57156a3d360e961c48ed20485cf861ad88"
+  }
+}

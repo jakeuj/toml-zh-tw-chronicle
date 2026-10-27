@@ -1,0 +1,49 @@
+{
+  "brief": {
+    "number": "00 / IN BRIEF",
+    "title": [
+      "一分鐘看懂這場爭議"
+    ],
+    "deck": ""
+  },
+  "overview": {
+    "number": "01 / CONTEXT",
+    "title": [
+      "爭議之前，",
+      "先看見那份貢獻。"
+    ],
+    "deck": "這不是只有一則回覆的故事。需求、提交內容與後續公開討論，構成了不同層次的問題。"
+  },
+  "timeline": {
+    "number": "02 / CHRONOLOGY",
+    "title": [
+      "把三個討論串，",
+      "放回同一條時間線。"
+    ],
+    "deck": "這條時間線涵蓋三個 GitHub 討論串，採臺灣時區（UTC+8），可展開 UTC 對照。Facebook 頁面僅提供分鐘精度，另依回覆關係整理於逐則留言章，不補造秒數混排。"
+  },
+  "archive": {
+    "number": "03 / THE RECORD",
+    "title": [
+      "每一則發言，",
+      "都放回它的脈絡。"
+    ],
+    "deck": "依 GitHub 討論串與 Facebook 留言分章，保留每則發言的差異。下方為繁中轉述；原文、時間、回覆關係與查核註記均可對照。"
+  },
+  "questions": {
+    "number": "04 / POINTS OF DISAGREEMENT",
+    "title": [
+      "他們爭論的，",
+      "其實有好幾件事。"
+    ],
+    "deck": "以下依論點整理，不替任何一方補上沒有說過的立場，也不將個別留言等同專案全體共識。"
+  },
+  "sources": {
+    "number": "05 / SOURCES & METHOD",
+    "title": [
+      "可查核的地方，",
+      "以及紀錄的邊界。"
+    ],
+    "deck": "這是一份有截點的獨立整理，不是 TOML 官方聲明，也不是對兩版譯文的品質認證。"
+  }
+}

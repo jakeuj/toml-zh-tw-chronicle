@@ -1,0 +1,338 @@
+{
+  "captureLabel": "GitHub capture completed",
+  "captureTimezone": "Taiwan · UTC+8",
+  "captureParagraph": [
+    "Main external material was read by {{externalCheckedAt}}; the additional wording checks were made at {{contextCheckedAt}}, Taiwan time. Each Facebook inventory gives its own capture time, including the separate-publication post at {{publishedCapturedAt}}. This is not a live feed; sources may be edited, removed or extended."
+  ],
+  "coverageHeading": "Core sources and completeness",
+  "table": {
+    "caption": "Scope at the recorded cutoffs",
+    "headings": [
+      "Source",
+      "Coverage",
+      "Status or limitation"
+    ],
+    "rows": [
+      [
+        [
+          {
+            "href": "https://github.com/toml-lang/toml.io/issues/97",
+            "label": "Issue #97 ↗"
+          }
+        ],
+        [
+          "Opening post, 7 comments, closure"
+        ],
+        [
+          "Closed"
+        ]
+      ],
+      [
+        [
+          {
+            "href": "https://github.com/toml-lang/toml.io/pull/98",
+            "label": "PR #98 ↗"
+          }
+        ],
+        [
+          "Opening post, 1 text review summary, 2 inline comments, 1 empty review, commits and review events"
+        ],
+        [
+          "Closed, unmerged"
+        ]
+      ],
+      [
+        [
+          {
+            "href": "https://github.com/toml-lang/toml.io/issues/99",
+            "label": "Issue #99 ↗"
+          }
+        ],
+        [
+          "Opening post, 3 comments, closure and lock"
+        ],
+        [
+          "Closed, locked"
+        ]
+      ],
+      [
+        [
+          {
+            "href": "https://www.facebook.com/1576676851153065/posts/1577393651081385",
+            "label": "The original post’s comments ↗"
+          }
+        ],
+        [
+          "{{original.rootCount}} top-level comments, {{original.replyCount}} replies"
+        ],
+        [
+          "Displayed count: {{original.observedPageCount}}"
+        ]
+      ],
+      [
+        [
+          {
+            "href": "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl",
+            "label": "The separately published translation post ↗"
+          }
+        ],
+        [
+          "{{published.rootCount}} top-level comments, {{published.replyCount}} replies"
+        ],
+        [
+          "Displayed: {{published.observedPageCount}}; readable: {{published.loadedCount}}; gap unresolved"
+        ]
+      ],
+      [
+        [
+          {
+            "href": "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl",
+            "label": "The later reflection post ↗"
+          }
+        ],
+        [
+          "{{followup.rootCount}} top-level comments, {{followup.replyCount}} replies"
+        ],
+        [
+          "Displayed count: {{followup.observedPageCount}}"
+        ]
+      ]
+    ]
+  },
+  "methodParagraphs": [
+    [
+      "GitHub API pagination covers general comments, reviews, inline comments, timeline events, commits and file diffs, deduplicated by source ID. The empty review object is inventoried with the simultaneous author reply. Copilot’s summary and inline advice are recorded separately but represent one review. Subscription changes and simple mention notifications are excluded from the narrative timeline."
+    ],
+    [
+      "The ",
+      {
+        "href": "../data/coverage.json",
+        "label": "coverage inventory"
+      },
+      " records source IDs, URLs, page mappings and hashes. ",
+      {
+        "href": "../data/en/chronicle.json",
+        "label": "English editorial data"
+      },
+      " retains those identities and timestamps. Temporary full-source research files are not published. Updates require new capture and editorial revision; automated completeness checks do not replace semantic checking."
+    ],
+    [
+      "Facebook material was read through visible public interfaces using All comments and expanded replies. The original post yielded 18 IDs matching its counter; the reflection yielded 59. The separate-publication post yielded 51 against a counter of 58. Six deleted-parent notices do not establish six distinct missing comments or explain the entire gap of seven. No missing wording, identity, deletion actor or motive is reconstructed. Each inventory has a separate cutoff; matching counts do not recover deleted or restricted history."
+    ]
+  ],
+  "externalHeading": "Related external context",
+  "notes": [
+    {
+      "id": null,
+      "number": "A",
+      "title": [
+        {
+          "href": "https://www.facebook.com/1576676851153065/posts/1577393651081385",
+          "label": "Will’s original public Facebook post ↗"
+        }
+      ],
+      "paragraphs": [
+        [
+          "The text was read in a browser. The author says the PR was rejected because of AI, reports using AI again to change the tone, says he reviewed it and questions mandatory human translation. This is the post linked by the maintainer in #99."
+        ],
+        [
+          "The opening post itself does not explicitly invite an influx to GitHub. On the separate-publication post, ",
+          {
+            "href": "#fbs-1928419341897870",
+            "label": "Brune Kz does suggest several Taiwanese readers comment"
+          },
+          "; that is distinct from author coordination. No independently verifiable exact publication time was obtained, so the post is not placed on the second-resolution timeline. Relative dates and changing reaction counts are not used to infer impact. Its ",
+          {
+            "href": "#facebook-comments",
+            "label": "18 readable comments"
+          },
+          " are recorded separately."
+        ]
+      ]
+    },
+    {
+      "id": null,
+      "number": "B",
+      "title": [
+        {
+          "href": "https://hackmd.io/@brlin/BJij2njhfe",
+          "label": "brlin-tw’s HackMD draft ↗"
+        }
+      ],
+      "paragraphs": [
+        [
+          "General webpage retrieval was restricted, but the public Markdown download endpoint was readable. The draft’s main arguments correspond to the GitHub statement on submission style, conventions, publicity and actionable feedback. The GitHub comment discloses LLM proofreading."
+        ],
+        [
+          "Access to a current draft does not provide every historical revision or independently verify the writing workflow. Workflow disclosures remain the author’s account."
+        ]
+      ]
+    },
+    {
+      "id": null,
+      "number": "C",
+      "title": [
+        {
+          "href": "https://lkml.org/lkml/2026/10/13/3242",
+          "label": "Linux mailing list: remove Assisted-by references ↗"
+        }
+      ],
+      "paragraphs": [
+        [
+          "Linus Torvalds’s original October 13, 2026 message was checked in the browser. He uses compiler and editor analogies to argue against categorical tool bans and expects contributors to try their best and understand their work. doggy8088 cites it in his second appeal in #97."
+        ],
+        [
+          "This is another project’s discussion. It explains the cited argument, not TOML policy or Linux approval of this translation."
+        ]
+      ]
+    },
+    {
+      "id": null,
+      "number": "D",
+      "title": [
+        "Earlier translation contributions and the README"
+      ],
+      "paragraphs": [
+        [
+          "brlin-tw cites ",
+          {
+            "href": "https://github.com/toml-lang/toml.io/pull/86",
+            "label": "Russian #86"
+          },
+          ", ",
+          {
+            "href": "https://github.com/toml-lang/toml.io/pull/96",
+            "label": "French #96"
+          },
+          " and ",
+          {
+            "href": "https://github.com/toml-lang/toml.io/pull/65",
+            "label": "Portuguese #65"
+          },
+          ". French and Portuguese were merged at the cutoff; Russian remained open and unmerged. The French description is short, while Russian includes bilingual explanation and discussion of example keys. It would be inaccurate to describe all three as lacking detailed explanation."
+        ],
+        [
+          "The ",
+          {
+            "href": "https://github.com/toml-lang/toml.io/blob/b950d4929980ee66f2e77bfe421e725ddffbeb69/README.md",
+            "label": "PR-base README"
+          },
+          " describes copying the English locale, setting the language name and building versions. That document does not mention AI; this does not establish that other documents, channels or historical versions never contained relevant rules."
+        ]
+      ]
+    },
+    {
+      "id": null,
+      "number": "E",
+      "title": [
+        {
+          "href": "https://github.com/toml-lang/toml.io/commit/83dd824cc5581e89ef853ca07221ee5b6ca4219d",
+          "label": "Fix commit 83dd824 ↗"
+        }
+      ],
+      "paragraphs": [
+        [
+          "The commit exists, with original PR commit b9bd601 as its parent. The captured #98 commit list and head still contain the original version. A separate fix and inclusion in the PR are different facts."
+        ]
+      ]
+    },
+    {
+      "id": null,
+      "number": "F",
+      "title": [
+        {
+          "href": "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl",
+          "label": "The author’s later reflection on AI labels and open source ↗"
+        }
+      ],
+      "paragraphs": [
+        [
+          "The public text was checked in the browser and is paraphrased ",
+          {
+            "href": "#followup-reflection",
+            "label": "after the overview"
+          },
+          ". Writing experience, project counts and feelings are attributed to the author. They do not establish translation quality, mobilization or GitHub outcomes."
+        ],
+        [
+          "Checked: {{externalCheckedAt}} (Taiwan, UTC+8). The exact publication time is unavailable and is not inferred from relative dates. ",
+          {
+            "href": "#facebook-followup-comments",
+            "label": "Its 59 readable comments"
+          },
+          " have a separate inventory."
+        ]
+      ]
+    },
+    {
+      "id": "source-translation-context",
+      "number": "G",
+      "title": [
+        "Russian comparison and the BBC translation workflow"
+      ],
+      "paragraphs": [
+        [
+          {
+            "href": "#translation-context",
+            "label": "Wording checks and editorial analysis"
+          },
+          " were made at {{contextCheckedAt}}, Taiwan time. This supplement is not a new full capture of GitHub or Facebook; original cutoffs remain separate."
+        ],
+        [
+          "The BBC article provides general workflow context, not a review of this TOML translation or an endorsement of either party."
+        ]
+      ]
+    },
+    {
+      "id": "source-maintainer-background",
+      "number": "H",
+      "title": [
+        "arp242’s public professional background and maintenance policies"
+      ],
+      "paragraphs": [
+        [
+          {
+            "href": "#maintainer-background",
+            "label": "Read the background in the overview"
+          },
+          ". Checked on October 27, 2026, Taiwan time, using his website and CV, project documents, public GitHub records, his Vi and Vim Meta post and NLnet’s funding record. Direct sources accompany each paragraph. CV details remain his account; employers were not independently contacted to confirm them."
+        ],
+        [
+          "AI policies link to fixed commits. A GitHub release’s publisher and timestamp do not establish authorship of the specification or its stated publication date. CODEOWNERS remained an unmerged proposal. The fsnotify and lib/pq accounts retain other participants’ and subsequent responses; they do not establish translation quality, personality or motives in this dispute."
+        ],
+        [
+          "This background research did not contact participants or recapture all GitHub or Facebook material. Existing capture times and the counts of 144 records and 28 timeline entries retain their separate scope."
+        ]
+      ]
+    }
+  ],
+  "historyHeading": "Edits, missing comments and snapshot differences",
+  "historyParagraphs": [
+    [
+      "The GitHub API provides surviving comments and last-edit timestamps, not every earlier version. One surviving ShikiSuen comment was edited on October 27. An earlier search snapshot described comments disappearing; the current ending instead explains voluntarily removing another response."
+    ],
+    [
+      "An earlier snapshot also showed an October 25 appeal to other maintainers about localization strategy that is absent from the captured API list. It appears only as a ",
+      {
+        "href": "#historical-shiki",
+        "label": "labeled historical supplement"
+      },
+      ", without an invented ID or exact time. Who removed it, when and why are not established. The search snapshot was an earlier version seen during research, not a replayable public archive; readers cannot independently reproduce it from the live page today."
+    ]
+  ],
+  "processHeading": "Editorial process, English edition and corrections",
+  "processParagraphs": [
+    [
+      "jakeuj commissioned Codex to assist with research, paraphrasing, implementation and deployment. The English edition renders the Chinese editorial account, including all 144 records; it is not a verbatim translation of every original post and has not received named human linguistic review. Preparing this edition does not refresh source captures. Original names and relevant terminology examples remain in their source language."
+    ],
+    [
+      "Accusations, value judgments and personal histories are attributed. AI use, browser translation features, reaction counts and one technical review do not determine overall translation quality. Readers can compare original sources and submit specific corrections with evidence through ",
+      {
+        "href": "https://github.com/jakeuj/toml-zh-tw-chronicle/issues",
+        "label": "this website’s repository"
+      },
+      ". Please do not use this record to pressure or flood the original threads."
+    ]
+  ],
+  "sourceEditorialSha256": "6fe46715230d6fba9403d4aeac59a0dd81ea14017fd37b62995e61b6a1b7c19e"
+}

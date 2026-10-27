@@ -1,0 +1,361 @@
+{
+  "language": "en",
+  "locale": "en-GB",
+  "ogLocale": "en_US",
+  "threads": [
+    {
+      "id": "97",
+      "label": "First proposal",
+      "title": "Demand, rejection and the first appeals",
+      "subtitle": "A locale specification develops into a debate about tools, contribution methods and conventions.",
+      "state": "Closed · Not planned",
+      "url": "https://github.com/toml-lang/toml.io/issues/97"
+    },
+    {
+      "id": "98",
+      "label": "Translation PR",
+      "title": "The submission and its technical review",
+      "subtitle": "Eight changed files, a concrete accessibility issue and a fix absent from the captured PR.",
+      "state": "Closed · Unmerged",
+      "url": "https://github.com/toml-lang/toml.io/pull/98"
+    },
+    {
+      "id": "99",
+      "label": "Renewed proposal",
+      "title": "A second request becomes a dispute about trust",
+      "subtitle": "A shorter issue, a Facebook post and a statement after closure.",
+      "state": "Closed · Locked",
+      "url": "https://github.com/toml-lang/toml.io/issues/99"
+    }
+  ],
+  "nav": [
+    {
+      "id": "brief",
+      "label": "In brief"
+    },
+    {
+      "id": "overview",
+      "label": "Context"
+    },
+    {
+      "id": "timeline",
+      "label": "Timeline"
+    },
+    {
+      "id": "archive",
+      "label": "Every comment"
+    },
+    {
+      "id": "questions",
+      "label": "Points of disagreement"
+    },
+    {
+      "id": "sources",
+      "label": "Sources and method"
+    }
+  ],
+  "headers": {
+    "skip": "Skip to content",
+    "brandMark": "R",
+    "brand": "Open Source Record",
+    "brandSmall": "THE TOML CHRONICLE",
+    "edition": "",
+    "language": "繁體中文",
+    "cutoff": "Captured 27 Oct 2026 "
+  },
+  "hero": {
+    "eyebrow": "Open source × Localization × AI",
+    "title": [
+      "A Traditional",
+      "Chinese translation.",
+      "An AI dispute."
+    ],
+    "deck": "The TOML chronicle",
+    "intro": [
+      "A request for a zh-TW locale became a debate about tools, quality, trust and the boundaries of collaboration."
+    ],
+    "brief": "Read the brief ↘",
+    "archive": "Read every comment ↗",
+    "dossierLabel": "Three core records",
+    "caption": [
+      "One locale request.",
+      "\n",
+      "Three public records."
+    ]
+  },
+  "toc": {
+    "label": "Read the record",
+    "note": [
+      "Understand the context.",
+      "\n",
+      "Return to each statement.",
+      {
+        "href": "#sources",
+        "label": "Method and limitations ↗"
+      }
+    ],
+    "mobile": "Chapters ＋"
+  },
+  "strip": [
+    [
+      {
+        "b": "03"
+      },
+      " GitHub threads"
+    ],
+    [
+      {
+        "b": "{{totalRecords}}"
+      },
+      " Individual records"
+    ],
+    [
+      {
+        "b": "23 Oct"
+      },
+      " Proposal and PR opened"
+    ],
+    [
+      {
+        "b": "25 Oct"
+      },
+      " Renewed issue closed and locked"
+    ]
+  ],
+  "endnote": {
+    "mark": "R",
+    "text": [
+      "Keep the context.",
+      "\n",
+      "Give judgments a record to stand on."
+    ],
+    "top": "Back to top ↑"
+  },
+  "footer": {
+    "brand": "The Open Source Record",
+    "description": "The TOML chronicle · Independent editorial account",
+    "source": "Website source ↗",
+    "language": "繁體中文版",
+    "rights": "Original content belongs to its authors. This is not an official TOML website."
+  },
+  "historical": {
+    "label": "Historical supplement · Excluded from current comments",
+    "title": "A response no longer present in the current inventory",
+    "meta": "ShikiSuen · Snapshot dated 25 October 2026; exact time unknown",
+    "source": "Original thread ↗",
+    "method": "How snapshot differences are handled"
+  },
+  "facebookSets": [
+    {
+      "file": "facebook-comments",
+      "id": "facebook-comments",
+      "thread": "facebook",
+      "heading": "thread-facebook",
+      "label": "The original post’s comments",
+      "title": "Support, criticism, questions and replies",
+      "summary": [
+        "{{rootCount}} top-level comments + {{replyCount}} replies: {{loadedCount}} readable entries."
+      ],
+      "sources": [
+        {
+          "href": "https://www.facebook.com/1576676851153065/posts/1577393651081385",
+          "label": "Facebook post ↗"
+        }
+      ],
+      "focus": [],
+      "methodLabel": "Coverage and limitations",
+      "capturedParagraph": [
+        "Reading completed: {{capturedAt}} (Taiwan, UTC+8). ",
+        {
+          "href": "../data/en/facebook-comments.json",
+          "label": "English editorial data and source list ↗"
+        }
+      ],
+      "detailsLabel": "Time precision, reply relationships and reactions",
+      "deletionLabel": "",
+      "detailFields": [
+        "timeNote",
+        "reactionNote"
+      ]
+    },
+    {
+      "file": "facebook-self-published-comments",
+      "id": "facebook-self-published-comments",
+      "thread": "facebook-self-published",
+      "heading": "thread-facebook-self-published",
+      "label": "The separately published translation post",
+      "title": "Tools, integrity, maintenance costs and concessions",
+      "summary": [
+        "{{rootCount}} top-level comments + {{replyCount}} replies: {{loadedCount}} readable entries. Page counter: {{observedPageCount}}; the gap remains unresolved."
+      ],
+      "sources": [
+        {
+          "href": "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl",
+          "label": "Facebook post ↗"
+        },
+        {
+          "href": "https://www.facebook.com/share/p/1JvHwd93Y9/",
+          "label": "Original share link ↗"
+        }
+      ],
+      "focus": [
+        {
+          "id": "fbs-1029603240167492",
+          "label": "Yu-Fen Ceng on integrity"
+        },
+        {
+          "id": "fbs-1842774710238647",
+          "label": "The author accepts criticism"
+        },
+        {
+          "id": "fbs-1698424805407093",
+          "label": "Maintenance costs and shared policy"
+        },
+        {
+          "id": "fbs-1928419341897870",
+          "label": "An invitation to comment"
+        }
+      ],
+      "methodLabel": "Coverage and limitations",
+      "capturedParagraph": [
+        "Reading completed: {{capturedAt}} (Taiwan, UTC+8). ",
+        {
+          "href": "../data/en/facebook-self-published-comments.json",
+          "label": "English editorial data and source list ↗"
+        }
+      ],
+      "detailsLabel": "Time precision, reply relationships and reactions",
+      "deletionLabel": "Six displayed notices, in page order; these are not six distinct source IDs:",
+      "detailFields": [
+        "relationshipNote",
+        "timeNote",
+        "reactionNote"
+      ]
+    },
+    {
+      "file": "facebook-followup-comments",
+      "id": "facebook-followup-comments",
+      "thread": "facebook-followup",
+      "heading": "thread-facebook-followup",
+      "label": "The later reflection post",
+      "title": "Public discussion, rejection rights and contribution guidelines",
+      "summary": [
+        "{{rootCount}} top-level comments + {{replyCount}} replies: {{loadedCount}} readable entries. Includes 13 replies under 江柏漢’s comment."
+      ],
+      "sources": [
+        {
+          "href": "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl",
+          "label": "Facebook post ↗"
+        }
+      ],
+      "focus": [
+        {
+          "id": "fbf-2076514799663679",
+          "label": "江柏漢 and 13 replies"
+        },
+        {
+          "id": "fbf-1182038630830919",
+          "label": "The author’s expectations"
+        },
+        {
+          "id": "fbf-1601376431013300",
+          "label": "Daniel Chen and later debate"
+        }
+      ],
+      "methodLabel": "Coverage and limitations",
+      "capturedParagraph": [
+        "Reading completed: {{capturedAt}} (Taiwan, UTC+8). ",
+        {
+          "href": "../data/en/facebook-followup-comments.json",
+          "label": "English editorial data and source list ↗"
+        }
+      ],
+      "detailsLabel": "Time precision, reply relationships and reactions",
+      "deletionLabel": "",
+      "detailFields": [
+        "relationshipNote",
+        "timeNote",
+        "reactionNote"
+      ]
+    }
+  ],
+  "sourceEditorialSha256": "63bbe53ed622262cc67df89be7259fb0aa5548af455ff3f1680a295832f582c0",
+  "labels": {
+    "opening": "Opening post",
+    "comment": "Comment",
+    "review": "Automated review summary",
+    "inline": "Inline discussion",
+    "copy": "Copy link",
+    "permalink": "Permalink",
+    "context": "Reply context",
+    "notes": "Verification notes",
+    "related": "Related:",
+    "edited": "Last edited: ",
+    "latest": " · Latest readable version at capture",
+    "originalPost": "Read original post ↗",
+    "originalReview": "Read original review ↗",
+    "originalComment": "Read original comment ↗",
+    "githubThread": "GitHub thread ↗",
+    "fbComment": "Read original Facebook comment ↗",
+    "fbResponding": "Responding to this Facebook post.",
+    "fbReply": "Reply to ",
+    "fbUnique": " (matched using the displayed recipient and visible earlier comments)",
+    "fbAmbiguous": "The platform names {{author}} as the recipient, but the exact parent reply is ambiguous. ",
+    "fbRoot": "View the known top-level comment",
+    "fbRootPrefix": "Top-level thread: ",
+    "fbRootSuffix": ". Platform label (translated): “{{label}}”. No exact parent reply is inferred.",
+    "replyByRoot": "Reply (grouped by root)",
+    "replyTwice": "Reply to a reply",
+    "reply": "Reply",
+    "topLevel": "Top-level comment",
+    "fbEdited": "Marked edited · Edit time unavailable",
+    "fbLiked": "Displayed as liked by the post author",
+    "languageIssue": "See the separate English-fallback tagging issue",
+    "statusEvent": "Status event",
+    "commit": "Commit",
+    "lastEdit": "Last edit",
+    "timelineEdited": " (Edited later; the record uses the latest readable captured version.)",
+    "editTitle": " edits an earlier comment",
+    "editSummary": "The API’s last-edit timestamp is available, but not a complete revision history. Specific intermediate wording or edit times are not inferred.",
+    "taiwan": "Taiwan · UTC+8",
+    "utcSource": "UTC comparison and source",
+    "openRecord": "Open record ↗",
+    "contextLabel": "Wording checks · Editorial analysis",
+    "checked": "Checked: ",
+    "checkedSuffix": " (Taiwan, UTC+8); UTC ",
+    "contextNav": "Translation context checks",
+    "contextSource": "Source times and access limits",
+    "contextData": "Read the editorial data ↗",
+    "fbSourcesHeading": "Three original Facebook share links",
+    "fbShare": "Original share link ↗",
+    "fbPermalink": "Post permalink ↗",
+    "fbRead": "Read the recorded comments",
+    "searchLabel": "Search topics, authors or text",
+    "searchPlaceholder": "For example: human review, Facebook, lang",
+    "author": "Author",
+    "allAuthors": "All authors",
+    "thread": "Thread",
+    "allThreads": "All threads",
+    "reset": "Clear filters",
+    "all": "Showing all {{count}} records",
+    "found": "{{count}} of {{total}} records",
+    "empty": "No matching records. Try another term or clear the filters.",
+    "searchHeading": "All records and search",
+    "searchEntry": "Search all records ↗",
+    "searchUnavailable": "JavaScript is disabled. Use the source groups and record list below to read everything; search and copying require JavaScript.",
+    "copied": "Copied",
+    "copiedStatus": "Copied the permalink for this record.",
+    "copyFallback": "Automatic copying is unavailable. The permalink is open; copy it from the address bar.",
+    "copyUrl": "Copy URL",
+    "legacyHeading": "Links from the original edition",
+    "legacyIntro": "Sections and records from the original single page now have the following homes. Follow a link to read the full content.",
+    "chaptersHeading": "Explore the record",
+    "previous": "Previous",
+    "next": "Next",
+    "searchFailure": "The search index could not be loaded. All record links remain available below.",
+    "guidePosts": "Posts and comments",
+    "guideEvents": "＋ Status changes, commits and last edits",
+    "sourcesNav": "Comment sources",
+    "recordCounts": "{{githubCount}} GitHub records + {{facebookCount}} Facebook comments/replies"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "TOML 紀實網站維護"
+  short_description: "維護 TOML 紀實網站的雙語內容、頁面導覽、搜尋與來源完整性"
+  default_prompt: "使用 $toml-chronicle 維護此 repo，依更新範圍載入內容，完成中英文核對及對應驗證。"

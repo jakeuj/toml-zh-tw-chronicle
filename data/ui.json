@@ -1,0 +1,364 @@
+{
+  "language": "zh-Hant-TW",
+  "locale": "zh-TW",
+  "ogLocale": "zh_TW",
+  "threads": [
+    {
+      "id": "97",
+      "label": "第一份提案",
+      "title": "需求、拒絕與第一次申覆",
+      "subtitle": "從新增語系的規格，走向 AI 工具、貢獻方式與社群規範的討論。",
+      "url": "https://github.com/toml-lang/toml.io/issues/97",
+      "state": "已關閉 · 不規劃處理"
+    },
+    {
+      "id": "98",
+      "label": "翻譯 PR",
+      "title": "提交內容與技術審查",
+      "subtitle": "八個異動檔案，一項具體的無障礙意見，以及未納入原 PR 的修正。",
+      "url": "https://github.com/toml-lang/toml.io/pull/98",
+      "state": "已關閉 · 未合併"
+    },
+    {
+      "id": "99",
+      "label": "第二份提案",
+      "title": "再次詢問，衝突轉向信任",
+      "subtitle": "較短的提案、Facebook 貼文與關閉後的立場說明。",
+      "url": "https://github.com/toml-lang/toml.io/issues/99",
+      "state": "已關閉 · 已鎖定"
+    }
+  ],
+  "nav": [
+    {
+      "id": "brief",
+      "label": "懶人包"
+    },
+    {
+      "id": "overview",
+      "label": "事件導讀"
+    },
+    {
+      "id": "timeline",
+      "label": "完整時間線"
+    },
+    {
+      "id": "archive",
+      "label": "逐則留言"
+    },
+    {
+      "id": "questions",
+      "label": "爭點對照"
+    },
+    {
+      "id": "sources",
+      "label": "資料與方法"
+    }
+  ],
+  "headers": {
+    "skip": "跳至主要內容",
+    "brandMark": "誌",
+    "brand": "開源現場",
+    "brandSmall": "THE OPEN SOURCE RECORD",
+    "edition": "獨立紀實專題",
+    "language": "English",
+    "cutoff": "資料截至 2026.10.27 "
+  },
+  "hero": {
+    "eyebrow": "開源協作 × 在地化 × 人工智慧",
+    "title": [
+      "一份繁中翻譯，",
+      "如何成為",
+      "AI 貢獻爭議。"
+    ],
+    "deck": "TOML 事件全紀錄",
+    "intro": [
+      "從一個新增 ",
+      {
+        "code": "zh-TW"
+      },
+      " 的提案開始，",
+      "\n",
+      "爭論走向工具、品質、信任，以及開源協作的邊界。"
+    ],
+    "brief": "先看懶人包 ↘",
+    "archive": "查閱逐則留言 ↗",
+    "dossierLabel": "三份核心紀錄",
+    "caption": [
+      "一種語言需求。",
+      "\n",
+      "三份公開紀錄。"
+    ]
+  },
+  "toc": {
+    "label": "本篇導覽",
+    "note": [
+      "先理解脈絡，",
+      "\n",
+      "再回到每一則發言。",
+      {
+        "href": "#sources",
+        "label": "整理方法與限制 ↗"
+      }
+    ],
+    "mobile": "閱讀章節 ＋"
+  },
+  "strip": [
+    [
+      {
+        "b": "03"
+      },
+      " GitHub 討論串"
+    ],
+    [
+      {
+        "b": "{{totalRecords}}"
+      },
+      " 篇逐則整理"
+    ],
+    [
+      {
+        "b": "10.23"
+      },
+      " 提案與 PR 建立"
+    ],
+    [
+      {
+        "b": "10.25"
+      },
+      " 第二份提案關閉、鎖定"
+    ]
+  ],
+  "endnote": {
+    "mark": "誌",
+    "text": [
+      "留下脈絡，讓判斷有據可循。"
+    ],
+    "top": "回到頁首 ↑"
+  },
+  "footer": {
+    "brand": "開源現場",
+    "description": "TOML 事件全紀錄 · 獨立整理",
+    "source": "網站原始碼 ↗",
+    "language": "English edition",
+    "rights": "來源內容權利歸各原作者；本頁非 TOML 官方網站。"
+  },
+  "historical": {
+    "label": "歷史補充 · 不計入現存留言",
+    "title": "一則目前清單中已不可見的回應",
+    "meta": "ShikiSuen · 快照標示 2026 年 10 月 25 日，精確時間未知",
+    "source": "原討論串 ↗",
+    "method": "快照差異如何處理"
+  },
+  "facebookSets": [
+    {
+      "file": "facebook-comments",
+      "id": "facebook-comments",
+      "thread": "facebook",
+      "heading": "thread-facebook",
+      "label": "原始貼文的留言現場",
+      "title": "不只聲援，也有批評、質疑與作者回覆。",
+      "summary": [
+        "主留言依時間排列，回覆接在所回應的留言後。{{rootCount}} 則主留言＋{{replyCount}} 則回覆，共 {{loadedCount}} 則。"
+      ],
+      "sources": [
+        {
+          "href": "https://www.facebook.com/1576676851153065/posts/1577393651081385",
+          "label": "Facebook 原始貼文 ↗"
+        }
+      ],
+      "focus": [],
+      "methodLabel": "本次涵蓋範圍",
+      "capturedParagraph": [
+        "留言讀取時間：{{capturedAt}}（臺灣時間）。",
+        {
+          "href": "data/facebook-comments.json",
+          "label": "查看整理資料與來源清單 ↗"
+        }
+      ],
+      "detailsLabel": "時間精度與反應狀態的說明",
+      "deletionLabel": "",
+      "detailFields": [
+        "timeNote",
+        "reactionNote"
+      ]
+    },
+    {
+      "file": "facebook-self-published-comments",
+      "id": "facebook-self-published-comments",
+      "thread": "facebook-self-published",
+      "heading": "thread-facebook-self-published",
+      "label": "另行發布繁中網站的貼文 · 留言現場",
+      "title": "工具之外，還有誠信、維護成本與讓步。",
+      "summary": [
+        "{{rootCount}} 則主留言＋{{replyCount}} 則回覆，共 {{loadedCount}} 則可讀內容。頁面計數 {{observedPageCount}}，差額未還原。"
+      ],
+      "sources": [
+        {
+          "href": "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl",
+          "label": "Facebook 貼文 ↗"
+        },
+        {
+          "href": "https://www.facebook.com/share/p/1JvHwd93Y9/",
+          "label": "原始分享連結 ↗"
+        }
+      ],
+      "focus": [
+        {
+          "id": "fbs-1029603240167492",
+          "label": "Yu-Fen Ceng 的誠信批評"
+        },
+        {
+          "id": "fbs-1842774710238647",
+          "label": "作者接受批評"
+        },
+        {
+          "id": "fbs-1698424805407093",
+          "label": "維護成本與共同政策"
+        },
+        {
+          "id": "fbs-1928419341897870",
+          "label": "邀請臺灣讀者留言"
+        }
+      ],
+      "methodLabel": "可讀內容與計數差額",
+      "capturedParagraph": [
+        "留言讀取完成時間：{{capturedAt}}（臺灣時間）。",
+        {
+          "href": "data/facebook-self-published-comments.json",
+          "label": "查看整理資料與來源清單 ↗"
+        }
+      ],
+      "detailsLabel": "刪除提示、回覆關係與時間精度",
+      "deletionLabel": "原頁六處提示按顯示順序記錄，不能當作六個不同來源 ID：",
+      "detailFields": [
+        "relationshipNote",
+        "timeNote",
+        "reactionNote"
+      ]
+    },
+    {
+      "file": "facebook-followup-comments",
+      "id": "facebook-followup-comments",
+      "thread": "facebook-followup",
+      "heading": "thread-facebook-followup",
+      "label": "後續貼文的留言現場",
+      "title": "公開討論的界線、拒絕權與貢獻指南。",
+      "summary": [
+        "{{rootCount}} 則主留言＋{{replyCount}} 則回覆，共 {{loadedCount}} 則；含江柏漢主留言下的 13 則回覆。"
+      ],
+      "sources": [
+        {
+          "href": "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl",
+          "label": "Facebook 後續貼文 ↗"
+        }
+      ],
+      "focus": [
+        {
+          "id": "fbf-2076514799663679",
+          "label": "江柏漢與十三則回覆"
+        },
+        {
+          "id": "fbf-1182038630830919",
+          "label": "作者談原先的發文預期"
+        },
+        {
+          "id": "fbf-1601376431013300",
+          "label": "Daniel Chen 與後續爭論"
+        }
+      ],
+      "methodLabel": "本次涵蓋範圍",
+      "capturedParagraph": [
+        "留言讀取完成時間：{{capturedAt}}（臺灣時間）。",
+        {
+          "href": "data/facebook-followup-comments.json",
+          "label": "查看整理資料與來源清單 ↗"
+        }
+      ],
+      "detailsLabel": "時間精度、回覆關係與反應標示",
+      "deletionLabel": "",
+      "detailFields": [
+        "timeNote",
+        "relationshipNote",
+        "reactionNote"
+      ]
+    }
+  ],
+  "labels": {
+    "opening": "主文",
+    "comment": "留言",
+    "review": "機器人審查總評",
+    "inline": "行內討論",
+    "copy": "複製連結",
+    "permalink": "固定連結",
+    "context": "回應脈絡",
+    "notes": "查核註記",
+    "related": "延伸閱讀",
+    "edited": "最後編輯：",
+    "latest": " · 以下為截點時的版本",
+    "originalPost": "查看原始主文 ↗",
+    "originalReview": "查看原始審查 ↗",
+    "originalComment": "查看原始留言 ↗",
+    "githubThread": "GitHub 討論串 ↗",
+    "fbComment": "查看原始 Facebook 留言 ↗",
+    "fbResponding": "回應本篇 Facebook 貼文。",
+    "fbReply": "回覆 ",
+    "fbUnique": "（依平台標示對象與可見留言對應）",
+    "fbAmbiguous": "平台標示回覆 {{author}} 的回覆，無法唯一對應哪一則。",
+    "fbRoot": "查看所屬主留言",
+    "fbRootPrefix": "所屬主留言：",
+    "fbRootSuffix": "。平台標示「{{label}}」；未推定精確父回覆。",
+    "replyByRoot": "回覆（按主留言分組）",
+    "replyTwice": "回覆中的回覆",
+    "reply": "回覆",
+    "topLevel": "主留言",
+    "fbEdited": "頁面標為已編輯 · 編輯時間未提供",
+    "fbLiked": "頁面顯示「作者說讚」",
+    "languageIssue": "另見 Copilot 的不同語言標記問題",
+    "statusEvent": "狀態事件",
+    "commit": "提交紀錄",
+    "lastEdit": "最後編輯",
+    "timelineEdited": "（此留言後曾編輯；詳述顯示最新可讀版本。）",
+    "editTitle": " 編輯先前留言",
+    "editSummary": "API 記錄的最後編輯時間；沒有完整歷次修訂紀錄，不推定具體改動時間或文字。",
+    "taiwan": "臺灣時間",
+    "utcSource": "UTC 對照與來源",
+    "openRecord": "前往紀錄 ↗",
+    "contextLabel": "新增語意查核 · 編輯分析",
+    "checked": "查閱：",
+    "checkedSuffix": "（臺灣時間）；UTC ",
+    "contextNav": "翻譯爭點查核導覽",
+    "contextSource": "來源時間與查閱限制",
+    "contextData": "查看本節整理資料 ↗",
+    "fbSourcesHeading": "三篇 Facebook 原始分享連結",
+    "fbShare": "原始分享連結 ↗",
+    "fbPermalink": "貼文永久連結 ↗",
+    "fbRead": "查看已整理留言",
+    "searchLabel": "搜尋主題、作者或內容",
+    "searchPlaceholder": "例如：人工審校、Facebook、lang",
+    "author": "作者",
+    "allAuthors": "所有作者",
+    "thread": "討論串",
+    "allThreads": "全部討論串",
+    "reset": "清除篩選",
+    "all": "顯示全部 {{count}} 篇紀錄",
+    "found": "找到 {{count}} / {{total}} 篇紀錄",
+    "empty": "沒有符合的紀錄。請換一個關鍵字，或使用「清除篩選」查看全部。",
+    "searchHeading": "全部紀錄與搜尋",
+    "searchEntry": "搜尋全部紀錄 ↗",
+    "searchUnavailable": "JavaScript 已停用。可使用下方來源分類與紀錄清單閱讀全部內容；搜尋與複製功能需 JavaScript。",
+    "copied": "已複製",
+    "copiedStatus": "已複製此則紀錄的固定連結。",
+    "copyFallback": "目前無法自動複製；已開啟固定連結，可從網址列複製。",
+    "copyUrl": "請複製網址",
+    "legacyHeading": "舊連結對照",
+    "legacyIntro": "原單頁的章節與紀錄已移至下列頁面。選擇連結即可前往完整內容。",
+    "chaptersHeading": "繼續查閱",
+    "previous": "上一章",
+    "next": "下一章",
+    "searchFailure": "搜尋索引暫時無法載入；下方仍可逐一查閱全部紀錄。",
+    "guidePosts": "發言與主文",
+    "guideEvents": "＋ 狀態變更、提交與最後編輯",
+    "sourcesNav": "留言來源快速導覽",
+    "recordCounts": "GitHub {{githubCount}} 篇＋Facebook {{facebookCount}} 則留言／回覆"
+  }
+}

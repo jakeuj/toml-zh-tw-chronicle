@@ -1,0 +1,266 @@
+{
+  "paragraphs": [
+    [
+      "TOML is a text format for configuration files. Its website provides specifications in several languages. On October 23, 2026, doggy8088 (Will, whose Facebook page is named Will 保哥的技術交流中心) proposed a Taiwanese Traditional Chinese locale and submitted a homepage, two specification versions and interface changes. ",
+      {
+        "href": "https://toml.io/en/",
+        "label": "TOML website ↗"
+      },
+      " ",
+      {
+        "href": "#proposal-97",
+        "label": "Read the proposal"
+      }
+    ],
+    [
+      "Project member arp242 characterized the first issue as an LLM prompt and objected to agent-mediated submissions. The issue and PR were closed. The contributor disclosed AI assistance, said he reviewed the work and accepted responsibility, and asked for assessment of the result. Two days later, a renewed issue was closed and locked after the maintainer linked Facebook. ",
+      {
+        "href": "#first-rejection",
+        "label": "First rejection"
+      },
+      " · ",
+      {
+        "href": "#facebook-confrontation",
+        "label": "The renewed closure"
+      }
+    ],
+    [
+      "Responses do not form a single camp: some emphasize human review and cultural differences, some criticize the submission or publicity strategy, and others also ask maintainers for better feedback. This chronicle paraphrases each statement and distinguishes participant claims from facts the record can establish."
+    ]
+  ],
+  "status": {
+    "label": "At the capture cutoffs",
+    "title": "All three threads are closed. The translation PR is unmerged.",
+    "paragraph": [
+      "#97 and #99 were closed as not planned; #99 also restricts comments to collaborators. This chronicle has not comprehensively reviewed the meaning of both translations. AI use alone is not used to determine whether they pass or fail."
+    ],
+    "links": [
+      {
+        "href": "https://github.com/toml-lang/toml.io/issues/97",
+        "label": "#97 source ↗"
+      },
+      {
+        "href": "https://github.com/toml-lang/toml.io/pull/98",
+        "label": "#98 source ↗"
+      },
+      {
+        "href": "https://github.com/toml-lang/toml.io/issues/99",
+        "label": "#99 source ↗"
+      }
+    ]
+  },
+  "layersHeading": "Three layers to assess separately",
+  "layers": [
+    {
+      "label": "Demand",
+      "title": "Traditional Chinese localization",
+      "text": "Characters, Taiwanese technical terms and reading habits: whose needs support another locale?"
+    },
+    {
+      "label": "Result",
+      "title": "Translation and code",
+      "text": "Is the prose accurate? Are shared templates correct? What review evidence can others verify?"
+    },
+    {
+      "label": "Collaboration",
+      "title": "Rules, effort and trust",
+      "text": "Which methods are welcome? How is rejection explained? How does public discussion affect trust?"
+    }
+  ],
+  "peopleHeading": "People in the record",
+  "people": [
+    {
+      "name": "doggy8088",
+      "text": "Issue and PR author; publicly discloses AI assistance and accepts responsibility."
+    },
+    {
+      "name": "arp242",
+      "text": "Shown as a project member on GitHub; closes threads and explains his position."
+    },
+    {
+      "name": "ShikiSuen · d4n1elchen · ddman",
+      "text": "Discuss localization, human review and the rejection’s handling."
+    },
+    {
+      "name": "brlin-tw · pcchou",
+      "text": "Describe localization or community experience and differ on publicity and handling."
+    },
+    {
+      "name": "Copilot",
+      "text": "An automated reviewer; the concrete finding concerns interface language tags."
+    }
+  ],
+  "maintainerBackground": {
+    "id": "maintainer-background",
+    "title": "Who is arp242? Maintenance work and earlier positions",
+    "checkedOn": "2026-10-27",
+    "sections": [
+      {
+        "title": "A developer with a long record in Go and technical communities",
+        "paragraphs": [
+          [
+            "arp242 publicly identifies as Martin Tournoij; his GitHub profile and personal website link to each other. His public CV describes him as the founder of GoatCounter, an open-source web analytics service focused on privacy and ease of use. NLnet separately records funding for the project between 2019 and 2022. ",
+            {
+              "href": "https://github.com/arp242",
+              "label": "GitHub profile ↗"
+            },
+            " · ",
+            {
+              "href": "https://www.arp242.net/cv/CV-MartinTournoij.html",
+              "label": "His CV ↗"
+            },
+            " · ",
+            {
+              "href": "https://nlnet.nl/project/GoatCounter/",
+              "label": "NLnet funding record ↗"
+            }
+          ],
+          [
+            "His public work also includes the Unicode lookup tool uni, the Go plugin gopher.vim and maintenance activity on Go libraries including fsnotify and lib/pq. His 2019 resignation post records that he served as a moderator on Vi and Vim Stack Exchange. ",
+            {
+              "href": "https://www.arp242.net/",
+              "label": "His project list ↗"
+            },
+            " · ",
+            {
+              "href": "https://vi.meta.stackexchange.com/questions/1497/wq-or-giving-up-mod-status",
+              "label": "Moderator resignation ↗"
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Visible work in TOML",
+        "paragraphs": [
+          [
+            "arp242 published the TOML 1.1.0 GitHub release, merged the Simplified Chinese and French 1.1.0 translations on toml.io and proposed a CODEOWNERS file to identify translation reviewers. That proposal remained unmerged when checked. These actions establish a maintenance role, but the public record alone does not show whether other members were consulted about the present decision. ",
+            {
+              "href": "https://github.com/toml-lang/toml/releases/tag/1.1.0",
+              "label": "GitHub release ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/pull/92",
+              "label": "Chinese #92 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/pull/96",
+              "label": "French #96 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/pull/89",
+              "label": "Reviewer proposal #89 ↗"
+            }
+          ]
+        ]
+      },
+      {
+        "title": "AI contribution bans predate this translation dispute",
+        "paragraphs": [
+          [
+            "On August 19, 2026, Taiwan time, he added AI contribution policies to BurntSushi/toml, lib/pq and GoatCounter. They prohibit AI-generated PRs, issues, commit messages and comments. The restrictions cover several forms of contribution text; they cannot be reduced to a ban only on drafts lacking human review. ",
+            {
+              "href": "https://github.com/BurntSushi/toml/blob/d733fc535e4a9f3c454e421a87b90ade5d49bf31/CONTRIBUTING.md",
+              "label": "Fixed toml policy ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/lib/pq/blob/4cd6ec55b3155fd401f4dbf8973808b2a2957f7d/CONTRIBUTING.md",
+              "label": "Fixed lib/pq policy ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/arp242/goatcounter/blob/6eab8385e81db98fb06f97df86ec05c7f9250646/CONTRIBUTING.md",
+              "label": "Fixed GoatCounter policy ↗"
+            }
+          ],
+          [
+            "That day, he described roughly 110 agent reports and a large PR on lib/pq as difficult to review; the count and attribution are his account. The Go vulnerability database’s rolandshoemaker subsequently acknowledged that some reports had slipped through review, said they had been withdrawn and apologized. arp242 also said some issues could still be fixed. This gives context for his discussion of maintenance workload without establishing that all reports were fabricated. ",
+            {
+              "href": "https://github.com/lib/pq/issues/1447#issuecomment-5333356191",
+              "label": "His account of review workload ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/lib/pq/issues/1447#issuecomment-5334244029",
+              "label": "Withdrawal and apology ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/lib/pq/issues/1447#issuecomment-5334081439",
+              "label": "His reply on possible fixes ↗"
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The fsnotify dispute over maintenance access",
+        "paragraphs": [
+          [
+            "In May 2026, removing some collaborators’ access to fsnotify prompted public discussion. arp242 cited rapidly merged changes, inadequate quality and an undiscussed funding-list change. mattn listed fixes and releases, disputed the wholesale dismissal of his work and apologized for incorrectly describing the original maintainers as recently removed and for his judgment in directly changing the funding file. arp242 also acknowledged that he should have opened an issue beforehand. Quality and governance remained disputed; this provides context about maintenance procedures, not proof of his motive in rejecting the translation. ",
+            {
+              "href": "https://github.com/fsnotify/fsnotify/issues/757#issuecomment-4399405186",
+              "label": "arp242’s explanation ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/fsnotify/fsnotify/issues/757#issuecomment-4403090788",
+              "label": "mattn’s full response ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/fsnotify/fsnotify/issues/757#issuecomment-4400723880",
+              "label": "arp242 on prior communication ↗"
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Earlier views and the acceptance criteria still unresolved",
+        "paragraphs": [
+          [
+            "In “Open source DIY ethics,” he describes open source as working together to solve problems and expects users to share the work. In “Tired of Stack Overflow,” he criticizes harsh treatment of newcomers and argues that quality and kindness can coexist. These are his earlier published views, not established explanations for his present replies. ",
+            {
+              "href": "https://www.arp242.net/diy.html",
+              "label": "Open source DIY essay ↗"
+            },
+            " · ",
+            {
+              "href": "https://www.arp242.net/stackoverflow.html",
+              "label": "Stack Overflow essay ↗"
+            }
+          ],
+          [
+            "The PR-base README provides translation steps but contains no AI clause. Policies in other projects do not automatically establish a previously announced toml.io rule. In the Russian discussion, pradyunsg described a practice of finding another native speaker to review. In #99, arp242 said he did not oppose Traditional Chinese, yet also said subsequent zh-TW submissions would be suspected of AI translation. Whether human checking and independent native-speaker review offer an acceptable path remains unanswered in the public record. ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/blob/b950d4929980ee66f2e77bfe421e725ddffbeb69/README.md",
+              "label": "Translation guide at the time ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/pull/86#issuecomment-2911796145",
+              "label": "Native-speaker review practice ↗"
+            },
+            " · ",
+            {
+              "href": "#maintainer-position",
+              "label": "His full position in this dispute"
+            }
+          ]
+        ]
+      }
+    ],
+    "note": [
+      "Background checked on October 27, 2026, Taiwan time. CV details remain attributed to him. This research did not contact participants or recapture all event comments. The background is separate from the counts of 144 records and 28 timeline entries. ",
+      {
+        "href": "#source-maintainer-background",
+        "label": "Source scope and method"
+      }
+    ]
+  },
+  "followupLabel": "Later response · Public Facebook post",
+  "followupSource": "Read original post ↗",
+  "sourceEditorialSha256": "81f661d9e6a2e8e180746c945735c15c6b19e95564dfd13d22f9699a99f9b407"
+}

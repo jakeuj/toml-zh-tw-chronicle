@@ -1,0 +1,265 @@
+{
+  "paragraphs": [
+    [
+      "TOML 是用於設定檔的文字格式；toml.io 提供規格與不同語言版本。2026 年 10 月 23 日，doggy8088（Will 保哥）為網站提出臺灣繁體中文語系，並送出首頁、兩版規格與介面調整的 PR。",
+      {
+        "href": "https://toml.io/en/",
+        "label": "TOML 官網 ↗"
+      },
+      " ",
+      {
+        "href": "#proposal-97",
+        "label": "查看提案"
+      }
+    ],
+    [
+      "專案成員 arp242 將第一份 issue 判斷為 LLM 提示詞，要求不要用 agent 提交；issue 與 PR 隨後關閉。作者承認 AI 協助，主張自己審閱並負責，希望按成果品質評估。兩天後再次提出的 issue，則在維護者引用 Facebook 貼文後遭關閉及鎖定。",
+      {
+        "href": "#first-rejection",
+        "label": "第一則拒絕"
+      },
+      " · ",
+      {
+        "href": "#facebook-confrontation",
+        "label": "再次關閉的脈絡"
+      }
+    ],
+    [
+      "後續留言並未形成單一陣營：有人強調人工審校與文化差異，有人批評提交及公開擴散方式，也有人同時要求維護者改善回饋。這份專題逐則轉述各方論點，並把當事人的說法與能由紀錄核實的事實分開。"
+    ]
+  ],
+  "status": {
+    "label": "截至資料截點",
+    "title": "三份紀錄均已關閉，翻譯 PR 尚未合併。",
+    "paragraph": [
+      "#97 與 #99 的關閉理由為不規劃處理；#99 另限協作者發言。本專題沒有完成兩版譯文的全面語意審校，也不以是否使用 AI 推定譯文合格或不合格。"
+    ],
+    "links": [
+      {
+        "href": "https://github.com/toml-lang/toml.io/issues/97",
+        "label": "#97 原始紀錄 ↗"
+      },
+      {
+        "href": "https://github.com/toml-lang/toml.io/pull/98",
+        "label": "#98 原始紀錄 ↗"
+      },
+      {
+        "href": "https://github.com/toml-lang/toml.io/issues/99",
+        "label": "#99 原始紀錄 ↗"
+      }
+    ]
+  },
+  "layersHeading": "需要分開理解的三個層次",
+  "layers": [
+    {
+      "label": "需求",
+      "title": "繁中在地化",
+      "text": "字形、臺灣技術術語與閱讀習慣。新增語系的必要性，由哪些讀者需求支持？"
+    },
+    {
+      "label": "成果",
+      "title": "譯文與程式變更",
+      "text": "文字是否準確？共用模板是否正確？如何提供可查核的審校證據？"
+    },
+    {
+      "label": "協作",
+      "title": "規則、負擔與信任",
+      "text": "專案接受什麼提交方式？拒絕如何說明？公開討論如何影響彼此信任？"
+    }
+  ],
+  "peopleHeading": "在這份紀錄中發言的人",
+  "people": [
+    {
+      "name": "doggy8088",
+      "text": "提案與 PR 作者；公開表示使用 AI 協助並願意負責。"
+    },
+    {
+      "name": "arp242",
+      "text": "GitHub 顯示為專案成員；執行關閉並說明拒絕立場。"
+    },
+    {
+      "name": "ShikiSuen · d4n1elchen · ddman",
+      "text": "分別提出在地化、人工審校及對拒絕方式的意見。"
+    },
+    {
+      "name": "brlin-tw · pcchou",
+      "text": "自述有在地化或社群經驗；對處理及公開擴散方式提出不同評價。"
+    },
+    {
+      "name": "Copilot",
+      "text": "自動審查工具；意見聚焦介面語言標記。"
+    }
+  ],
+  "maintainerBackground": {
+    "id": "maintainer-background",
+    "title": "arp242 是誰？維護工作與既有立場",
+    "checkedOn": "2026-10-27",
+    "sections": [
+      {
+        "title": "長期參與 Go 與技術社群的開發者",
+        "paragraphs": [
+          [
+            "arp242 的公開姓名為 Martin Tournoij，GitHub 與本人網站相互連結。他在公開履歷中自述創辦 GoatCounter；這是一項以隱私與易用性為目標的開源網站分析服務，NLnet 另有該專案於 2019 至 2022 年間的資助紀錄。",
+            {
+              "href": "https://github.com/arp242",
+              "label": "GitHub 個人頁 ↗"
+            },
+            " · ",
+            {
+              "href": "https://www.arp242.net/cv/CV-MartinTournoij.html",
+              "label": "本人履歷 ↗"
+            },
+            " · ",
+            {
+              "href": "https://nlnet.nl/project/GoatCounter/",
+              "label": "NLnet 資助紀錄 ↗"
+            }
+          ],
+          [
+            "他的公開作品還包括 Unicode 查詢工具 uni 與 Go 語言 Vim 外掛 gopher.vim，並有 fsnotify、lib/pq 等 Go 函式庫的維護活動。2019 年的本人辭任文也記錄他曾任 Vi and Vim Stack Exchange 版主。",
+            {
+              "href": "https://www.arp242.net/",
+              "label": "本人作品列表 ↗"
+            },
+            " · ",
+            {
+              "href": "https://vi.meta.stackexchange.com/questions/1497/wq-or-giving-up-mod-status",
+              "label": "版主辭任文 ↗"
+            }
+          ]
+        ]
+      },
+      {
+        "title": "在 TOML 的可見工作",
+        "paragraphs": [
+          [
+            "TOML 1.1.0 的 GitHub release 發布者為 arp242；他也合併了 toml.io 的簡中與法文 1.1.0 翻譯，並提出為翻譯指定審閱者的 CODEOWNERS 提案。查閱時該提案仍未合併。這些操作能確認他的維護角色，但無法單憑公開紀錄判斷此次決定是否經其他成員討論。",
+            {
+              "href": "https://github.com/toml-lang/toml/releases/tag/1.1.0",
+              "label": "GitHub release ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/pull/92",
+              "label": "簡中 #92 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/pull/96",
+              "label": "法文 #96 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/pull/89",
+              "label": "審閱者提案 #89 ↗"
+            }
+          ]
+        ]
+      },
+      {
+        "title": "AI 貢獻禁令早於此次翻譯事件",
+        "paragraphs": [
+          [
+            "2026 年 8 月 19 日（臺灣時間），他為 BurntSushi/toml、lib/pq 與 GoatCounter 加入 AI 貢獻政策，禁止 AI 產生的 PR、issue、提交訊息與留言。因此這些專案的條款涵蓋多種貢獻文字，不能簡化成僅排斥未經人工審閱的稿件。",
+            {
+              "href": "https://github.com/BurntSushi/toml/blob/d733fc535e4a9f3c454e421a87b90ade5d49bf31/CONTRIBUTING.md",
+              "label": "toml 政策固定版本 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/lib/pq/blob/4cd6ec55b3155fd401f4dbf8973808b2a2957f7d/CONTRIBUTING.md",
+              "label": "lib/pq 政策固定版本 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/arp242/goatcounter/blob/6eab8385e81db98fb06f97df86ec05c7f9250646/CONTRIBUTING.md",
+              "label": "GoatCounter 政策固定版本 ↗"
+            }
+          ],
+          [
+            "同日，他在 lib/pq 稱約 110 則 agent 回報與大型 PR 難以審查；數量及來源判定屬本人說法。Go 漏洞資料庫的 rolandshoemaker 隨後承認部分通報漏過審查、表示已撤回並道歉；arp242 也表示有些問題仍可修正。這段經歷提供他談論維護負擔的背景，不能據此認定所有回報都是虛構。",
+            {
+              "href": "https://github.com/lib/pq/issues/1447#issuecomment-5333356191",
+              "label": "本人對審查負擔的說明 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/lib/pq/issues/1447#issuecomment-5334244029",
+              "label": "撤回通報與道歉 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/lib/pq/issues/1447#issuecomment-5334081439",
+              "label": "仍可修正的回覆 ↗"
+            }
+          ]
+        ]
+      },
+      {
+        "title": "fsnotify 的維護權爭議",
+        "paragraphs": [
+          [
+            "2026 年 5 月，fsnotify 撤除部分協作者權限引發公開討論。arp242 稱變更合併過快、品質不足，且贊助名單未經討論便遭修改；mattn 則列出修正與發版工作，反駁貢獻被全面否定，並為誤述原始維護者遭撤權及直接修改贊助檔案的判斷致歉。arp242 也承認事前應開 issue 說明。雙方對品質與治理仍有分歧；這是維護程序的背景，不能用來證明此次翻譯拒絕的動機。",
+            {
+              "href": "https://github.com/fsnotify/fsnotify/issues/757#issuecomment-4399405186",
+              "label": "arp242 的說明 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/fsnotify/fsnotify/issues/757#issuecomment-4403090788",
+              "label": "mattn 的完整回應 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/fsnotify/fsnotify/issues/757#issuecomment-4400723880",
+              "label": "arp242 對事前溝通的回應 ↗"
+            }
+          ]
+        ]
+      },
+      {
+        "title": "既有觀點與此次仍待釐清的門檻",
+        "paragraphs": [
+          [
+            "他在〈Open source DIY ethics〉將開源理解為共同動手解決問題，期待使用者也承擔工作；〈Tired of Stack Overflow〉則批評對新手刻薄，主張品質與善意可以並存。這些是本人過往公開觀點，不能直接當作此次回覆原因。",
+            {
+              "href": "https://www.arp242.net/diy.html",
+              "label": "開源 DIY 文章 ↗"
+            },
+            " · ",
+            {
+              "href": "https://www.arp242.net/stackoverflow.html",
+              "label": "Stack Overflow 文章 ↗"
+            }
+          ],
+          [
+            "本次 PR 基底版本的 README 有翻譯步驟，該文件未列 AI 條款；其他專案的禁令不能自動視為 toml.io 事先公告的規則。俄文討論中，pradyunsg 曾說過往會找另一位母語者審閱。#99 裡 arp242 明說不反對繁中，卻也表示後續 zh-TW 投稿都會受到 AI 翻譯的懷疑。人工校對及獨立母語者審閱能否構成接受途徑，公開紀錄仍未回答。",
+            {
+              "href": "https://github.com/toml-lang/toml.io/blob/b950d4929980ee66f2e77bfe421e725ddffbeb69/README.md",
+              "label": "當時的翻譯指南 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/pull/86#issuecomment-2911796145",
+              "label": "母語者審閱慣例 ↗"
+            },
+            " · ",
+            {
+              "href": "#maintainer-position",
+              "label": "本次完整立場"
+            }
+          ]
+        ]
+      }
+    ],
+    "note": [
+      "背景資料查閱日期：2026 年 10 月 27 日（臺灣）。履歷內容保留本人自述歸屬；此次未聯繫當事人，也未重新全量擷取事件留言。背景不納入 144 筆紀錄或 28 項時間線的計數。",
+      {
+        "href": "#source-maintainer-background",
+        "label": "來源範圍與方法"
+      }
+    ]
+  },
+  "followupLabel": "後續回應 · Facebook 公開貼文",
+  "followupSource": "閱讀原始貼文 ↗"
+}

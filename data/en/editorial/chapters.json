@@ -1,0 +1,50 @@
+{
+  "brief": {
+    "number": "00 / IN BRIEF",
+    "title": [
+      "The dispute in one minute"
+    ],
+    "deck": ""
+  },
+  "overview": {
+    "number": "01 / CONTEXT",
+    "title": [
+      "Before the dispute,",
+      "there was a contribution."
+    ],
+    "deck": "Demand, submitted work and the public response are distinct parts of this story."
+  },
+  "timeline": {
+    "number": "02 / CHRONOLOGY",
+    "title": [
+      "Three threads.",
+      "One timeline."
+    ],
+    "deck": "The three GitHub threads are ordered in Taiwan time (UTC+8), with expandable UTC comparisons. Facebook times have minute precision and are grouped with their replies in the archive; invented seconds are not used to mix them into this timeline."
+  },
+  "archive": {
+    "number": "03 / THE RECORD",
+    "title": [
+      "Every statement,",
+      "in its context."
+    ],
+    "deck": "English editorial paraphrases, organized by GitHub thread and Facebook post. Original names, source IDs, timestamps and links are retained. These are not verbatim translations of all original posts."
+  },
+  "questions": {
+    "number": "04 / POINTS OF DISAGREEMENT",
+    "title": [
+      "Several questions",
+      "inside one dispute."
+    ],
+    "deck": "Arguments are compared without assigning unstated positions or equating one member’s comment with project-wide consensus."
+  },
+  "sources": {
+    "number": "05 / SOURCES & METHOD",
+    "title": [
+      "What can be checked,",
+      "and where the record ends."
+    ],
+    "deck": "An independent record with capture cutoffs, not a TOML statement or a quality certificate for both translations."
+  },
+  "sourceEditorialSha256": "6db863b999491cdc61c0b8cfd050ebde4d5473f59c28a9ab3d1b8765ac47cfd4"
+}

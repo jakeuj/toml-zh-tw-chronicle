@@ -1,0 +1,85 @@
+{
+  "topics": [
+    {
+      "label": "Localization",
+      "title": "Is Traditional Chinese just character conversion?",
+      "paragraph": [
+        "The contributor and ddman emphasize Taiwanese terminology and cultural context. arp242 later explicitly says he does not oppose adding Traditional Chinese. Demand for the locale and the method of this contribution should be assessed separately."
+      ],
+      "sourceIds": [
+        "proposal-97",
+        "ddman-localization",
+        "maintainer-position"
+      ]
+    },
+    {
+      "label": "Tools and responsibility",
+      "title": "What does AI assist with, and who checks it?",
+      "paragraph": [
+        "The contributor says tools do not determine quality and he takes responsibility. The maintainer expects carefully vetted human translations. A claim of reading through the work, an AI review and a named human language review are different kinds of evidence."
+      ],
+      "sourceIds": [
+        "author-pushback",
+        "author-tools",
+        "daniel-review"
+      ]
+    },
+    {
+      "label": "Rules and conventions",
+      "title": "Does an unwritten restriction imply a welcome?",
+      "paragraph": [
+        "The contributor asks for a written AI prohibition. brlin-tw also emphasizes observing established conventions. These are different expectations, not proof that the whole team adopted a complete AI policy."
+      ],
+      "sourceIds": [
+        "author-pushback",
+        "brlin-deescalation",
+        "maintainer-position"
+      ]
+    },
+    {
+      "label": "Review burden",
+      "title": "How can a contribution be easier to assess?",
+      "paragraph": [
+        "The PR changes shared templates as well as prose, creating technical review work. The contributor offers a smaller scope. brlin-tw criticizes excessive explanation while also asking maintainers for actionable feedback."
+      ],
+      "sourceIds": [
+        "proposal-98",
+        "review-language",
+        "brlin-deescalation"
+      ]
+    },
+    {
+      "label": "Public amplification",
+      "title": "Discussion, publicity or pressure?",
+      "paragraph": [
+        "The maintainer alleges agitation; brlin-tw criticizes the publicity strategy; pcchou sees possible benefits. The original post does not explicitly invite an influx. In the separate publication post, Brune Kz suggests that several Taiwanese readers comment to attest to readability. That proposal does not prove author coordination or actual collective action."
+      ],
+      "sourceIds": [
+        "facebook-confrontation",
+        "maintainer-position",
+        "brlin-deescalation",
+        "pcchou-publicity",
+        "fbs-1928419341897870"
+      ]
+    },
+    {
+      "label": "Communication and trust",
+      "title": "What do the sharp replies leave unresolved?",
+      "paragraph": [
+        "Participants challenge the prompt characterization, mechanical-translation argument and disparaging wording. Wording and status changes can be checked. Allegations about motives, discrimination and honesty must remain distinct from established facts."
+      ],
+      "sourceIds": [
+        "first-rejection",
+        "shiki-localization",
+        "maintainer-position"
+      ]
+    }
+  ],
+  "openQuestions": {
+    "title": "Questions the public record cannot settle",
+    "paragraph": [
+      "How much of the translation did the maintainer read? How extensive was human review? Did wider amplification involve other coordination? Without sufficient evidence, these remain open; tone, tools or affiliations cannot settle them."
+    ]
+  },
+  "sourceEditorialSha256": "1dd42cfa09eea4263a1f1c8ca2d091588caf91e9dc163920ba4862ee461d500e"
+}

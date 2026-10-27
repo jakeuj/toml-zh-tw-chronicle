@@ -1,0 +1,354 @@
+{
+  "captureLabel": "GitHub 資料擷取完成於",
+  "captureTimezone": "臺灣時間",
+  "captureParagraph": [
+    "主要外部資料查閱於 {{externalCheckedAt}} 完成；新增語意查核另於 {{contextCheckedAt}} 核對，詳見 ",
+    {
+      "href": "#translation-context",
+      "label": "補充爭點"
+    },
+    "。以上均為臺灣時間。網站不即時同步；原始來源可能繼續編輯、撤除或新增內容。"
+  ],
+  "coverageHeading": "核心來源與完整性",
+  "table": {
+    "caption": "核心資料涵蓋",
+    "headings": [
+      "來源",
+      "本頁涵蓋",
+      "截點狀態"
+    ],
+    "rows": [
+      [
+        [
+          {
+            "href": "https://github.com/toml-lang/toml.io/issues/97",
+            "label": "Issue #97 ↗"
+          }
+        ],
+        [
+          "主文、7 則留言、關閉事件"
+        ],
+        [
+          "關閉"
+        ]
+      ],
+      [
+        [
+          {
+            "href": "https://github.com/toml-lang/toml.io/pull/98",
+            "label": "PR #98 ↗"
+          }
+        ],
+        [
+          "主文、1 份有文字總評、2 則行內留言、1 個空白 review、提交與審查事件"
+        ],
+        [
+          "關閉、未合併"
+        ]
+      ],
+      [
+        [
+          {
+            "href": "https://github.com/toml-lang/toml.io/issues/99",
+            "label": "Issue #99 ↗"
+          }
+        ],
+        [
+          "主文、3 則留言、關閉與鎖定事件"
+        ],
+        [
+          "關閉、鎖定"
+        ]
+      ],
+      [
+        [
+          {
+            "href": "https://www.facebook.com/1576676851153065/posts/1577393651081385",
+            "label": "Facebook 貼文 ↗"
+          }
+        ],
+        [
+          "{{original.rootCount}} 則主留言、{{original.replyCount}} 則回覆，含一層再回覆"
+        ],
+        [
+          "擷取時顯示 {{original.observedPageCount}} 則"
+        ]
+      ],
+      [
+        [
+          {
+            "href": "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl",
+            "label": "Facebook 後續貼文 ↗"
+          }
+        ],
+        [
+          "{{followup.rootCount}} 則主留言、{{followup.replyCount}} 則回覆"
+        ],
+        [
+          "擷取時顯示 {{followup.observedPageCount}} 則"
+        ]
+      ],
+      [
+        [
+          {
+            "href": "https://www.facebook.com/will.fans/posts/pfbid02nuRGAKhE1Wrz3797Z1QHcxndrWgD5DaJLG9PjuuAE84eoHpj8LaUoE5rcy7XUXSzl",
+            "label": "Facebook 另行發布貼文 ↗"
+          }
+        ],
+        [
+          "{{published.rootCount}} 則主留言、{{published.replyCount}} 則回覆（含附圖留言）"
+        ],
+        [
+          "頁面計數 {{published.observedPageCount}}，取得 {{published.loadedCount}} 則，差額未還原"
+        ]
+      ]
+    ]
+  },
+  "methodParagraphs": [
+    [
+      "以 GitHub API 分頁取得一般留言、review、行內留言、timeline、提交與檔案差異，依原始 ID 去重。空白 review 物件已登錄，並連到同時提交的作者回覆；Copilot 的總評與行內意見分開記錄，但不視為兩次獨立審查。訂閱、取消訂閱與單純提及通知不納入敘事時間線。"
+    ],
+    [
+      "公開的 ",
+      {
+        "href": "data/coverage.json",
+        "label": "覆蓋清單 JSON"
+      },
+      " 記錄來源 ID、網址、對應本頁位置及內容雜湊；",
+      {
+        "href": "data/chronicle.json",
+        "label": "專題內容 JSON"
+      },
+      " 提供整理後的繁中資料。來源全文暫存不隨網站發布。更新時須重新擷取並人工修訂敘述；自動完整性檢查不能代替語意查核。"
+    ],
+    [
+      "Facebook 採瀏覽器讀取可見的公開留言，切換「所有留言」後展開回覆及再回覆。本次讀到的 18 個唯一留言 ID，與頁面顯示數量一致；",
+      {
+        "href": "data/facebook-comments.json",
+        "label": "Facebook 整理資料"
+      },
+      " 另存來源、分鐘精度時間、父回覆關係及原始可見文字的雜湊。數量相符只證明這次可載入內容已對齊，不能還原已刪除或受限內容。另行發布貼文取得 51 則可讀內容，頁面計數 58，差額未還原；後續心情貼文另有 59 則獨立清單。三篇讀取截點分開記錄。"
+    ]
+  ],
+  "externalHeading": "直接相關的外部脈絡",
+  "notes": [
+    {
+      "id": null,
+      "number": "A",
+      "title": [
+        {
+          "href": "https://www.facebook.com/1576676851153065/posts/1577393651081385",
+          "label": "Will 保哥的技術交流中心公開貼文 ↗"
+        }
+      ],
+      "paragraphs": [
+        [
+          "已透過瀏覽器讀取公開貼文正文。作者稱前一份 PR 因 AI 被拒，表示再次使用 AI 調整語氣，已有自行審閱，並反問人工翻譯的必要性。這是 #99 中維護者直接連結的貼文。"
+        ],
+        [
+          "這篇主文本身沒有明文號召讀者湧入 GitHub；另一篇貼文的 Brune Kz 留言則提出邀請多位臺灣讀者留言的建議，",
+          {
+            "href": "#fbs-1928419341897870",
+            "label": "詳見該則紀錄"
+          },
+          "。這與作者是否協調行動分開處理。未取得可獨立核對的精確發布時間，故不為此貼文安排按秒排序的時間線位置；不採相對日期或動態按讚數推定影響。本次已切換「所有留言」並展開回覆，讀取這篇貼文可載入的 18 則留言／回覆，",
+          {
+            "href": "#facebook-comments",
+            "label": "逐則整理另見專章"
+          },
+          "；不推論刪除、權限限制或其他外部互動。"
+        ]
+      ]
+    },
+    {
+      "id": null,
+      "number": "B",
+      "title": [
+        {
+          "href": "https://hackmd.io/@brlin/BJij2njhfe",
+          "label": "brlin-tw 的 HackMD 草稿 ↗"
+        }
+      ],
+      "paragraphs": [
+        [
+          "一般網頁擷取受限，但公開 Markdown 下載端點可讀。草稿的主要論點與 GitHub 發言相對照，涉及提交方式、專案慣例、公開擴散與可操作回饋。GitHub 留言另揭露使用 LLM 校正文句。"
+        ],
+        [
+          "可讀取現存草稿，不代表已取得每一版修訂歷史或驗證實際寫作流程；流程揭露依作者說法記錄。"
+        ]
+      ]
+    },
+    {
+      "id": null,
+      "number": "C",
+      "title": [
+        {
+          "href": "https://lkml.org/lkml/2026/10/13/3242",
+          "label": "Linux 核心郵件：remove Assisted-by references ↗"
+        }
+      ],
+      "paragraphs": [
+        [
+          "已透過瀏覽器核對 Linus Torvalds 在 2026 年 10 月 13 日的原始郵件。他以編譯器、編輯器類比反對對工具作一概禁止，並強調期待貢獻者盡力且理解自己在做什麼。doggy8088 在 #97 第二次申覆時引用這封信。"
+        ],
+        [
+          "它是另一個專案的討論，只能說明引用的論證背景，不能視為 TOML 的政策或 Linux 對這份翻譯的認可。"
+        ]
+      ]
+    },
+    {
+      "id": null,
+      "number": "D",
+      "title": [
+        "既有翻譯貢獻與 README"
+      ],
+      "paragraphs": [
+        [
+          "brlin-tw 引用 ",
+          {
+            "href": "https://github.com/toml-lang/toml.io/pull/86",
+            "label": "俄文 #86"
+          },
+          "、",
+          {
+            "href": "https://github.com/toml-lang/toml.io/pull/96",
+            "label": "法文 #96"
+          },
+          "、",
+          {
+            "href": "https://github.com/toml-lang/toml.io/pull/65",
+            "label": "葡文 #65"
+          },
+          "。截點時法文與葡文已合併，俄文仍開啟、未合併。法文主文很短；俄文則有雙語說明與範例鍵名的討論，不能把三份一律說成沒有詳細說明。"
+        ],
+        [
+          "核對 ",
+          {
+            "href": "https://github.com/toml-lang/toml.io/blob/b950d4929980ee66f2e77bfe421e725ddffbeb69/README.md",
+            "label": "PR 基底版本的 README"
+          },
+          "，可見複製英文語系、設定語言名稱及建立版本的貢獻步驟。該文件未提 AI；本頁不據此宣稱其他文件、管道或歷史版本從未有相關規則。"
+        ]
+      ]
+    },
+    {
+      "id": null,
+      "number": "E",
+      "title": [
+        {
+          "href": "https://github.com/toml-lang/toml.io/commit/83dd824cc5581e89ef853ca07221ee5b6ca4219d",
+          "label": "83dd824 修正提交 ↗"
+        }
+      ],
+      "paragraphs": [
+        [
+          "提交確實存在，其父提交為原 PR 的 b9bd601。截點時 #98 提交清單與 head 均仍是原始版本；「另有修正」與「PR 已包含修正」是兩件事。"
+        ]
+      ]
+    },
+    {
+      "id": null,
+      "number": "F",
+      "title": [
+        {
+          "href": "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl",
+          "label": "作者對 AI 標籤與開源貢獻心情的後續回應 ↗"
+        }
+      ],
+      "paragraphs": [
+        [
+          "公開正文已透過瀏覽器核對，重點另列於 ",
+          {
+            "href": "#followup-reflection",
+            "label": "事件導讀後的獨立段落"
+          },
+          "。其中的寫作年資、專案數量與感受均按作者自述呈現，沒有以這篇文章推定翻譯品質、動員情況或 GitHub 決策。"
+        ],
+        [
+          "查閱時間：{{externalCheckedAt}}（臺灣時間）。未取得主文精確發布時間，不以相對時間推算時間線；可載入的 59 則留言另列於 ",
+          {
+            "href": "#facebook-followup-comments",
+            "label": "後續留言專章"
+          },
+          "。"
+        ]
+      ]
+    },
+    {
+      "id": "source-translation-context",
+      "number": "G",
+      "title": [
+        "俄文對照與 BBC 翻譯流程補充"
+      ],
+      "paragraphs": [
+        [
+          {
+            "href": "#translation-context",
+            "label": "語意查核與編輯分析另見爭點章"
+          },
+          "；本節查閱時間 {{contextCheckedAt}}（臺灣時間）。此次補充不代表重新全量擷取 GitHub 或 Facebook，原留言截點維持分開顯示。"
+        ],
+        [
+          "BBC 報導作為一般翻譯流程背景，不當成本次 TOML 譯文的審查或任何一方的背書。"
+        ]
+      ]
+    },
+    {
+      "id": "source-maintainer-background",
+      "number": "H",
+      "title": [
+        "arp242 的公開專業背景與維護政策"
+      ],
+      "paragraphs": [
+        [
+          {
+            "href": "#maintainer-background",
+            "label": "人物背景另見導讀"
+          },
+          "。查閱日期為 2026 年 10 月 27 日（臺灣），依本人網站與履歷、專案文件、GitHub 公開紀錄、Vi and Vim Meta 本人貼文及 NLnet 資助紀錄整理；各段附直接來源。履歷經歷保留本人自述歸屬，未向雇主獨立確認。"
+        ],
+        [
+          "AI 政策引用固定提交版本。GitHub release 的發布者與時間不等同規格原作者或規格頁公告日期；CODEOWNERS 仍屬未合併提案，不能寫成已生效規則。fsnotify 及 lib/pq 討論保留雙方或後續回應，不據此裁定本次翻譯品質、人格或動機。"
+        ],
+        [
+          "此次背景研究未聯繫當事人，也不代表重新全量擷取 GitHub 或 Facebook；原有來源截點、144 筆紀錄與 28 項時間線計數維持各自範圍。"
+        ]
+      ]
+    }
+  ],
+  "historyHeading": "編輯、消失留言與快照差異",
+  "historyParagraphs": [
+    [
+      "GitHub API 提供現存留言與最後編輯時間，不能重建所有過去版本。ShikiSuen 的一則現存留言已於 10 月 27 日編輯；較早搜尋快照還顯示他對留言消失的觀察，現存版本則改為說明自行移除另一回應。"
+    ],
+    [
+      "較早快照另見他於 10 月 25 日向其他維護者呼籲討論策略的留言，目前不在 API 清單。該段只列為 ",
+      {
+        "href": "#historical-shiki",
+        "label": "有標示的歷史補充"
+      },
+      "，未補造 ID 或精確時間，也不認定誰移除、何時移除或原因。搜尋快照是本次研究時所見的較早頁面版本，沒有作為可重放的公開歷史封存；讀者目前無法由即時頁面獨立重現該版本。"
+    ]
+  ],
+  "processHeading": "整理方式與更正",
+  "processParagraphs": [
+    [
+      {
+        "href": "en/",
+        "label": "英文版"
+      },
+      " 提供同一份專題的英文轉述，涵蓋全部 144 筆紀錄，沿用來源 ID、網址、資料截點與缺漏說明；英文版製作日期不代表重新擷取來源，也不宣稱已完成具名人工語言審校。"
+    ],
+    [
+      "網站由 jakeuj 委託 Codex 協助調查、轉述、製作與部署。本文不是逐字翻譯；工具協助也不代表所有內容已經具名人工審校。人名與帳號僅用於辨認公開發言，不以臆測補足動機。若來源不足，明確保留未知。"
+    ],
+    [
+      "發言者的指控、價值判斷及自述經歷均標明歸屬；不以 AI 使用方式、瀏覽器翻譯功能、留言反應數或一則技術審查替代翻譯品質判定。讀者可對照來源，並透過 ",
+      {
+        "href": "https://github.com/jakeuj/toml-zh-tw-chronicle/issues",
+        "label": "本站 repository 的 issue"
+      },
+      " 提出具體更正與來源。請勿因此前往原討論串施壓或洗版。"
+    ]
+  ]
+}

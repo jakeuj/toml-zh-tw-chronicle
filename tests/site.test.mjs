@@ -1,3 +1,4 @@
+import {pages} from './helpers.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
@@ -11,7 +12,8 @@ const facebook=JSON.parse(read('data/facebook-comments.json'));
 const followupFacebook=JSON.parse(read('data/facebook-followup-comments.json'));
 const selfPublishedFacebook=JSON.parse(read('data/facebook-self-published-comments.json'));
 const totalRecords=data.records.length+facebook.items.length+followupFacebook.items.length+selfPublishedFacebook.items.length;
-const html=read('dist/index.html');
+const documents=pages('zh');
+const html=documents.map(p=>p.html).join('\n');
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 test('來源覆蓋：逐則紀錄、空白 review 與原始 ID 不遺漏、不重複',()=>{
  assert.equal(coverage.items.length,17);
@@ -34,10 +36,14 @@ test('不執行 JavaScript 即有完整繁中正文、時間與原文來源',()=
  }
  assert.ok(html.includes('UTC '));
 });
-test('所有站內錨點可到達，沒有重複 ID',()=>{
- const ids=[...html.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);
- assert.equal(ids.length,new Set(ids).size);
- for(const [,id] of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(id),id);
+test('所有站內錨點可到達，各頁沒有重複 ID、跨頁紀錄不重複',()=>{
+ for(const {file,html:page} of documents){
+  const ids=[...page.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);
+  assert.equal(ids.length,new Set(ids).size,file);
+  for(const [,id] of page.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(id),file+': '+id);
+ }
+ const recordIds=[...html.matchAll(/<article[^>]+id="([^"]+)"[^>]+data-record/g)].map(m=>m[1]);
+ assert.equal(recordIds.length,new Set(recordIds).size);
 });
 test('Facebook 可讀留言覆蓋與回覆層級完整，保留分鐘精度',()=>{
  assert.equal(facebook.observedPageCount,18);

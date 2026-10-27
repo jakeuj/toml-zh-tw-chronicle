@@ -1,0 +1,84 @@
+{
+  "topics": [
+    {
+      "label": "在地化需求",
+      "title": "繁中是否只是字形轉換？",
+      "paragraph": [
+        "提案者與 ddman 強調臺灣用語與文化脈絡；arp242 後來明確表示不反對新增繁中。語系需求與本次貢獻方式，應分別閱讀。"
+      ],
+      "sourceIds": [
+        "proposal-97",
+        "ddman-localization",
+        "maintainer-position"
+      ]
+    },
+    {
+      "label": "工具與責任",
+      "title": "AI 輔助到哪一步？誰負責？",
+      "paragraph": [
+        "作者主張工具不決定品質、提交者應負責；維護者期待經仔細驗證的人類翻譯。自述人工通讀、AI 審閱與具名人工校對並非同一種證據。"
+      ],
+      "sourceIds": [
+        "author-pushback",
+        "author-tools",
+        "daniel-review"
+      ]
+    },
+    {
+      "label": "規則與慣例",
+      "title": "沒有明文規則，是否代表歡迎？",
+      "paragraph": [
+        "作者要求提供禁止 AI 的書面依據；brlin-tw 認為還應觀察專案既有慣例。此處是對貢獻期待的分歧，不等於已有一份團隊一致通過的完整 AI 政策。"
+      ],
+      "sourceIds": [
+        "author-pushback",
+        "brlin-deescalation",
+        "maintainer-position"
+      ]
+    },
+    {
+      "label": "審查負擔",
+      "title": "如何交付容易評估的貢獻？",
+      "paragraph": [
+        "PR 除了譯文也修改共用模板，確有技術審查面向。作者願意縮小範圍；brlin-tw 則批評長篇說明增加負擔，同時要求維護者提供可操作回饋。"
+      ],
+      "sourceIds": [
+        "proposal-98",
+        "review-language",
+        "brlin-deescalation"
+      ]
+    },
+    {
+      "label": "公開擴散",
+      "title": "社群曝光是討論，還是施壓？",
+      "paragraph": [
+        "維護者指控作者煽動支持者；brlin-tw 批評處理方式；pcchou 認為曝光也可能有益。原始貼文主文沒有明文號召湧入；另行發布貼文的留言中，Brune Kz 曾建議多位臺灣讀者留言證明可讀性。這項提議不等於已證實作者協調或實際集體行動。"
+      ],
+      "sourceIds": [
+        "facebook-confrontation",
+        "maintainer-position",
+        "brlin-deescalation",
+        "pcchou-publicity",
+        "fbs-1928419341897870"
+      ]
+    },
+    {
+      "label": "溝通與信任",
+      "title": "尖銳回覆留下了什麼？",
+      "paragraph": [
+        "參與者對「提示詞」「機械翻譯」與後續貶抑措辭提出異議。可確認的是措辭與狀態變更；關於個人動機、歧視或誠信的指控，仍須與已證實的事實區分。"
+      ],
+      "sourceIds": [
+        "first-rejection",
+        "shiki-localization",
+        "maintainer-position"
+      ]
+    }
+  ],
+  "openQuestions": {
+    "title": "公開紀錄仍回答不了的問題",
+    "paragraph": [
+      "維護者究竟讀過多少譯文？作者的人工審校深度如何？社群擴散是否涉及其他動員？缺乏完整證據時，這些問題應維持開放，不能由語氣、工具或陣營直接推斷。"
+    ]
+  }
+}

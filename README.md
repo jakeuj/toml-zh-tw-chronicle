@@ -10,7 +10,7 @@
 
 兩種語言的首頁均有「一分鐘懶人包／In brief」，概述起點、升高、爭點與後續，並連回原始紀錄；網址錨點為 `#brief`。
 
-英文版涵蓋相同的 144 筆逐則紀錄、28 項 GitHub 時間線項目、爭點補充及來源方法。原始姓名、來源 ID、網址、時間、回覆限制與計數缺漏保持一致；不是來源全文的逐字翻譯，也不宣稱完成具名人工語言審校。頁首與頁尾可切換語言，啟用 JavaScript 時會保留目前錨點。
+英文版涵蓋相同的 144 筆逐則紀錄、28 項 GitHub 時間線項目、爭點補充及來源方法。原始姓名、來源 ID、網址、時間、回覆限制與計數缺漏保持一致；不是來源全文的逐字翻譯，也不宣稱完成具名人工語言審校。頁首與頁尾可切換語言，會切換到對應頁面；啟用 JavaScript 時也會保留目前錨點。
 
 ## 本機使用
 
@@ -53,10 +53,49 @@ npm run audit:sources
 
 推送 `main` 後，GitHub Actions 執行靜態建置與完整性測試，將 `dist/` 透過官方 Pages Actions 發布。也可手動觸發同一工作流程。沒有排程、資料庫、追蹤碼或自動抓取讀者資料的服務。
 
-中英文各有 canonical、雙向 hreflang、Open Graph 與 sitemap 項目。`scripts/build.mjs` 輸出繁中頁，`scripts/build-en.mjs` 輸出 `dist/en/index.html`；兩者共用樣式與支援語系的互動腳本。
+中英文各有 9 個正式頁面，每頁均有自身 canonical、雙向 hreflang、Open Graph 與 sitemap 項目。`scripts/build.mjs` 清理產物並輸出繁中頁；`scripts/build-en.mjs` 輸出 `dist/en/` 下的對應頁面與完整 sitemap。兩者使用同一組內容與頁面渲染模組。sitemap 日期依該頁相關來源的實際截點產生，不以建置日期冒充重新查核。
 
 分享圖 `assets/toml-chronicle-cover-v1.png` 為 1200 × 630 PNG；編輯來源是 `scripts/create-cover.py`。重新產圖需要 Pillow，並可透過 `--font` 指定合法可用的繁中字型。圖片已提交，日常建置不需 Python 或系統字型。更新圖像應換檔名並同步 metadata。英文分享圖為 `assets/toml-chronicle-cover-en-v1.png`，編輯來源為 `scripts/create-cover-en.py`，可用 `--font` 指定字型；同樣已提交成品，日常建置不需 Pillow。
 
 ## 更正與來源權利
 
 歡迎透過本 repository 的 issue 提供具體錯誤及原始來源。請勿因此前往原討論串施壓或洗版。轉述不代表原作者認可本頁；被引用的原始內容權利歸各原作者所有。本 repository 未替第三方發言另行授權。
+
+## 編輯位置與更新流程
+
+導讀、爭點與資料方法的編輯文字分別位於 `data/editorial/overview.json`、`questions.json`、`sources.json`；章節開場位於 `chapters.json`。英文對應放在 `data/en/editorial/`。介面標籤、來源分組標題與導覽文字放在 `data/ui.json` 與 `data/en/ui.json`。原始紀錄、懶人包與語意查核沿用前述來源 JSON，按來源分組維護。
+
+導讀的 arp242 人物背景位於 `overview.json` 的 `maintainerBackground`，首頁錨點為 `#maintainer-background`；資料方法的 H 項列出來源範圍。`checkedOn` 記錄背景資料的實際查閱日期，與事件留言截點分開；背景段落不加入 144 筆紀錄或 28 項時間線的計數。
+
+章節段落採簡單的文字／連結片段陣列；連結使用 `href`、`label`，需要強調時使用 `code`、`strong`、`b` 或 `em`。HTML 由渲染器負責。`{{...}}` 是明確的日期或計數欄位，由 `scripts/lib/load-content.mjs` 提供；未定義的欄位會使建置失敗。Facebook 分組的計數與擷取時間直接由該來源資料提供。
+
+更新時先核對來源，修改所屬紀錄或章節，再複核英文；新章節與介面資料也以 `sourceEditorialSha256` 記錄已複核的中文輸入。這不代表具名人工語言審校。完成後建置並執行測試，核對來源 ID、回覆限制與時間精度，再檢查受影響的閱讀流程。
+
+`tests/fixtures/content-baseline.json` 是本次結構遷移的內容雜湊與錨點基線，用來確認搬移時沒有遺失既有正文與錨點；不另複製一份完整文章，也不是原始來源的新快照。後續有意修訂內容時，須先核對修訂及中英文對應，再同步調整相關基線期望，不以測試通過代替語意查核。
+
+兩個建置入口只負責呼叫共用流程；資料載入、編輯章節、紀錄、時間線與頁面外框分別由 `scripts/lib/` 的模組處理。不要在建置入口另寫一套語系模板。
+
+
+## 頁面、搜尋與舊連結
+
+| 路徑 | 內容 |
+| --- | --- |
+| `/` | 懶人包、導讀、後續回應與各章入口 |
+| `/timeline/` | 28 項 GitHub 時間線與時間精度說明 |
+| `/records/` | 全站搜尋、六組討論串入口與 144 筆靜態紀錄連結 |
+| `/records/github/` | #97、#98、#99 的 16 筆紀錄與歷史補充 |
+| `/records/facebook-original/` | 原始貼文的 18 筆紀錄 |
+| `/records/facebook-published/` | 另行發布貼文的 51 筆紀錄及計數差額 |
+| `/records/facebook-followup/` | 後續貼文的 59 筆紀錄及回覆限制 |
+| `/analysis/` | 爭點對照、語意查核與未決問題 |
+| `/sources/` | 原始連結、來源截點、資料方法及權利說明 |
+
+英文在各路徑前加上 `/en`，保留相同紀錄 ID。所有正文均預先建置為 HTML；停用 JavaScript 仍可按分類與紀錄連結完整閱讀。
+
+原有 `/#紀錄ID` 與 `/en/#紀錄ID` 保留靜態對照入口；JavaScript 會將已搬移的錨點導向同語言的新頁面，並替換目前歷史紀錄以避免返回鍵迴圈。未移動及未知錨點留在目前頁面。紀錄頁的複製連結功能會使用該頁的新路徑。
+
+搜尋集中在 `/records/` 及 `/en/records/`，涵蓋所有來源紀錄的標題、作者、時間、正文、回覆脈絡與註記。建置產生 `dist/data/search.zh.json`、`search.en.json`，瀏覽器只讀取這些靜態索引。索引載入失敗時，完整靜態連結清單仍可使用。
+
+修改頁面或連結時先讀 `scripts/lib/routes.mjs`：路由與內容 ID 歸屬是連結、搜尋目的地、語言切換與舊入口的共同依據。頁面組織與日期依賴在 `page-content.mjs`；正文來自 `render-sections.mjs` 組合的章節／紀錄渲染器；搜尋索引由 `search-index.mjs` 從實際渲染的紀錄產生。新增可引用的內容 ID 時，須加入歸屬對照，建置會拒絕未知引用。
+
+測試保留原有來源與翻譯覆蓋，另檢查跨頁唯一紀錄、段落雜湊、站內路徑及 fragment、子路徑資源、舊入口、每頁 metadata、sitemap 與搜尋索引。瀏覽器驗收情境及本次結果見 `sdd/chapter-pages/verification.md`；計畫與任務入口為 `sdd/README.md`。

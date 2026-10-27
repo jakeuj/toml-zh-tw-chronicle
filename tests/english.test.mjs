@@ -1,3 +1,4 @@
+import {pages} from './helpers.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
@@ -8,7 +9,8 @@ const root=fileURLToPath(new URL('../',import.meta.url));
 const read=p=>readFileSync(path.join(root,p),'utf8');
 const json=p=>JSON.parse(read(p));
 const base=json('data/chronicle.json');
-const enHTML=read('dist/en/index.html'),zhHTML=read('dist/index.html');
+const enDocuments=pages('en');
+const enHTML=enDocuments.map(p=>p.html).join('\n'),zhHTML=pages('zh').map(p=>p.html).join('\n');
 const files=['chronicle','facebook-comments','facebook-self-published-comments','facebook-followup-comments'];
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const records=d=>d.records||d.items;
@@ -35,8 +37,10 @@ test('英文資料逐 ID 對齊 144 筆，保留作者、時間、來源與回�
 });
 
 test('英文完整正文直接輸出 HTML，所有固定錨點與來源可到達',()=>{
- const ids=[...enHTML.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);
- for(const [,id] of enHTML.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(id),id);
+  for(const {file,html} of enDocuments){
+    const ids=[...html.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size,file);
+    for(const [,id] of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(id),file+': '+id);
+  }
  assert.equal((enHTML.match(/data-record data-author=/g)||[]).length,144);
  assert.ok(!/hidden[^>]*data-record|data-record[^>]*hidden/.test(enHTML));
  for(const name of files)for(const r of records(json('data/en/'+name+'.json'))){
