@@ -1,8 +1,8 @@
 # TOML 繁中翻譯爭議：事件全紀錄
 
-獨立繁體中文紀實專題，逐則整理 `toml-lang/toml.io` 的 Issue #97、PR #98 與 Issue #99，以及直接相關的公開外部脈絡。
+獨立繁體中文紀實專題，逐則整理 `toml-lang/toml.io` 的 Issue #97、PR #98 與 Issue #99，以及直接相關的公開外部脈絡，包含作者對 AI 標籤與開源參與心情的後續貼文。
 
-**網站：<https://blog.jakeuj.com/toml-zh-tw-chronicle/>**
+**網站：<https://doggy8088.jakeuj.com/>**
 
 本文採中立紀實方向，分開呈現可查核的紀錄、發言者主張與尚無法確認的問題。這不是 TOML 官方網站，也不是兩版翻譯的全面品質認證。資料截點與限制見網站「資料與方法」。網站由 jakeuj 委託 Codex 協作整理、製作與發布；不宣稱完成具名人工語言審校。
 
@@ -16,7 +16,7 @@ npm test
 npm run preview
 ```
 
-開啟 <http://127.0.0.1:4173/toml-zh-tw-chronicle/>。預覽刻意使用正式站的子路徑，避免只在根目錄正常的資源連結漏檢。
+開啟 <http://127.0.0.1:4173/>。預覽路徑依內容資料中的正式網址設定；目前自訂網域由根目錄提供網站。
 
 正文在建置時寫入 HTML；不執行 JavaScript 仍能閱讀全部內容。JavaScript 增加搜尋、作者／討論串篩選、複製錨點與閱讀位置提示，不在訪客端呼叫 GitHub API。
 
