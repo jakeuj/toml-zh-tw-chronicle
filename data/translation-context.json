@@ -1,0 +1,127 @@
+{
+  "id": "translation-context",
+  "title": "俄文對照、工具使用與語系標籤：原文能支持哪些解讀？",
+  "checkedAt": "2026-10-27T06:44:12Z",
+  "method": "依讀者提供的公開連結重新核對兩則 GitHub 留言，並以瀏覽器讀取 BBC 中文報導。以下為有來源的編輯分析，不是新增當事人留言，不增加逐則留言數；各組留言原有擷取截點不變。",
+  "sources": [
+    {
+      "id": "russian-comment",
+      "sourceId": "comment:2909117381",
+      "type": "GitHub issue comment on PR #86",
+      "author": "arp242",
+      "createdAt": "2025-05-26T09:51:37Z",
+      "editedAt": "2025-05-26T09:51:37Z",
+      "title": "俄文 PR #86：arp242 說明無法檢查",
+      "url": "https://github.com/toml-lang/toml.io/pull/86#issuecomment-2909117381",
+      "access": "GitHub API 與公開討論頁均可讀",
+      "sourceTextSha256": "12ebca6a0239006712c4ac419598b16d36f13043bd32a7a0c6a0a280c84946d2"
+    },
+    {
+      "id": "zh-tw-comment",
+      "sourceId": "comment:6398776847",
+      "type": "GitHub issue comment on #99",
+      "author": "arp242",
+      "createdAt": "2026-10-25T14:18:53Z",
+      "editedAt": "2026-10-25T14:24:03Z",
+      "title": "#99：機械翻譯、人工翻譯與後續 zh-TW 譯稿",
+      "url": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847",
+      "access": "GitHub API 與公開討論頁均可讀；既有逐則紀錄 maintainer-position 已收錄",
+      "sourceTextSha256": "58007bf2b4c67338a22636f202ff224a20e09aed5e7470d3ed285fc9730ec365"
+    },
+    {
+      "id": "bbc-translation",
+      "sourceId": "bbc:crvg9n72v9p2o:trad",
+      "type": "新聞背景報導",
+      "author": "約翰·勞倫森（John Laurenson）／BBC News 中文",
+      "publishedDate": "2026-10-14",
+      "timePrecision": "date",
+      "title": "AI翻譯：還有多久會完全取代人類？",
+      "url": "https://www.bbc.com/zhongwen/articles/crvg9n72v9p2o/trad",
+      "access": "一般網頁擷取受限，瀏覽器可讀正文及文末 AI 翻譯揭露；未取得精確發布或編輯時間",
+      "disclosure": "報導註明原文以英文撰寫，中文由 AI 協助翻譯，發布前由 BBC 記者審核。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "russian-comparison",
+      "label": "俄文對照",
+      "title": "對俄文說無法檢查，能推論他會中文嗎？",
+      "findings": [
+        {
+          "status": "原文可證實",
+          "text": "2025 年的 #86 留言同時提到兩項限制：arp242 不會俄文，而且連網站也無法建置，因此表示無法檢查。只摘出不會俄文，會漏掉網站建置的脈絡。"
+        },
+        {
+          "status": "推論界線",
+          "text": "這則留言沒有說只有會該語言才能評估貢獻方式。在 #99 對 AI 流程、提交說明或信任作出判斷，也不需要先具備中文能力。因此，兩則留言無法證明他會中文，不能據此保證直接用中文開 issue 就能有效溝通。"
+        },
+        {
+          "status": "尚無法確認",
+          "text": "這組來源未提供 arp242 的中文能力證據，也沒有呈現他對本次繁中譯文逐句比對的語言審查。不同 PR 的回應差異值得比較，仍不足以單憑兩則留言判定差別待遇的動機。"
+        }
+      ],
+      "sourceRefs": [
+        "russian-comment",
+        "zh-tw-comment"
+      ]
+    },
+    {
+      "id": "translation-tool-distinction",
+      "label": "使用情境",
+      "title": "拒收 AI 譯稿，卻提議讀者自行機翻，是否矛盾？",
+      "findings": [
+        {
+          "status": "原文可證實",
+          "text": "#99 把讀者自行使用機械翻譯工具，與 toml.io 正式收錄經仔細驗證的人類翻譯分開處理。個人為閱讀而使用工具，和維護者替網站承擔收錄與維護責任，是不同使用情境；原文也沒有要求所有繁中讀者必須使用機翻。"
+        },
+        {
+          "status": "仍有爭點",
+          "text": "這個區分能說明維護者的立場，但沒有回答 AI 初稿經人工逐句審校後應如何評估。作者已自述審閱；該投入是否足夠，以及如何提出可核驗的審校證據，仍須檢視成果。以工具來源一概排除的作法，與按品質評估的主張，仍存在實質分歧。"
+        }
+      ],
+      "sourceRefs": [
+        "zh-tw-comment"
+      ]
+    },
+    {
+      "id": "zh-tw-generalization",
+      "label": "語系標籤",
+      "title": "從個案擴及未來 zh-TW 譯稿，是哪一種概括？",
+      "findings": [
+        {
+          "status": "原文可證實",
+          "text": "arp242 先表示不反對新增繁中或其他語言，後段卻把這次衝突延伸成對未來任何 zh-TW 譯稿的懷疑，使用 any zh-TW 與 AI translated slop 等措辭，並以反諷語氣收尾。不能只保留前段歡迎語系的表態，而略過這段擴張。"
+        },
+        {
+          "status": "編輯分析",
+          "text": "從一次提交推及尚未看到的同語系譯稿，確有以語系擴大懷疑範圍的問題。讀者可能因此感到受連帶貶抑；對措辭與公平性的批評有具體原文依據。這是本頁對文字及其可能影響的分析，不能代替每位讀者的感受。"
+        },
+        {
+          "status": "推論界線",
+          "text": "原句說的是對 zh-TW 譯稿產生懷疑，並未逐字宣稱所有繁中使用者、其全部日常用語都是 AI 產物；懷疑也不等於已查證。這段文字不足以獨立證明他敵視整個族群的內在動機，或認定所有人的憤怒都來自同一原因。"
+        }
+      ],
+      "sourceRefs": [
+        "zh-tw-comment"
+      ]
+    },
+    {
+      "id": "bbc-human-review",
+      "label": "流程對照",
+      "title": "BBC 的 AI 翻譯揭露，能說明什麼？",
+      "findings": [
+        {
+          "status": "報導可證實",
+          "text": "2026 年 10 月 14 日的 BBC 中文報導討論 AI 翻譯的效率、人工審校與語境誤判，並以專業翻譯案例呈現流暢文字仍可能藏有重要錯誤。文末同時揭露：這篇中文報導本身由 AI 協助翻譯，發布前經 BBC 記者審核。"
+        },
+        {
+          "status": "對照意義",
+          "text": "這提供一個公開揭露 AI 協助與人工審核並行的出版流程，可用來討論工具來源、審校責任與成果品質應如何分別驗證。它不是針對 TOML 爭議的報導，也沒有審查本次譯文，不能作為譯稿已合格、維護者必須接受，或 AI 翻譯必然有錯的證明。"
+        }
+      ],
+      "sourceRefs": [
+        "bbc-translation"
+      ]
+    }
+  ]
+}
