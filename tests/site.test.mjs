@@ -8,6 +8,8 @@ const read=p=>readFileSync(path.join(root,p),'utf8');
 const data=JSON.parse(read('data/chronicle.json'));
 const coverage=JSON.parse(read('data/coverage.json'));
 const facebook=JSON.parse(read('data/facebook-comments.json'));
+const followupFacebook=JSON.parse(read('data/facebook-followup-comments.json'));
+const totalRecords=data.records.length+facebook.items.length+followupFacebook.items.length;
 const html=read('dist/index.html');
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 test('來源覆蓋：逐則紀錄、空白 review 與原始 ID 不遺漏、不重複',()=>{
@@ -43,7 +45,7 @@ test('Facebook 可讀留言覆蓋與回覆層級完整，保留分鐘精度',()=
  assert.equal(facebook.items.filter(x=>!x.parentId).length,10);
  assert.equal(facebook.items.filter(x=>x.parentId).length,8);
  assert.equal(facebook.items.filter(x=>x.depth===2).length,1);
- assert.equal((html.match(/data-record data-author=/g)||[]).length,34);
+ assert.equal((html.match(/data-record data-author=/g)||[]).length,totalRecords);
  for(const r of facebook.items){
   assert.ok(html.includes(`id="${r.id}"`));assert.ok(html.includes(escape(r.url)));
   assert.match(r.createdAt,/T\d{2}:\d{2}\+08:00$/);
@@ -56,7 +58,35 @@ test('Facebook 可讀留言覆蓋與回覆層級完整，保留分鐘精度',()=
   }else{assert.equal(r.depth,0);assert.equal(r.rootId,r.id);}
  }
  assert.ok(html.includes('value="facebook"'));
- assert.ok(html.includes('顯示全部 34 篇紀錄'));
+ assert.ok(html.includes(`顯示全部 ${totalRecords} 篇紀錄`));
+});
+test('後續貼文五十九則完整呈現，不替不確定的父回覆補造 ID',()=>{
+ assert.equal(followupFacebook.items.length,59);
+ assert.equal(followupFacebook.observedPageCount,59);
+ assert.equal(followupFacebook.items.filter(r=>!r.isReply).length,42);
+ assert.equal(followupFacebook.items.filter(r=>r.isReply).length,17);
+ assert.equal(followupFacebook.items.filter(r=>r.rootId==='fbf-2076514799663679'&&r.isReply).length,13);
+ assert.equal(new Set([...facebook.items,...followupFacebook.items].map(r=>r.sourceId)).size,77);
+ assert.equal(followupFacebook.items.filter(r=>r.parentResolution==='named-target-only').length,3);
+ for(const r of followupFacebook.items){
+  assert.ok(html.includes(`id="${r.id}"`));assert.ok(html.includes(escape(r.url)));
+  assert.match(r.createdAt,/T\d{2}:\d{2}\+08:00$/);
+  assert.match(r.sourceTextSha256,/^[a-f0-9]{64}$/);
+  assert.ok([0,1,2].includes(r.depth));
+  for(const paragraph of r.paragraphs)assert.ok(html.includes(escape(paragraph)),r.id);
+  const threadRoot=followupFacebook.items.find(x=>x.id===r.rootId);
+  assert.ok(threadRoot&&!threadRoot.isReply,r.id);
+  if(r.parentResolution==='named-target-only'){
+   assert.equal(r.parentId,null);assert.ok(r.replyToAuthor);assert.equal(r.parentCandidates.length,2);
+   for(const id of r.parentCandidates)assert.ok(followupFacebook.items.some(x=>x.id===id));
+  }else if(r.parentId){
+   const parent=followupFacebook.items.find(x=>x.id===r.parentId);
+   assert.ok(parent,r.id);assert.equal(parent.rootId,r.rootId);assert.ok(Date.parse(parent.createdAt)<=Date.parse(r.createdAt));
+  }
+ }
+ assert.equal(totalRecords,93);
+ assert.ok(html.includes('value="facebook-followup"'));
+ assert.ok(!html.includes('貼文留言未作全量擷取'));
 });
 test('跨串時間線以時間排序，重要事件全數呈現',()=>{
  const times=[...html.matchAll(/data-timeline-time="([^"]+)"/g)].map(m=>Date.parse(m[1]));

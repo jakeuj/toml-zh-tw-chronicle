@@ -4,7 +4,7 @@
   "siteUrl": "https://doggy8088.jakeuj.com/",
   "repositoryUrl": "https://github.com/jakeuj/toml-zh-tw-chronicle",
   "capturedAt": "2026-10-27T03:59:44.222707+00:00",
-  "externalCheckedAt": "2026-10-27T05:41:27.770Z",
+  "externalCheckedAt": "2026-10-27T06:05:42.998Z",
   "records": [
     {
       "id": "proposal-97",
@@ -526,8 +526,8 @@
   "followupPost": {
     "id": "followup-reflection",
     "author": "Will 保哥的技術交流中心",
-    "url": "https://www.facebook.com/will.fans/posts/pfbid0MC3ecgHynjs19RVf6oL1BNG6b4FJcZQn25SKcYNNMYp5pshqJJGNsgpoCfyZ65cJl",
-    "checkedAt": "2026-10-27T04:23:05.179013+00:00",
+    "url": "https://www.facebook.com/will.fans/posts/pfbid02QZXqEhebpFVoCv1N8qc4EQParqFhnWxrPFVGb9s7XrbanNXbpybo4qyRh2pN7UMtl",
+    "checkedAt": "2026-10-27T06:05:42.998Z",
     "publishedAt": null,
     "title": "後續回應：從 AI 標籤，談到開源貢獻的心情",
     "paragraphs": [
@@ -536,6 +536,7 @@
       "他表示這篇不是尋求安慰，請讀者不必留言打氣，並穿插報名課程的玩笑；接著把重點放在給同樣熱愛開源的參與者。他描述無償貢獻出於內在動力，雖不以回報為主要期待，仍可能希望獲得一點尊重。",
       "他建議面對不被領情、偏見或負面互動時，調整心態，必要時轉身離開以保護熱情；不必說服所有人，應重視自己是否享受投入。這是作者對自身經驗與開源參與心態的表述，並未宣告 PR 已被接受，也沒有改變三份 GitHub 紀錄的狀態。"
     ],
-    "note": "已核對公開正文。頁面顯示相對時間，本次未取得精確發布時間，故另列為後續脈絡，不混入按秒排序的 GitHub 時間線；未全量擷取該貼文留言。"
+    "note": "已核對公開正文。未取得精確發布時間，故不混入按秒排序的 GitHub 時間線；此篇可載入的 59 則留言與回覆另列獨立清單，截點與最初讀取主文不同。",
+    "previousUrl": "https://www.facebook.com/will.fans/posts/pfbid0MC3ecgHynjs19RVf6oL1BNG6b4FJcZQn25SKcYNNMYp5pshqJJGNsgpoCfyZ65cJl"
   }
 }
