@@ -7,6 +7,7 @@ const root=fileURLToPath(new URL('../',import.meta.url));
 const read=p=>readFileSync(path.join(root,p),'utf8');
 const data=JSON.parse(read('data/chronicle.json'));
 const coverage=JSON.parse(read('data/coverage.json'));
+const facebook=JSON.parse(read('data/facebook-comments.json'));
 const html=read('dist/index.html');
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 test('來源覆蓋：逐則紀錄、空白 review 與原始 ID 不遺漏、不重複',()=>{
@@ -31,9 +32,31 @@ test('不執行 JavaScript 即有完整繁中正文、時間與原文來源',()=
  assert.ok(html.includes('UTC '));
 });
 test('所有站內錨點可到達，沒有重複 ID',()=>{
- const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+ const ids=[...html.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);
  assert.equal(ids.length,new Set(ids).size);
  for(const [,id] of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(id),id);
+});
+test('Facebook 可讀留言覆蓋與回覆層級完整，保留分鐘精度',()=>{
+ assert.equal(facebook.observedPageCount,18);
+ assert.equal(facebook.items.length,18);
+ assert.equal(new Set(facebook.items.map(x=>x.id)).size,18);
+ assert.equal(facebook.items.filter(x=>!x.parentId).length,10);
+ assert.equal(facebook.items.filter(x=>x.parentId).length,8);
+ assert.equal(facebook.items.filter(x=>x.depth===2).length,1);
+ assert.equal((html.match(/data-record data-author=/g)||[]).length,34);
+ for(const r of facebook.items){
+  assert.ok(html.includes(`id="${r.id}"`));assert.ok(html.includes(escape(r.url)));
+  assert.match(r.createdAt,/T\d{2}:\d{2}\+08:00$/);
+  assert.equal(r.timePrecision,'minute');
+  assert.match(r.sourceTextSha256,/^[a-f0-9]{64}$/);
+  for(const paragraph of r.paragraphs)assert.ok(html.includes(escape(paragraph)),r.id);
+  if(r.parentId){
+   const parent=facebook.items.find(x=>x.id===r.parentId);
+   assert.ok(parent,r.id);assert.equal(r.depth,parent.depth+1);assert.equal(r.rootId,parent.rootId);
+  }else{assert.equal(r.depth,0);assert.equal(r.rootId,r.id);}
+ }
+ assert.ok(html.includes('value="facebook"'));
+ assert.ok(html.includes('顯示全部 34 篇紀錄'));
 });
 test('跨串時間線以時間排序，重要事件全數呈現',()=>{
  const times=[...html.matchAll(/data-timeline-time="([^"]+)"/g)].map(m=>Date.parse(m[1]));

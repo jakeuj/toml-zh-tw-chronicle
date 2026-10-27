@@ -1,10 +1,10 @@
 {
   "title": "一份繁中翻譯，如何成為 AI 貢獻爭議：TOML 事件全紀錄",
-  "description": "逐則整理 TOML 繁體中文翻譯提案 #97、PR #98 與後續 #99，對照各方說法、技術審查、Facebook 脈絡及公開紀錄。",
+  "description": "逐則整理 TOML 繁中翻譯提案 #97、PR #98、後續 #99 與 Facebook 公開留言，對照各方說法、技術審查及原始來源。",
   "siteUrl": "https://doggy8088.jakeuj.com/",
   "repositoryUrl": "https://github.com/jakeuj/toml-zh-tw-chronicle",
   "capturedAt": "2026-10-27T03:59:44.222707+00:00",
-  "externalCheckedAt": "2026-10-27T04:23:05.179013+00:00",
+  "externalCheckedAt": "2026-10-27T05:41:27.770Z",
   "records": [
     {
       "id": "proposal-97",

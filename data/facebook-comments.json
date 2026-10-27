@@ -1,0 +1,434 @@
+{
+  "postUrl": "https://www.facebook.com/1576676851153065/posts/1577393651081385",
+  "capturedAt": "2026-10-27T05:41:27.770Z",
+  "observedPageCount": 18,
+  "loadedCount": 18,
+  "rootCount": 10,
+  "replyCount": 8,
+  "mode": "所有留言",
+  "remainingExpandControls": 0,
+  "methodology": "切換「所有留言」，逐一展開五組回覆及一層再回覆，取得 18 個不重複來源 ID，與本次頁面顯示總數一致。只涵蓋此篇貼文目前能載入的公開內容，不代表已取得刪除、隱藏、封鎖或權限限制下的歷史留言；另一篇後續貼文的留言未作全量整理。",
+  "timeNote": "時間依本次 Facebook 頁面顯示、按臺灣時間（UTC+8）整理，精確至分鐘，未補造秒數。頁面標示已編輯時予以註記，但沒有完整編輯時間或修訂歷史。",
+  "reactionNote": "「作者說讚」只記錄擷取時頁面顯示的狀態，不能單獨證明作者認同留言中的每個論點；不以反應數當作民意或動員證據。",
+  "items": [
+    {
+      "id": "fb-1096829016309549",
+      "sourceId": "facebook-comment:1096829016309549",
+      "platform": "Facebook",
+      "author": "高立宣",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1096829016309549",
+      "createdAt": "2026-10-25T22:07+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1096829016309549",
+      "depth": 0,
+      "title": "重新提出的 issue 仍被關閉",
+      "paragraphs": [
+        "高立宣回報，重新提出的 issue 結果仍然遭到關閉，並以表情符號表達反應。"
+      ],
+      "edited": false,
+      "authorLiked": true,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "db59bf18c6a82311b6725b65e89de22234e14ab1d2d348b7c8c3ffd64c011f06"
+    },
+    {
+      "id": "fb-1645821010888841",
+      "sourceId": "facebook-comment:1645821010888841",
+      "platform": "Facebook",
+      "author": "Will 保哥的技術交流中心",
+      "role": "貼文作者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1096829016309549&reply_comment_id=1645821010888841",
+      "createdAt": "2026-10-25T22:41+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1096829016309549",
+      "rootId": "fb-1096829016309549",
+      "depth": 1,
+      "title": "作者回覆：無法理解",
+      "paragraphs": [
+        "作者回應高立宣，表示自己確實無法理解這個結果。這則短回覆延續對關閉決定的不解，沒有提出新的技術或審校資料。"
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "0a3a9f755bce071ed545fce9f26d8d35f962aad3bab0f5bd8eb6a8fa916de461"
+    },
+    {
+      "id": "fb-1363891813478154",
+      "sourceId": "facebook-comment:1363891813478154",
+      "platform": "Facebook",
+      "author": "Tomady Tang",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1363891813478154",
+      "createdAt": "2026-10-26T07:55+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1363891813478154",
+      "depth": 0,
+      "title": "以臺灣用語爭議類比維護者態度",
+      "paragraphs": [
+        "Tomady Tang 批評維護者的說話方式偏激，並以臺灣對中國大陸用語的糾正風氣作比喻，認為溝通應聚焦主題。他把專案比喻為維護者自己的王國，批評對方按個人喜惡決定。這是留言者的類比與評價。"
+      ],
+      "edited": true,
+      "authorLiked": true,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "a4cc7ffb075ced920687d35f07015e6deb4c7ee01464e81e09341c7419dd99a8"
+    },
+    {
+      "id": "fb-4378748772435591",
+      "sourceId": "facebook-comment:4378748772435591",
+      "platform": "Facebook",
+      "author": "王韋傑",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=4378748772435591",
+      "createdAt": "2026-10-26T07:06+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-4378748772435591",
+      "depth": 0,
+      "title": "批評公開處理方式，擔心整個 zh-TW 受牽連",
+      "paragraphs": [
+        "王韋傑提醒作者，維護者已看過 Facebook，貢獻者應遵循專案規範並認真閱讀對方的長篇回覆。他擔心這次事件被貼標籤的會是整個 zh-TW 語系。這則留言對作者的處理方式提出批評，並非單純聲援。"
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [
+        "原 PR 基底 README 有新增語系步驟，但該文件未提 AI。此留言對規範及整個語系受影響的說法，仍須歸屬於發言者。"
+      ],
+      "evidenceLinks": [],
+      "sourceTextSha256": "6eaaa554e2cea44c2f4f6b498264737cb5d79b74f6209ba77b828d33844851d9"
+    },
+    {
+      "id": "fb-1425740689091000",
+      "sourceId": "facebook-comment:1425740689091000",
+      "platform": "Facebook",
+      "author": "熊國仁",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1425740689091000",
+      "createdAt": "2026-10-25T22:52+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1425740689091000",
+      "depth": 0,
+      "title": "建議改用繁中，讓對方自行翻譯",
+      "paragraphs": [
+        "熊國仁反問，是否可以直接以繁體中文提交，想理解的人再自行使用 AI 翻譯。這個建議把爭議中的翻譯工具論點反過來使用。"
+      ],
+      "edited": false,
+      "authorLiked": true,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "61b6392d7928713e19cea84407239130c5a1df91c2eeedb6ae8d6ba5023165cc"
+    },
+    {
+      "id": "fb-1436487435329862",
+      "sourceId": "facebook-comment:1436487435329862",
+      "platform": "Facebook",
+      "author": "Will 保哥的技術交流中心",
+      "role": "貼文作者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1425740689091000&reply_comment_id=1436487435329862",
+      "createdAt": "2026-10-25T23:13+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1425740689091000",
+      "rootId": "fb-1425740689091000",
+      "depth": 1,
+      "title": "作者回覆：猜測自己可能被封鎖",
+      "paragraphs": [
+        "作者邀請熊國仁來嘗試，並表示自己大概已被封鎖。原文使用不確定語氣，這不是已確認的封鎖紀錄。"
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [
+        "本專題未取得可證明 GitHub 或 Facebook 封鎖狀態的獨立資料。"
+      ],
+      "evidenceLinks": [],
+      "sourceTextSha256": "16321d17539ae3c3b47e5eee3721fa0d254407be2089f08b996976ff68795756"
+    },
+    {
+      "id": "fb-1895440511836418",
+      "sourceId": "facebook-comment:1895440511836418",
+      "platform": "Facebook",
+      "author": "鄒錦翔",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1895440511836418",
+      "createdAt": "2026-10-25T20:59+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1895440511836418",
+      "depth": 0,
+      "title": "建議以種族歧視質問對方",
+      "paragraphs": [
+        "鄒錦翔建議，如果再次遭拒，可以反問對方是否有種族歧視。這是留言者提出的回應策略，不能據此認定歧視成立，也不能直接推定作者已採用這個策略。"
+      ],
+      "edited": false,
+      "authorLiked": true,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "c52388e38427c99cf8ac0bb382f535321191ba567c72464458063629f9acbb7b"
+    },
+    {
+      "id": "fb-1153848950926302",
+      "sourceId": "facebook-comment:1153848950926302",
+      "platform": "Facebook",
+      "author": "Will 保哥的技術交流中心",
+      "role": "貼文作者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1895440511836418&reply_comment_id=1153848950926302",
+      "createdAt": "2026-10-25T22:42+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1895440511836418",
+      "rootId": "fb-1895440511836418",
+      "depth": 1,
+      "title": "作者回覆：已被關閉，有些人無法改變",
+      "paragraphs": [
+        "作者回應鄒錦翔，表示 issue 已被關閉，並認為有些人無法改變。這則回覆沒有明確答應採用前一則留言提出的歧視質問策略。"
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "86b3a5cb6a59dfbc15aae0accf803d157df4c1a7f4396280cfe112e98f3b2c35"
+    },
+    {
+      "id": "fb-1142861922010708",
+      "sourceId": "facebook-comment:1142861922010708",
+      "platform": "Facebook",
+      "author": "Liāu Pik-Hān",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1142861922010708",
+      "createdAt": "2026-10-25T21:07+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1142861922010708",
+      "depth": 0,
+      "title": "以「由人類生成」的署名反諷",
+      "paragraphs": [
+        "Liāu Pik-Hān 表示，若是自己，會想把署名改成由某位人類生成，以此嘲諷圍繞生成工具的爭執。這則留言採取反諷方式，沒有提出新的翻譯品質檢驗。"
+      ],
+      "edited": false,
+      "authorLiked": true,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "a9f091fdb6581d564cda4194625fa36c4a7dfde172551e62e243decf6fddc810"
+    },
+    {
+      "id": "fb-1845649283450119",
+      "sourceId": "facebook-comment:1845649283450119",
+      "platform": "Facebook",
+      "author": "Chang Alex",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1845649283450119",
+      "createdAt": "2026-10-26T09:24+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1845649283450119",
+      "depth": 0,
+      "title": "以守舊手工作坊作比喻",
+      "paragraphs": [
+        "Chang Alex 以工業革命後仍堅持手作的守舊作坊作比喻，諷刺事件中對新工具的態度。"
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "50cf0d744eba5fd6c572acedae27456097cd464a45bfe9a179b46e4cacefbc64"
+    },
+    {
+      "id": "fb-1010006622125930",
+      "sourceId": "facebook-comment:1010006622125930",
+      "platform": "Facebook",
+      "author": "Liu YuTang",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1010006622125930",
+      "createdAt": "2026-10-25T21:31+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1010006622125930",
+      "depth": 0,
+      "title": "對互動方式的負面短評",
+      "paragraphs": [
+        "Liu YuTang 以「不講道理」概括自己的負面評價。這則留言很短，沒有進一步展開論證。"
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "48de74328bdbbfa679a7634d1e2a4941b4df8e4f08c1fa85642fe76303e6685d"
+    },
+    {
+      "id": "fb-1423904753272004",
+      "sourceId": "facebook-comment:1423904753272004",
+      "platform": "Facebook",
+      "author": "Logos",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004",
+      "createdAt": "2026-10-26T01:53+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1423904753272004",
+      "depth": 0,
+      "title": "質疑繁中 PR 為何出現 zh-CN",
+      "paragraphs": [
+        "Logos 要求作者檢查程式碼，質疑標榜繁中的貢獻為何出現 zh-CN，並附上 formatter.js 的差異截圖。截圖同時可見 cn 對應 zh-CN、tw 對應 zh-TW，不能只因出現 zh-CN 就認定繁中譯文錯置。"
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [
+        "已比對留言所附截圖與原 PR 提交：languageTags 同時將 cn 映射為 zh-CN、tw 映射為 zh-TW。這段映射本身不是把繁中錯標成簡中；另有英文備援標記問題，見 Copilot 審查。"
+      ],
+      "evidenceLinks": [
+        {
+          "url": "https://github.com/toml-lang/toml.io/blob/b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f/lib/formatter.js#L64-L78",
+          "label": "核對原提交的語言映射"
+        }
+      ],
+      "sourceTextSha256": "3090bee4d74db869c1af82e30e33a8f26e527ee3b3cf84871878a9866fcca106"
+    },
+    {
+      "id": "fb-1111411041689827",
+      "sourceId": "facebook-comment:1111411041689827",
+      "platform": "Facebook",
+      "author": "Will 保哥的技術交流中心",
+      "role": "貼文作者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=1111411041689827",
+      "createdAt": "2026-10-26T02:27+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1423904753272004",
+      "rootId": "fb-1423904753272004",
+      "depth": 1,
+      "title": "作者解釋：那是切換語言用的標籤",
+      "paragraphs": [
+        "作者回覆 Logos，指出畫面中的內容是用來切換語言的語言標籤。原 PR 中確實同時保留 cn 與 tw 的語言代碼映射；這項回覆可與實際程式碼對照。"
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [
+        "已比對留言所附截圖與原 PR 提交：languageTags 同時將 cn 映射為 zh-CN、tw 映射為 zh-TW。這段映射本身不是把繁中錯標成簡中；另有英文備援標記問題，見 Copilot 審查。"
+      ],
+      "evidenceLinks": [
+        {
+          "url": "https://github.com/toml-lang/toml.io/blob/b9bd601a7a8a7c2cf9ab5400c489ebbfb3b88b4f/lib/formatter.js#L64-L78",
+          "label": "核對原提交的語言映射"
+        }
+      ],
+      "sourceTextSha256": "1e9c22c41ceacdeb624106095e9921d4c82d377f4459cdb4efe15cc731bb2698"
+    },
+    {
+      "id": "fb-1425758755759536",
+      "sourceId": "facebook-comment:1425758755759536",
+      "platform": "Facebook",
+      "author": "婉晴吳",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=1425758755759536",
+      "createdAt": "2026-10-26T17:52+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1111411041689827",
+      "rootId": "fb-1423904753272004",
+      "depth": 2,
+      "title": "回覆作者，嘲諷提問者對程式碼的理解",
+      "paragraphs": [
+        "婉晴吳接在作者的解釋之後，質疑 Logos 是否看不懂程式碼，並指出程式裡已寫出 tag。這則是對作者回覆的再回覆，不是另一則獨立的主留言。"
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "b600eb31d5acd5940f0307afe7a7f760a614723c7accde6a964ecb93fbb8e01c"
+    },
+    {
+      "id": "fb-2311514916273451",
+      "sourceId": "facebook-comment:2311514916273451",
+      "platform": "Facebook",
+      "author": "Lxs Artmily",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1423904753272004&reply_comment_id=2311514916273451",
+      "createdAt": "2026-10-26T21:45+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1423904753272004",
+      "rootId": "fb-1423904753272004",
+      "depth": 1,
+      "title": "以貶抑語氣回覆 Logos",
+      "paragraphs": [
+        "Lxs Artmily 對 Logos 留下貶抑式短評，認為對方暴露了自己的不足；沒有另外提出程式碼分析。"
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "47528e228f73388f591e3ceff57f932aca3f791d2e6ddaabe1573fc8eca41ee9"
+    },
+    {
+      "id": "fb-1841948403603836",
+      "sourceId": "facebook-comment:1841948403603836",
+      "platform": "Facebook",
+      "author": "李政旻",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836",
+      "createdAt": "2026-10-25T23:36+08:00",
+      "timePrecision": "minute",
+      "parentId": null,
+      "rootId": "fb-1841948403603836",
+      "depth": 0,
+      "title": "質疑 AI slop 的判斷依據，也提到共用程式變更",
+      "paragraphs": [
+        "李政旻詢問維護者如何判定貢獻品質低劣，並質疑若看不懂中文，如何評估譯文。他表示看過差異，覺得除了修改模板和 JavaScript 較奇怪之外，其餘大致正常；這是他的檢視印象，並非完整的譯文審校報告。"
+      ],
+      "edited": true,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "70de6bb17fd29eaac899350af05f8e20ab73249f7a36669079388edd74dd494c"
+    },
+    {
+      "id": "fb-994431642963162",
+      "sourceId": "facebook-comment:994431642963162",
+      "platform": "Facebook",
+      "author": "Tomex Ou",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836&reply_comment_id=994431642963162",
+      "createdAt": "2026-10-26T00:33+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1841948403603836",
+      "rootId": "fb-1841948403603836",
+      "depth": 1,
+      "title": "推測維護者對 AI 快速翻譯與 Facebook 留言的反應",
+      "paragraphs": [
+        "Tomex Ou 認為可能涉及主觀判斷：過快且熱心的提交、對 AI 速成翻譯的既有印象，再加上看到 Facebook 評論，可能使維護者更生氣。這些是留言者提出的動機推測，並非維護者親自證實的心理狀態。"
+      ],
+      "edited": false,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [],
+      "sourceTextSha256": "ce6fc1f6df8151974356c73b8045dbb7d3aef19a87fb6cf630f8be7e0bf1e2e0"
+    },
+    {
+      "id": "fb-1636187431320874",
+      "sourceId": "facebook-comment:1636187431320874",
+      "platform": "Facebook",
+      "author": "林博仁",
+      "role": "公開留言參與者",
+      "url": "https://www.facebook.com/will.fans/posts/pfbid022sRytjToACwXoqvfN2BT6kuTeUJQmw79AGVrVxSTgs1uCM1QqtGj66BvXB3gsiB6l?comment_id=1841948403603836&reply_comment_id=1636187431320874",
+      "createdAt": "2026-10-26T00:53+08:00",
+      "timePrecision": "minute",
+      "parentId": "fb-1841948403603836",
+      "rootId": "fb-1841948403603836",
+      "depth": 1,
+      "title": "認為 PR 主文的篇幅已透露生成痕跡",
+      "paragraphs": [
+        "林博仁貼出 #98 的主文連結，認為一般貢獻者不會為新增一個顯示語言寫出那麼多段說明，因此從主文便可看出問題。他的論點針對提交說明的形式，不是逐段指出繁中譯文錯誤。"
+      ],
+      "edited": true,
+      "authorLiked": false,
+      "notes": [],
+      "evidenceLinks": [
+        {
+          "url": "https://github.com/toml-lang/toml.io/pull/98#issue-5999358415",
+          "label": "留言引用的 PR 主文"
+        }
+      ],
+      "sourceTextSha256": "fe699ec5fdce821e7343dea50f28a3efb530caea34dbecb399c64b71a6ce93fd"
+    }
+  ]
+}
