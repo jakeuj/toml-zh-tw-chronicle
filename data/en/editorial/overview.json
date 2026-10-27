@@ -157,13 +157,33 @@
         ]
       },
       {
-        "title": "AI contribution bans predate this translation dispute",
+        "title": "His AI contribution policies in other projects",
         "paragraphs": [
+          [
+            {
+              "strong": "The written bans below are published in other repositories. "
+            },
+            "In toml-lang/toml.io, the repository involved in this dispute, the PR-base README contained no AI-use restriction. In the event discussions, arp242 explicitly asked contributors not to use agents to submit issues or PRs and called for carefully vetted human translations. ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/blob/b950d4929980ee66f2e77bfe421e725ddffbeb69/README.md",
+              "label": "toml.io README at the time ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367006796",
+              "label": "Submission restriction in #97 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847",
+              "label": "Translation requirement in #99 ↗"
+            }
+          ],
           [
             "On August 19, 2026, Taiwan time, he added AI contribution policies to BurntSushi/toml, lib/pq and GoatCounter. They prohibit AI-generated PRs, issues, commit messages and comments. The restrictions cover several forms of contribution text; they cannot be reduced to a ban only on drafts lacking human review. ",
             {
               "href": "https://github.com/BurntSushi/toml/blob/d733fc535e4a9f3c454e421a87b90ade5d49bf31/CONTRIBUTING.md",
-              "label": "Fixed toml policy ↗"
+              "label": "Fixed BurntSushi/toml policy ↗"
             },
             " · ",
             {
@@ -262,5 +282,5 @@
   },
   "followupLabel": "Later response · Public Facebook post",
   "followupSource": "Read original post ↗",
-  "sourceEditorialSha256": "81f661d9e6a2e8e180746c945735c15c6b19e95564dfd13d22f9699a99f9b407"
+  "sourceEditorialSha256": "61c364840c4780312c8f132a35b39c8bb0d43f2f12556f93b959406a98b8aa1c"
 }

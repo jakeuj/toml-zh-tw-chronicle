@@ -157,13 +157,33 @@
         ]
       },
       {
-        "title": "AI 貢獻禁令早於此次翻譯事件",
+        "title": "他在其他專案的 AI 貢獻政策",
         "paragraphs": [
+          [
+            {
+              "strong": "以下明文禁令刊載於其他 repo。"
+            },
+            "本次涉及的 toml-lang/toml.io，在 PR 基底版本的 README 中未列 AI 使用限制；arp242 在此次事件留言中明確要求不要用 agent 提交 issue、PR，並要求經仔細核對的人工翻譯。",
+            {
+              "href": "https://github.com/toml-lang/toml.io/blob/b950d4929980ee66f2e77bfe421e725ddffbeb69/README.md",
+              "label": "toml.io 當時的 README ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/issues/97#issuecomment-6367006796",
+              "label": "#97 的提交限制 ↗"
+            },
+            " · ",
+            {
+              "href": "https://github.com/toml-lang/toml.io/issues/99#issuecomment-6398776847",
+              "label": "#99 的翻譯要求 ↗"
+            }
+          ],
           [
             "2026 年 8 月 19 日（臺灣時間），他為 BurntSushi/toml、lib/pq 與 GoatCounter 加入 AI 貢獻政策，禁止 AI 產生的 PR、issue、提交訊息與留言。因此這些專案的條款涵蓋多種貢獻文字，不能簡化成僅排斥未經人工審閱的稿件。",
             {
               "href": "https://github.com/BurntSushi/toml/blob/d733fc535e4a9f3c454e421a87b90ade5d49bf31/CONTRIBUTING.md",
-              "label": "toml 政策固定版本 ↗"
+              "label": "BurntSushi/toml 政策固定版本 ↗"
             },
             " · ",
             {
