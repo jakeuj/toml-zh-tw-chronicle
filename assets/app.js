@@ -23,8 +23,11 @@ const normalize = s => s.normalize('NFKC').toLocaleLowerCase(isEnglish?'en':'zh-
 
 // Both editions use the same record IDs; carry the current anchor across languages.
 function updateLanguageLinks(){
+ const version=new URL(location.href).searchParams.get('v');
  for(const anchor of document.querySelectorAll('[data-language-switch]')){
-  const destination=new URL(anchor.href);destination.hash=location.hash;anchor.href=destination.href;
+  const destination=new URL(anchor.href);destination.hash=location.hash;
+  if(version)destination.searchParams.set('v',version);
+  anchor.href=destination.href;
  }
 }
 updateLanguageLinks();
